@@ -194,7 +194,26 @@ function home(){
       const acts = CAT.acts.filter(a => a.cat === c.id), done = acts.filter(a => a.status === 'summary').length;
       return `<a class="tile" href="#/cat/${c.id}" style="text-decoration:none;color:inherit"><span class="ic">${c.icon}</span><span class="nm">${esc(c.name)}</span><span class="ct">${done} of ${acts.length} act${acts.length>1?"s":""} explained</span></a>`;
     }).join('')}</div>
+    <div class="card" style="margin-top:22px;display:flex;align-items:center;gap:12px">
+      <div style="flex:1"><div style="font-weight:600">Laws last updated</div><div class="act-of">${fmtDate(CAT.updated)}</div></div>
+      <button class="btn" id="updBtn" style="flex:none;min-width:0;padding:10px 14px">Check for updates</button>
+    </div>
     <p class="disclaimer">Plain-English summaries for understanding only — not legal advice. Section numbers and penalties can change; check the official text and talk to a lawyer before acting. Free legal aid: call 15100 (NALSA).</p>`;
+  $('#updBtn').onclick = checkUpdates;
+}
+function fmtDate(d){ try{ return new Date(d + 'T00:00:00').toLocaleDateString('en-IN', {day:'numeric', month:'long', year:'numeric'}); }catch(e){ return d; } }
+async function checkUpdates(){
+  const b = $('#updBtn'); b.textContent = 'Checking…'; b.disabled = true;
+  if (!navigator.onLine){ toast('You’re offline — connect to check'); b.textContent = 'Check for updates'; b.disabled = false; return; }
+  try{
+    const reg = await navigator.serviceWorker?.getRegistration(); if (reg) reg.update().catch(() => {});
+    const fresh = await (await fetch('data/catalog.json?t=' + Date.now(), {cache: 'no-store'})).json();
+    if (fresh.updated !== CAT.updated || fresh.acts.length !== CAT.acts.length){
+      toast('New update found — loading…');
+      if ('caches' in window){ const ks = await caches.keys(); await Promise.all(ks.map(k => caches.delete(k))); }
+      setTimeout(() => location.reload(), 700);
+    } else { toast('You have the latest laws'); b.textContent = 'Up to date ✓'; }
+  }catch(e){ toast('Couldn’t check — try again'); b.textContent = 'Check for updates'; b.disabled = false; }
 }
 
 function category(id){

@@ -1,4 +1,4 @@
-const CACHE = 'neethi-v3';
+const CACHE = 'neethi-v4';
 const FILES = [
   "./",
   "index.html",
