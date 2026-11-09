@@ -1,4 +1,4 @@
-const CACHE = 'neethi-v4';
+const CACHE = 'neethi-v5';
 const FILES = [
   "./",
   "index.html",
@@ -67,7 +67,7 @@ self.addEventListener('fetch', e => {
   const u = new URL(e.request.url);
   if (e.request.method !== 'GET' || u.origin !== location.origin) return;
   e.respondWith(
-    fetch(e.request).then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r; })
+    fetch(e.request, {cache: 'no-cache'}).then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); return r; })
       .catch(() => caches.match(e.request, {ignoreSearch: true}).then(r => r || caches.match('index.html')))
   );
 });

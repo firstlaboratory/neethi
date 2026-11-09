@@ -123,15 +123,16 @@ const store = {
   get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
 };
-let CAT = null; const ACTS = {}; let INDEX = [];
+let CAT = null, CAT_RAW = null; const ACTS = {}; let INDEX = [];
 
 function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 1600); }
 
 async function load(){
-  CAT = await (await fetch('data/catalog.json')).json();
+  CAT = await (await fetch('data/catalog.json', {cache: 'no-cache'})).json();
+  CAT_RAW = JSON.parse(JSON.stringify(CAT));
   const ids = CAT.acts.filter(a => a.status === 'summary').map(a => a.id);
   await Promise.all(ids.map(async id => {
-    try{ ACTS[id] = await (await fetch('data/acts/' + id + '.json')).json(); }catch(e){ console.warn('missing', id); }
+    try{ ACTS[id] = await (await fetch('data/acts/' + id + '.json', {cache: 'no-cache'})).json(); }catch(e){ console.warn('missing', id); }
   }));
   INDEX = [];
   for (const id in ACTS){
@@ -208,7 +209,7 @@ async function checkUpdates(){
   try{
     const reg = await navigator.serviceWorker?.getRegistration(); if (reg) reg.update().catch(() => {});
     const fresh = await (await fetch('data/catalog.json?t=' + Date.now(), {cache: 'no-store'})).json();
-    if (fresh.updated !== CAT.updated || fresh.acts.length !== CAT.acts.length){
+    if (JSON.stringify(fresh) !== JSON.stringify(CAT_RAW)){
       toast('New update found — loading…');
       if ('caches' in window){ const ks = await caches.keys(); await Promise.all(ks.map(k => caches.delete(k))); }
       setTimeout(() => location.reload(), 700);
