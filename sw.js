@@ -1,4 +1,4 @@
-const CACHE = 'neethi-v1';
+const CACHE = 'neethi-v2';
 const FILES = [
   "./",
   "index.html",
@@ -19,6 +19,7 @@ const FILES = [
   "data/acts/itact.json",
   "data/acts/mva.json",
   "data/acts/niact.json",
+  "data/acts/pca.json",
   "data/acts/pocso.json",
   "data/acts/rti.json",
   "data/acts/senior.json",

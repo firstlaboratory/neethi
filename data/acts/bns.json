@@ -1,72 +1,410 @@
 {
-  "id": "bns",
-  "intro": "India's main criminal law since 1 July 2024. It defines crimes and their punishments, replacing the Indian Penal Code (IPC) of 1860. Crimes committed before 1 July 2024 are still tried under the IPC.",
-  "chapters": [
-    {"title": "Basics", "sections": [
-      {"n": "S 2", "t": "Key definitions", "p": "Defines words used across the code. Notable: 'child' means anyone under 18; 'gender' includes transgender; 'document' and 'movable property' include electronic and digital records.", "o": "IPC 7–52"},
-      {"n": "S 3(5)", "t": "Common intention", "p": "When several people commit a crime together with a shared intention, each one is liable as if they did the whole act alone.", "o": "IPC 34"},
-      {"n": "S 4", "t": "Types of punishment", "p": "Courts can award: death, life imprisonment, rigorous imprisonment (with hard labour), simple imprisonment, forfeiture of property, fine, and — new in BNS — community service for some petty offences.", "o": "IPC 53"},
-      {"n": "S 20", "t": "Child under seven", "p": "Nothing done by a child under 7 is an offence. A child aged 7–12 is protected if they hadn't matured enough to understand the nature and consequences of the act.", "o": "IPC 82–83"},
-      {"n": "S 34–44", "t": "Right of private defence", "p": "You can use force to defend your body, someone else's body, or property against a crime. The force must be proportionate and you can't use it if there's time to get police help. In extreme cases — fear of death, grievous hurt, rape, kidnapping, acid attack — even causing death in self-defence can be justified.", "o": "IPC 96–106"},
-      {"n": "S 61", "t": "Criminal conspiracy", "p": "Two or more people agreeing to commit a crime (or a legal act by illegal means) is itself an offence.", "o": "IPC 120A–120B"},
-      {"n": "S 62", "t": "Attempt", "p": "Attempting a crime that the code doesn't separately cover is punishable with up to half the longest prison term for that crime.", "o": "IPC 511"}
-    ]},
-    {"title": "Offences against women and children", "sections": [
-      {"n": "S 63–64", "t": "Rape", "p": "S 63 defines rape (including acts without consent, with consent obtained by fear, or with a woman under 18 regardless of consent). S 64: minimum 10 years, up to life, plus fine. Harsher minimums apply when the victim is under 16 or under 12 (S 65), including death for under-12 in some cases.", "pen": "Min 10 years to life + fine", "o": "IPC 375–376"},
-      {"n": "S 69", "t": "Sex by deceitful means", "p": "New offence: having sex with a woman by deceit — such as a false promise of marriage with no intention to keep it, or false promises of a job or promotion, or hiding one's identity.", "pen": "Up to 10 years + fine"},
-      {"n": "S 74", "t": "Assault to outrage modesty", "p": "Using force or assault on a woman intending to outrage, or knowing it is likely to outrage, her modesty.", "pen": "1 to 5 years + fine", "o": "IPC 354"},
-      {"n": "S 75", "t": "Sexual harassment", "p": "Unwelcome physical contact and advances, demanding sexual favours, showing pornography against her will, or making sexually coloured remarks.", "pen": "Up to 3 years and/or fine (up to 1 year for remarks)", "o": "IPC 354A"},
-      {"n": "S 77", "t": "Voyeurism", "p": "Watching or capturing images of a woman in a private act where she expects privacy, or sharing such images.", "pen": "1–3 years + fine (first offence); 3–7 years repeat", "o": "IPC 354C"},
-      {"n": "S 78", "t": "Stalking", "p": "Repeatedly following or contacting a woman despite clear disinterest, or monitoring her internet, email or electronic communication.", "pen": "Up to 3 years + fine (first); up to 5 years repeat", "o": "IPC 354D"},
-      {"n": "S 79", "t": "Insulting a woman's modesty", "p": "Words, sounds, gestures or showing any object (including electronically) intended to insult a woman's modesty or intrude on her privacy.", "pen": "Up to 3 years + fine", "o": "IPC 509"},
-      {"n": "S 80", "t": "Dowry death", "p": "If a woman dies by burns, bodily injury or otherwise in abnormal circumstances within 7 years of marriage, and it's shown she was subjected to cruelty or harassment for dowry soon before her death, her husband or his relatives are presumed to have caused it.", "pen": "Min 7 years to life", "o": "IPC 304B"},
-      {"n": "S 85–86", "t": "Cruelty by husband or relatives", "p": "Cruelty to a wife by her husband or his relatives. 'Cruelty' (S 86) means wilful conduct likely to drive her to suicide or cause serious injury or danger to life, limb or health (mental or physical), or harassment to force her or her family to meet unlawful demands for property.", "pen": "Up to 3 years + fine", "o": "IPC 498A"}
-    ]},
-    {"title": "Offences against the body", "sections": [
-      {"n": "S 100", "t": "Culpable homicide", "p": "Causing death with the intention of causing death, or of causing an injury likely to cause death, or knowing the act is likely to cause death.", "o": "IPC 299"},
-      {"n": "S 101", "t": "Murder", "p": "Culpable homicide becomes murder when the intention or knowledge is stronger — e.g. intention to kill, or an injury sufficient in the ordinary course of nature to cause death. Exceptions (which reduce it to culpable homicide) include grave and sudden provocation, exceeding private defence in good faith, and sudden fight without premeditation.", "o": "IPC 300"},
-      {"n": "S 103", "t": "Punishment for murder; mob lynching", "p": "Murder: death or life imprisonment plus fine. S 103(2) is new: when a group of five or more kills someone on grounds of race, caste, community, sex, place of birth, language or personal belief, each member faces the same punishment.", "pen": "Death or life + fine", "o": "IPC 302"},
-      {"n": "S 105", "t": "Culpable homicide not amounting to murder", "p": "Punishment when a killing is culpable homicide but not murder.", "pen": "Life, or 5–10 years + fine (with intent); up to 10 years (with knowledge only)", "o": "IPC 304"},
-      {"n": "S 106", "t": "Death by negligence; hit-and-run", "p": "106(1): causing death by a rash or negligent act — up to 5 years (up to 2 years for a registered doctor during a medical procedure). 106(2): rash or negligent driving causing death and fleeing without reporting to police or a magistrate — up to 10 years.", "pen": "Up to 5 years + fine; up to 10 years for hit-and-run", "k": ["The government announced 106(2) would not be enforced pending consultation, after transporters protested in January 2024 — check current status"], "o": "IPC 304A"},
-      {"n": "S 108", "t": "Abetment of suicide", "p": "Instigating, encouraging or aiding someone to take their own life.", "pen": "Up to 10 years + fine", "o": "IPC 306"},
-      {"n": "S 109", "t": "Attempt to murder", "p": "Doing an act with intent or knowledge that would be murder if death resulted.", "pen": "Up to 10 years + fine; up to life if hurt is caused", "o": "IPC 307"},
-      {"n": "S 111", "t": "Organised crime", "p": "New offence: continuing unlawful activity like kidnapping, extortion, contract killing, land grabbing, cyber crime or trafficking by a crime syndicate, for material benefit.", "pen": "Death or life if it causes death; otherwise 5 years to life + fine of at least ₹5 lakh"},
-      {"n": "S 112", "t": "Petty organised crime", "p": "New offence: organised gangs committing theft, snatching, cheating, selling exam papers, illegal betting and similar crimes causing general insecurity.", "pen": "1 to 7 years + fine"},
-      {"n": "S 113", "t": "Terrorist act", "p": "Acts intended to threaten India's unity, integrity, sovereignty, security or economic security, or to strike terror among people.", "pen": "Death or life if death results; otherwise 5 years to life + fine"},
-      {"n": "S 114–115", "t": "Hurt", "p": "Hurt means causing bodily pain, disease or infirmity. Voluntarily causing hurt is punishable.", "pen": "Up to 1 year and/or fine up to ₹10,000", "o": "IPC 319, 323"},
-      {"n": "S 116–117", "t": "Grievous hurt", "p": "Serious injuries: loss of sight or hearing, loss or permanent impairment of a limb or joint, permanent disfiguration of face or head, fracture or dislocation, or injury causing 20 days of severe pain or inability to carry on daily life.", "pen": "Up to 7 years + fine; 10 years to life if it causes permanent disability or vegetative state", "o": "IPC 320, 325"},
-      {"n": "S 124", "t": "Acid attack", "p": "Causing permanent or partial damage, deformity or burns by throwing or administering acid. The fine goes to the victim for medical treatment.", "pen": "Min 10 years to life + fine; attempt: 5–7 years", "o": "IPC 326A–326B"},
-      {"n": "S 126–127", "t": "Wrongful restraint and confinement", "p": "Restraint: stopping someone from going where they have a right to go. Confinement: keeping someone within limits they can't leave.", "pen": "Restraint: up to 1 month or fine ₹5,000; confinement: up to 1 year or fine ₹5,000", "o": "IPC 339–342"},
-      {"n": "S 137", "t": "Kidnapping", "p": "Taking someone out of India without consent, or taking a child out of a lawful guardian's care without consent.", "pen": "Up to 7 years + fine", "o": "IPC 359–363"},
-      {"n": "S 143", "t": "Trafficking", "p": "Recruiting, transporting or harbouring people by force, fraud or inducement for exploitation (forced labour, sexual exploitation, slavery, organ removal).", "pen": "7 to 10 years + fine; more for multiple victims or children", "o": "IPC 370"}
-    ]},
-    {"title": "Offences against the State and public order", "sections": [
-      {"n": "S 152", "t": "Endangering sovereignty, unity and integrity", "p": "Replaces sedition. Covers words, signs, electronic communication or financial means that excite secession, armed rebellion or subversive activities, or encourage separatism, or endanger India's sovereignty, unity and integrity. Criticism of government action through lawful means without inciting such acts is not covered.", "pen": "Life or up to 7 years + fine", "o": "IPC 124A (sedition) — a different offence"},
-      {"n": "S 189–191", "t": "Unlawful assembly and rioting", "p": "An assembly of five or more people with a common unlawful object (S 189). Rioting is when such an assembly uses force or violence (S 191).", "pen": "Rioting: up to 2 years and/or fine; up to 5 years if armed with a deadly weapon", "o": "IPC 141–148"},
-      {"n": "S 196", "t": "Promoting enmity between groups", "p": "Promoting disharmony or hatred between groups on grounds of religion, race, place of birth, residence, language, caste or community — by words, signs or electronic communication.", "pen": "Up to 3 years and/or fine; up to 5 years in a place of worship", "o": "IPC 153A"},
-      {"n": "S 223", "t": "Disobeying a public servant's order", "p": "Knowingly disobeying a lawfully issued order (e.g. prohibitory orders) when it causes obstruction, annoyance or danger.", "pen": "Up to 6 months or fine ₹2,500; up to 1 year if it endangers life or safety", "o": "IPC 188"},
-      {"n": "S 226", "t": "Suicide attempt to coerce a public servant", "p": "Attempting suicide to compel or restrain a public servant from doing their duty. A general attempt to commit suicide is no longer an offence under BNS.", "pen": "Up to 1 year and/or fine, or community service", "o": "IPC 309 (repealed approach)"},
-      {"n": "S 270", "t": "Public nuisance", "p": "Any act or illegal omission causing common injury, danger or annoyance to the public.", "pen": "Fine up to ₹1,000", "o": "IPC 268, 290"},
-      {"n": "S 281", "t": "Rash driving on a public way", "p": "Driving or riding so rashly or negligently that it endangers human life or is likely to cause hurt.", "pen": "Up to 6 months and/or fine up to ₹1,000", "o": "IPC 279"},
-      {"n": "S 299", "t": "Outraging religious feelings", "p": "Deliberate and malicious acts intended to outrage the religious feelings of any class by insulting its religion or beliefs.", "pen": "Up to 3 years and/or fine", "o": "IPC 295A"}
-    ]},
-    {"title": "Offences against property", "sections": [
-      {"n": "S 303", "t": "Theft", "p": "Dishonestly taking movable property out of someone's possession without consent. For a first offence involving property under ₹5,000, where the property is returned, the court can order community service.", "pen": "Up to 3 years and/or fine; 1–5 years for repeat offenders", "o": "IPC 378–379"},
-      {"n": "S 304", "t": "Snatching", "p": "New separate offence: suddenly or forcibly seizing or grabbing movable property from a person (e.g. chain or phone snatching).", "pen": "Up to 3 years + fine"},
-      {"n": "S 305", "t": "Theft in a home, vehicle or place of worship", "p": "Theft from a dwelling house, a means of transport, a place of worship, or of government property.", "pen": "Up to 7 years + fine", "o": "IPC 380"},
-      {"n": "S 308", "t": "Extortion", "p": "Putting someone in fear of injury to make them hand over property or valuable security.", "pen": "Up to 7 years and/or fine", "o": "IPC 383–384"},
-      {"n": "S 309", "t": "Robbery", "p": "Theft or extortion combined with causing or attempting death, hurt or wrongful restraint, or fear of these.", "pen": "Up to 10 years rigorous + fine; up to 14 years on a highway between sunset and sunrise", "o": "IPC 390–392"},
-      {"n": "S 310", "t": "Dacoity", "p": "Robbery committed by five or more people together.", "pen": "Life or up to 10 years rigorous + fine", "o": "IPC 391, 395"},
-      {"n": "S 314", "t": "Dishonest misappropriation", "p": "Dishonestly using or converting someone else's movable property for your own use (e.g. keeping found property without trying to find the owner).", "pen": "6 months to 2 years + fine", "o": "IPC 403"},
-      {"n": "S 316", "t": "Criminal breach of trust", "p": "Dishonestly misusing property entrusted to you — e.g. an employee using company funds, or someone selling goods left with them for safekeeping.", "pen": "Up to 5 years and/or fine; more for public servants, bankers, agents", "o": "IPC 405–409"},
-      {"n": "S 318", "t": "Cheating", "p": "Deceiving someone to make them hand over property or do something they wouldn't otherwise do, causing them harm. 318(4) — cheating and dishonestly inducing delivery of property — is the old 'Section 420'.", "pen": "Up to 3 years; up to 7 years + fine for 318(4)", "o": "IPC 415–420"},
-      {"n": "S 319", "t": "Cheating by personation", "p": "Cheating by pretending to be someone else (including online impersonation).", "pen": "Up to 5 years and/or fine", "o": "IPC 416, 419"},
-      {"n": "S 324", "t": "Mischief", "p": "Intentionally destroying or damaging property to cause wrongful loss.", "pen": "Up to 6 months and/or fine; more depending on loss", "o": "IPC 425–427"},
-      {"n": "S 329", "t": "Criminal and house trespass", "p": "Entering property in someone else's possession to commit an offence or to intimidate, insult or annoy. House trespass is trespass into a building used as a dwelling, place of worship or for keeping property.", "pen": "Trespass: up to 3 months or fine ₹5,000; house trespass: up to 1 year or fine ₹5,000", "o": "IPC 441–448"}
-    ]},
-    {"title": "Intimidation and defamation", "sections": [
-      {"n": "S 351", "t": "Criminal intimidation", "p": "Threatening someone with injury to their person, reputation or property (or of someone they care about) to cause alarm or make them do or stop doing something.", "pen": "Up to 2 years and/or fine; up to 7 years if threat is to kill or cause grievous hurt", "o": "IPC 503, 506"},
-      {"n": "S 356", "t": "Defamation", "p": "Making or publishing a false imputation that harms someone's reputation, by words, signs or visible representations. Exceptions include true statements made for public good, fair comment on public conduct, and good-faith opinions.", "pen": "Simple imprisonment up to 2 years, fine, or community service", "o": "IPC 499–500"}
-    ]}
-  ]
+ "id": "bns",
+ "intro": "India's main criminal law since 1 July 2024. It defines crimes and their punishments, replacing the Indian Penal Code (IPC) of 1860. Crimes committed before 1 July 2024 are still tried under the IPC.",
+ "chapters": [
+  {
+   "title": "Basics",
+   "sections": [
+    {
+     "n": "S 2",
+     "t": "Key definitions",
+     "p": "Defines words used across the code. Notable: 'child' means anyone under 18; 'gender' includes transgender; 'document' and 'movable property' include electronic and digital records.",
+     "o": "IPC 7–52"
+    },
+    {
+     "n": "S 3(5)",
+     "t": "Common intention",
+     "p": "When several people commit a crime together with a shared intention, each one is liable as if they did the whole act alone.",
+     "o": "IPC 34"
+    },
+    {
+     "n": "S 4",
+     "t": "Types of punishment",
+     "p": "Courts can award: death, life imprisonment, rigorous imprisonment (with hard labour), simple imprisonment, forfeiture of property, fine, and — new in BNS — community service for some petty offences.",
+     "o": "IPC 53"
+    },
+    {
+     "n": "S 20",
+     "t": "Child under seven",
+     "p": "Nothing done by a child under 7 is an offence. A child aged 7–12 is protected if they hadn't matured enough to understand the nature and consequences of the act.",
+     "o": "IPC 82–83"
+    },
+    {
+     "n": "S 34–44",
+     "t": "Right of private defence",
+     "p": "You can use force to defend your body, someone else's body, or property against a crime. The force must be proportionate and you can't use it if there's time to get police help. In extreme cases — fear of death, grievous hurt, rape, kidnapping, acid attack — even causing death in self-defence can be justified.",
+     "o": "IPC 96–106"
+    },
+    {
+     "n": "S 61",
+     "t": "Criminal conspiracy",
+     "p": "Two or more people agreeing to commit a crime (or a legal act by illegal means) is itself an offence.",
+     "o": "IPC 120A–120B"
+    },
+    {
+     "n": "S 62",
+     "t": "Attempt",
+     "p": "Attempting a crime that the code doesn't separately cover is punishable with up to half the longest prison term for that crime.",
+     "o": "IPC 511"
+    }
+   ]
+  },
+  {
+   "title": "Offences against women and children",
+   "sections": [
+    {
+     "n": "S 63–64",
+     "t": "Rape",
+     "p": "S 63 defines rape (including acts without consent, with consent obtained by fear, or with a woman under 18 regardless of consent). S 64: minimum 10 years, up to life, plus fine. Harsher minimums apply when the victim is under 16 or under 12 (S 65), including death for under-12 in some cases.",
+     "pen": "Min 10 years to life + fine",
+     "o": "IPC 375–376"
+    },
+    {
+     "n": "S 69",
+     "t": "Sex by deceitful means",
+     "p": "New offence: having sex with a woman by deceit — such as a false promise of marriage with no intention to keep it, or false promises of a job or promotion, or hiding one's identity.",
+     "pen": "Up to 10 years + fine"
+    },
+    {
+     "n": "S 74",
+     "t": "Assault to outrage modesty",
+     "p": "Using force or assault on a woman intending to outrage, or knowing it is likely to outrage, her modesty.",
+     "pen": "1 to 5 years + fine",
+     "o": "IPC 354"
+    },
+    {
+     "n": "S 75",
+     "t": "Sexual harassment",
+     "p": "Unwelcome physical contact and advances, demanding sexual favours, showing pornography against her will, or making sexually coloured remarks.",
+     "pen": "Up to 3 years and/or fine (up to 1 year for remarks)",
+     "o": "IPC 354A"
+    },
+    {
+     "n": "S 77",
+     "t": "Voyeurism",
+     "p": "Watching or capturing images of a woman in a private act where she expects privacy, or sharing such images.",
+     "pen": "1–3 years + fine (first offence); 3–7 years repeat",
+     "o": "IPC 354C"
+    },
+    {
+     "n": "S 78",
+     "t": "Stalking",
+     "p": "Repeatedly following or contacting a woman despite clear disinterest, or monitoring her internet, email or electronic communication.",
+     "pen": "Up to 3 years + fine (first); up to 5 years repeat",
+     "o": "IPC 354D"
+    },
+    {
+     "n": "S 79",
+     "t": "Insulting a woman's modesty",
+     "p": "Words, sounds, gestures or showing any object (including electronically) intended to insult a woman's modesty or intrude on her privacy.",
+     "pen": "Up to 3 years + fine",
+     "o": "IPC 509"
+    },
+    {
+     "n": "S 80",
+     "t": "Dowry death",
+     "p": "If a woman dies by burns, bodily injury or otherwise in abnormal circumstances within 7 years of marriage, and it's shown she was subjected to cruelty or harassment for dowry soon before her death, her husband or his relatives are presumed to have caused it.",
+     "pen": "Min 7 years to life",
+     "o": "IPC 304B"
+    },
+    {
+     "n": "S 85–86",
+     "t": "Cruelty by husband or relatives",
+     "p": "Cruelty to a wife by her husband or his relatives. 'Cruelty' (S 86) means wilful conduct likely to drive her to suicide or cause serious injury or danger to life, limb or health (mental or physical), or harassment to force her or her family to meet unlawful demands for property.",
+     "pen": "Up to 3 years + fine",
+     "o": "IPC 498A"
+    }
+   ]
+  },
+  {
+   "title": "Offences against the body",
+   "sections": [
+    {
+     "n": "S 100",
+     "t": "Culpable homicide",
+     "p": "Causing death with the intention of causing death, or of causing an injury likely to cause death, or knowing the act is likely to cause death.",
+     "o": "IPC 299"
+    },
+    {
+     "n": "S 101",
+     "t": "Murder",
+     "p": "Culpable homicide becomes murder when the intention or knowledge is stronger — e.g. intention to kill, or an injury sufficient in the ordinary course of nature to cause death. Exceptions (which reduce it to culpable homicide) include grave and sudden provocation, exceeding private defence in good faith, and sudden fight without premeditation.",
+     "o": "IPC 300"
+    },
+    {
+     "n": "S 103",
+     "t": "Punishment for murder; mob lynching",
+     "p": "Murder: death or life imprisonment plus fine. S 103(2) is new: when a group of five or more kills someone on grounds of race, caste, community, sex, place of birth, language or personal belief, each member faces the same punishment.",
+     "pen": "Death or life + fine",
+     "o": "IPC 302"
+    },
+    {
+     "n": "S 105",
+     "t": "Culpable homicide not amounting to murder",
+     "p": "Punishment when a killing is culpable homicide but not murder.",
+     "pen": "Life, or 5–10 years + fine (with intent); up to 10 years (with knowledge only)",
+     "o": "IPC 304"
+    },
+    {
+     "n": "S 106",
+     "t": "Death by negligence; hit-and-run",
+     "p": "106(1): causing death by a rash or negligent act — up to 5 years (up to 2 years for a registered doctor during a medical procedure). 106(2): rash or negligent driving causing death and fleeing without reporting to police or a magistrate — up to 10 years.",
+     "pen": "Up to 5 years + fine; up to 10 years for hit-and-run",
+     "k": [
+      "The government announced 106(2) would not be enforced pending consultation, after transporters protested in January 2024 — check current status"
+     ],
+     "o": "IPC 304A"
+    },
+    {
+     "n": "S 108",
+     "t": "Abetment of suicide",
+     "p": "Instigating, encouraging or aiding someone to take their own life.",
+     "pen": "Up to 10 years + fine",
+     "o": "IPC 306"
+    },
+    {
+     "n": "S 109",
+     "t": "Attempt to murder",
+     "p": "Doing an act with intent or knowledge that would be murder if death resulted.",
+     "pen": "Up to 10 years + fine; up to life if hurt is caused",
+     "o": "IPC 307"
+    },
+    {
+     "n": "S 111",
+     "t": "Organised crime",
+     "p": "New offence: continuing unlawful activity like kidnapping, extortion, contract killing, land grabbing, cyber crime or trafficking by a crime syndicate, for material benefit.",
+     "pen": "Death or life if it causes death; otherwise 5 years to life + fine of at least ₹5 lakh"
+    },
+    {
+     "n": "S 112",
+     "t": "Petty organised crime",
+     "p": "New offence: organised gangs committing theft, snatching, cheating, selling exam papers, illegal betting and similar crimes causing general insecurity.",
+     "pen": "1 to 7 years + fine"
+    },
+    {
+     "n": "S 113",
+     "t": "Terrorist act",
+     "p": "Acts intended to threaten India's unity, integrity, sovereignty, security or economic security, or to strike terror among people.",
+     "pen": "Death or life if death results; otherwise 5 years to life + fine"
+    },
+    {
+     "n": "S 114–115",
+     "t": "Hurt",
+     "p": "Hurt means causing bodily pain, disease or infirmity. Voluntarily causing hurt is punishable.",
+     "pen": "Up to 1 year and/or fine up to ₹10,000",
+     "o": "IPC 319, 323"
+    },
+    {
+     "n": "S 116–117",
+     "t": "Grievous hurt",
+     "p": "Serious injuries: loss of sight or hearing, loss or permanent impairment of a limb or joint, permanent disfiguration of face or head, fracture or dislocation, or injury causing 20 days of severe pain or inability to carry on daily life.",
+     "pen": "Up to 7 years + fine; 10 years to life if it causes permanent disability or vegetative state",
+     "o": "IPC 320, 325"
+    },
+    {
+     "n": "S 124",
+     "t": "Acid attack",
+     "p": "Causing permanent or partial damage, deformity or burns by throwing or administering acid. The fine goes to the victim for medical treatment.",
+     "pen": "Min 10 years to life + fine; attempt: 5–7 years",
+     "o": "IPC 326A–326B"
+    },
+    {
+     "n": "S 126–127",
+     "t": "Wrongful restraint and confinement",
+     "p": "Restraint: stopping someone from going where they have a right to go. Confinement: keeping someone within limits they can't leave.",
+     "pen": "Restraint: up to 1 month or fine ₹5,000; confinement: up to 1 year or fine ₹5,000",
+     "o": "IPC 339–342"
+    },
+    {
+     "n": "S 137",
+     "t": "Kidnapping",
+     "p": "Taking someone out of India without consent, or taking a child out of a lawful guardian's care without consent.",
+     "pen": "Up to 7 years + fine",
+     "o": "IPC 359–363"
+    },
+    {
+     "n": "S 143",
+     "t": "Trafficking",
+     "p": "Recruiting, transporting or harbouring people by force, fraud or inducement for exploitation (forced labour, sexual exploitation, slavery, organ removal).",
+     "pen": "7 to 10 years + fine; more for multiple victims or children",
+     "o": "IPC 370"
+    }
+   ]
+  },
+  {
+   "title": "Offences against the State and public order",
+   "sections": [
+    {
+     "n": "S 152",
+     "t": "Endangering sovereignty, unity and integrity",
+     "p": "Replaces sedition. Covers words, signs, electronic communication or financial means that excite secession, armed rebellion or subversive activities, or encourage separatism, or endanger India's sovereignty, unity and integrity. Criticism of government action through lawful means without inciting such acts is not covered.",
+     "pen": "Life or up to 7 years + fine",
+     "o": "IPC 124A (sedition) — a different offence"
+    },
+    {
+     "n": "S 189–191",
+     "t": "Unlawful assembly and rioting",
+     "p": "An assembly of five or more people with a common unlawful object (S 189). Rioting is when such an assembly uses force or violence (S 191).",
+     "pen": "Rioting: up to 2 years and/or fine; up to 5 years if armed with a deadly weapon",
+     "o": "IPC 141–148"
+    },
+    {
+     "n": "S 196",
+     "t": "Promoting enmity between groups",
+     "p": "Promoting disharmony or hatred between groups on grounds of religion, race, place of birth, residence, language, caste or community — by words, signs or electronic communication.",
+     "pen": "Up to 3 years and/or fine; up to 5 years in a place of worship",
+     "o": "IPC 153A"
+    },
+    {
+     "n": "S 223",
+     "t": "Disobeying a public servant's order",
+     "p": "Knowingly disobeying a lawfully issued order (e.g. prohibitory orders) when it causes obstruction, annoyance or danger.",
+     "pen": "Up to 6 months or fine ₹2,500; up to 1 year if it endangers life or safety",
+     "o": "IPC 188"
+    },
+    {
+     "n": "S 226",
+     "t": "Suicide attempt to coerce a public servant",
+     "p": "Attempting suicide to compel or restrain a public servant from doing their duty. A general attempt to commit suicide is no longer an offence under BNS.",
+     "pen": "Up to 1 year and/or fine, or community service",
+     "o": "IPC 309 (repealed approach)"
+    },
+    {
+     "n": "S 270",
+     "t": "Public nuisance",
+     "p": "Any act or illegal omission causing common injury, danger or annoyance to the public.",
+     "pen": "Fine up to ₹1,000",
+     "o": "IPC 268, 290"
+    },
+    {
+     "n": "S 281",
+     "t": "Rash driving on a public way",
+     "p": "Driving or riding so rashly or negligently that it endangers human life or is likely to cause hurt.",
+     "pen": "Up to 6 months and/or fine up to ₹1,000",
+     "o": "IPC 279"
+    },
+    {
+     "n": "S 299",
+     "t": "Outraging religious feelings",
+     "p": "Deliberate and malicious acts intended to outrage the religious feelings of any class by insulting its religion or beliefs.",
+     "pen": "Up to 3 years and/or fine",
+     "o": "IPC 295A"
+    }
+   ]
+  },
+  {
+   "title": "Offences against property",
+   "sections": [
+    {
+     "n": "S 303",
+     "t": "Theft",
+     "p": "Dishonestly taking movable property out of someone's possession without consent. For a first offence involving property under ₹5,000, where the property is returned, the court can order community service.",
+     "pen": "Up to 3 years and/or fine; 1–5 years for repeat offenders",
+     "o": "IPC 378–379"
+    },
+    {
+     "n": "S 304",
+     "t": "Snatching",
+     "p": "New separate offence: suddenly or forcibly seizing or grabbing movable property from a person (e.g. chain or phone snatching).",
+     "pen": "Up to 3 years + fine"
+    },
+    {
+     "n": "S 305",
+     "t": "Theft in a home, vehicle or place of worship",
+     "p": "Theft from a dwelling house, a means of transport, a place of worship, or of government property.",
+     "pen": "Up to 7 years + fine",
+     "o": "IPC 380"
+    },
+    {
+     "n": "S 308",
+     "t": "Extortion",
+     "p": "Putting someone in fear of injury to make them hand over property or valuable security.",
+     "pen": "Up to 7 years and/or fine",
+     "o": "IPC 383–384"
+    },
+    {
+     "n": "S 309",
+     "t": "Robbery",
+     "p": "Theft or extortion combined with causing or attempting death, hurt or wrongful restraint, or fear of these.",
+     "pen": "Up to 10 years rigorous + fine; up to 14 years on a highway between sunset and sunrise",
+     "o": "IPC 390–392"
+    },
+    {
+     "n": "S 310",
+     "t": "Dacoity",
+     "p": "Robbery committed by five or more people together.",
+     "pen": "Life or up to 10 years rigorous + fine",
+     "o": "IPC 391, 395"
+    },
+    {
+     "n": "S 314",
+     "t": "Dishonest misappropriation",
+     "p": "Dishonestly using or converting someone else's movable property for your own use (e.g. keeping found property without trying to find the owner).",
+     "pen": "6 months to 2 years + fine",
+     "o": "IPC 403"
+    },
+    {
+     "n": "S 316",
+     "t": "Criminal breach of trust",
+     "p": "Dishonestly misusing property entrusted to you — e.g. an employee using company funds, or someone selling goods left with them for safekeeping.",
+     "pen": "Up to 5 years and/or fine; more for public servants, bankers, agents",
+     "o": "IPC 405–409"
+    },
+    {
+     "n": "S 318",
+     "t": "Cheating",
+     "p": "Deceiving someone to make them hand over property or do something they wouldn't otherwise do, causing them harm. 318(4) — cheating and dishonestly inducing delivery of property — is the old 'Section 420'.",
+     "pen": "Up to 3 years; up to 7 years + fine for 318(4)",
+     "o": "IPC 415–420"
+    },
+    {
+     "n": "S 319",
+     "t": "Cheating by personation",
+     "p": "Cheating by pretending to be someone else (including online impersonation).",
+     "pen": "Up to 5 years and/or fine",
+     "o": "IPC 416, 419"
+    },
+    {
+     "n": "S 324",
+     "t": "Mischief",
+     "p": "Intentionally destroying or damaging property to cause wrongful loss.",
+     "pen": "Up to 6 months and/or fine; more depending on loss",
+     "o": "IPC 425–427"
+    },
+    {
+     "n": "S 325",
+     "t": "Killing or maiming an animal",
+     "p": "Killing, poisoning, maiming or rendering useless any animal — including stray dogs, cats and cattle — is mischief punishable under this section.",
+     "pen": "Up to 5 years and/or fine",
+     "o": "IPC 428–429"
+    },
+    {
+     "n": "S 329",
+     "t": "Criminal and house trespass",
+     "p": "Entering property in someone else's possession to commit an offence or to intimidate, insult or annoy. House trespass is trespass into a building used as a dwelling, place of worship or for keeping property.",
+     "pen": "Trespass: up to 3 months or fine ₹5,000; house trespass: up to 1 year or fine ₹5,000",
+     "o": "IPC 441–448"
+    }
+   ]
+  },
+  {
+   "title": "Intimidation and defamation",
+   "sections": [
+    {
+     "n": "S 351",
+     "t": "Criminal intimidation",
+     "p": "Threatening someone with injury to their person, reputation or property (or of someone they care about) to cause alarm or make them do or stop doing something.",
+     "pen": "Up to 2 years and/or fine; up to 7 years if threat is to kill or cause grievous hurt",
+     "o": "IPC 503, 506"
+    },
+    {
+     "n": "S 356",
+     "t": "Defamation",
+     "p": "Making or publishing a false imputation that harms someone's reputation, by words, signs or visible representations. Exceptions include true statements made for public good, fair comment on public conduct, and good-faith opinions.",
+     "pen": "Simple imprisonment up to 2 years, fine, or community service",
+     "o": "IPC 499–500"
+    }
+   ]
+  }
+ ]
 }

@@ -308,26 +308,47 @@ function oldMatches(o, law, num){
 function doSearch(q){
   const old = parseOldQuery(q);
   if (old) return INDEX.filter(s => oldMatches(s.o, old.law, old.num));
-  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const words = q.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, ' ').split(/\s+/).filter(w => w && !STOP.has(w));
+  const groups = words.map(variants);
   const numQ = q.trim().match(/^(?:s(?:ection)?\.?\s*|art(?:icle)?\.?\s*)?(\d+[a-z]*)$/i);
   const scored = [];
   for (const s of INDEX){
-    let score = 0;
+    let score = 0, hit = 0;
     if (numQ){
       const n = numQ[1].toLowerCase();
       if (new RegExp('(^|[^0-9])' + n + '([^0-9a-z]|$)', 'i').test(s.n)) score += 50;
       if (s.o && new RegExp('(^|[^0-9])' + n + '([^0-9a-z]|$)', 'i').test(s.o)) score += 20;
     }
-    let all = true;
-    for (const w of words){
-      if (!s._hay.includes(w)) { all = false; continue; }
-      score += 2;
-      if (s.t.toLowerCase().includes(w)) score += 6;
+    const title = s.t.toLowerCase();
+    for (const g of groups){
+      const exact = s._hay.includes(g[0]);
+      const any = exact || g.some(v => s._hay.includes(v));
+      if (!any) continue;
+      hit++; score += exact ? 3 : 2;
+      if (g.some(v => title.includes(v))) score += 6;
     }
-    if (all && words.length) score += 10;
-    if (score > (numQ ? 0 : 9)) scored.push([score, s]);
+    if (groups.length && hit === groups.length) score += 20;
+    if (score > 0) scored.push([score, s, hit]);
   }
-  return scored.sort((a, b) => b[0] - a[0]).map(x => x[1]).slice(0, 60);
+  const full = scored.filter(x => numQ || x[2] === groups.length);
+  const pool = full.length ? full : scored;
+  return pool.sort((a, b) => b[0] - a[0]).map(x => x[1]).slice(0, 40);
+}
+const STOP = new Set('a an the of for to in on is are what can i my me do does how about law laws act rule rules section with and or by if it be when who'.split(' '));
+const SYN = {
+  dog:['animal','stray','dogs'], dogs:['animal','stray'], cat:['animal'], cow:['animal','cattle'], cattle:['animal'], stray:['animal','dog'], pet:['animal'], animal:['animal','dog'],
+  bike:['two-wheeler','motorcycle','helmet'], car:['motor vehicle','driving','seat belt'], fine:['penalty','₹'], challan:['penalty','fine'],
+  police:['arrest','fir'], complaint:['fir','complain','complaint'], jail:['imprisonment','arrest','bail'], wife:['woman','marriage','cruelty'], husband:['marriage','cruelty'],
+  property:['inheritance','succession','property'], landlord:['tenant','tenancy','rent'], house:['tenant','rent','dwelling'], rent:['tenant','tenancy'],
+  online:['cyber','electronic','computer'], fraud:['cheating','cyber','scam'], scam:['cheating','impersonation'], money:['maintenance','compensation','cheque'],
+  parents:['senior citizen','maintenance'], child:['children','minor','pocso'], divorce:['marriage','separation'], salary:['wages'], shop:['consumer','goods']
+};
+function variants(w){
+  const v = new Set([w]);
+  if (w.length > 4 && w.endsWith('s')) v.add(w.slice(0, -1));
+  if (w.length > 5 && w.endsWith('ing')) v.add(w.slice(0, -3));
+  (SYN[w] || []).forEach(x => v.add(x));
+  return [...v];
 }
 function search(q){
   setBar({title: 'Search', back: false, noSearch: true}); setTab('search');
@@ -343,7 +364,7 @@ function search(q){
     const r = doSearch(v), old = parseOldQuery(v);
     res.innerHTML = r.length
       ? `<p class="hint">${r.length} result${r.length > 1 ? 's' : ''}${old ? ` for old ${old.law} ${old.num}` : ''}</p><div class="list">${r.map(s => sectionRow(s, old ? '' : v)).join('')}</div>`
-      : `<p class="empty">Nothing found for “${esc(v)}”.<br>Try simpler words, or the act may not be explained yet.</p>`;
+      : `<p class="empty">Nothing found for “${esc(v)}”.<br>That topic may not be covered yet — try simpler words.</p>`;
   };
   $('#sf').onsubmit = e => { e.preventDefault(); inp.blur(); run(); };
   let t; inp.oninput = () => { clearTimeout(t); t = setTimeout(run, 180); };

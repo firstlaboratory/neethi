@@ -1,50 +1,226 @@
 {
-  "id": "constitution",
-  "intro": "The supreme law of India. Every other law must fit within it. It sets up Parliament, the courts and the states, and guarantees your Fundamental Rights. Adopted 26 Nov 1949, in force 26 Jan 1950.",
-  "chapters": [
-    {"title": "Preamble", "sections": [
-      {"n": "Preamble", "t": "We, the people of India", "p": "States what India is meant to be: a Sovereign, Socialist, Secular, Democratic Republic. It promises every citizen Justice (social, economic, political), Liberty (of thought, expression, belief, faith, worship), Equality (of status and opportunity) and Fraternity (dignity of the individual, unity of the nation). Courts use it to interpret the rest of the Constitution.", "k": ["'Socialist' and 'Secular' were added by the 42nd Amendment (1976)", "Supreme Court: the Preamble is part of the Constitution (Kesavananda Bharati, 1973)"]}
-    ]},
-    {"title": "Part III — Fundamental Rights", "sections": [
-      {"n": "Art 12", "t": "Who is 'the State'", "p": "Fundamental Rights can be enforced against 'the State' — the central and state governments, Parliament, state legislatures, local bodies like municipalities and panchayats, and bodies controlled by the government (e.g. public-sector companies)."},
-      {"n": "Art 13", "t": "Laws that violate rights are void", "p": "Any law that takes away or cuts down a Fundamental Right is invalid to that extent. This is what lets courts strike down laws."},
-      {"n": "Art 14", "t": "Equality before law", "p": "The State must treat everyone equally under the law and give everyone equal protection of the law. Reasonable classification is allowed (e.g. tax slabs), but arbitrary or unfair treatment is not.", "k": ["Applies to everyone in India, not just citizens"]},
-      {"n": "Art 15", "t": "No discrimination", "p": "The State cannot discriminate against citizens on grounds only of religion, race, caste, sex or place of birth — including access to shops, restaurants, wells, roads and public places. The State can make special provisions for women, children, SC/ST, backward classes and economically weaker sections."},
-      {"n": "Art 16", "t": "Equal opportunity in public jobs", "p": "All citizens get equal opportunity in government employment. Reservations for backward classes, SC/ST and economically weaker sections (EWS, up to 10%) are permitted."},
-      {"n": "Art 17", "t": "Untouchability abolished", "p": "Untouchability is abolished and practising it in any form is a punishable offence."},
-      {"n": "Art 19", "t": "Six freedoms", "p": "Every citizen has the right to: (a) speech and expression, (b) assemble peacefully without arms, (c) form associations or unions, (d) move freely throughout India, (e) live and settle anywhere in India, (g) practise any profession, trade or business. The State can impose 'reasonable restrictions' — for sovereignty and integrity of India, security, public order, decency, defamation, contempt of court, etc.", "k": ["Press freedom is part of 19(1)(a)", "Right to property was removed from here in 1978 — now Art 300A"]},
-      {"n": "Art 20", "t": "Protection in criminal cases", "p": "(1) You can't be punished for an act that wasn't a crime when you did it, or get a heavier punishment than the law allowed then. (2) You can't be prosecuted and punished twice for the same offence. (3) You can't be forced to be a witness against yourself."},
-      {"n": "Art 21", "t": "Right to life and personal liberty", "p": "No one can be deprived of life or personal liberty except by a procedure established by law — and that procedure must be fair, just and reasonable. Courts have read many rights into it.", "k": ["Includes: privacy (Puttaswamy, 2017), dignity, livelihood, clean environment, health, speedy trial, free legal aid, shelter, right to die with dignity (passive euthanasia)", "Applies to everyone, not just citizens", "Cannot be suspended even during an Emergency"]},
-      {"n": "Art 21A", "t": "Right to education", "p": "The State must provide free and compulsory education to all children aged 6 to 14. Implemented through the Right of Children to Free and Compulsory Education (RTE) Act, 2009."},
-      {"n": "Art 22", "t": "Protection on arrest", "p": "If arrested, you must be told the grounds as soon as possible, you can consult and be defended by a lawyer of your choice, and you must be produced before the nearest magistrate within 24 hours (travel time excluded). Separate, limited rules apply to preventive detention."},
-      {"n": "Art 23–24", "t": "Against exploitation", "p": "Human trafficking, begar (forced unpaid labour) and other forced labour are banned. Children under 14 cannot be employed in factories, mines or other hazardous work."},
-      {"n": "Art 25–28", "t": "Freedom of religion", "p": "Everyone is free to follow, practise and spread their religion, subject to public order, morality and health. Religious groups can manage their own affairs. No one can be forced to pay taxes to promote a religion, and no religious instruction is allowed in fully state-funded schools."},
-      {"n": "Art 29–30", "t": "Cultural and educational rights", "p": "Any group with a distinct language, script or culture can preserve it. Religious and linguistic minorities can set up and run their own educational institutions."},
-      {"n": "Art 32", "t": "Right to go to the Supreme Court", "p": "If any Fundamental Right is violated, you can go directly to the Supreme Court. It can issue writs: habeas corpus (produce a detained person), mandamus (order an official to do their duty), prohibition, certiorari (quash a lower authority's decision) and quo warranto (challenge someone's right to hold a public office).", "k": ["Dr Ambedkar called it the 'heart and soul' of the Constitution", "High Courts have wider writ power under Art 226"]}
-    ]},
-    {"title": "Part IV & IVA — Directive Principles and Duties", "sections": [
-      {"n": "Art 36–51", "t": "Directive Principles of State Policy", "p": "Goals the government should keep in mind while making laws — they can't be enforced in court, but guide policy. Examples: equal pay for equal work (39(d)), free legal aid (39A), village panchayats (40), uniform civil code (44), early childhood care (45), protecting environment, forests and wildlife (48A), separating judiciary from executive (50), promoting international peace (51)."},
-      {"n": "Art 51A", "t": "Fundamental Duties", "p": "Eleven duties of every citizen, including: respect the Constitution, national flag and anthem; uphold unity and integrity of India; promote harmony and renounce practices derogatory to women; protect the environment; develop scientific temper; safeguard public property and reject violence; strive for excellence; and parents to provide education to children aged 6–14.", "k": ["Added by the 42nd Amendment (1976); the 11th duty added in 2002", "Not directly enforceable, but courts consider them"]}
-    ]},
-    {"title": "The Union and the States", "sections": [
-      {"n": "Art 72", "t": "President's power to pardon", "p": "The President can pardon, reduce or suspend a sentence, including a death sentence. Governors have a similar power for state laws (Art 161), but not for death sentences or court-martial."},
-      {"n": "Art 110", "t": "Money Bills", "p": "A bill dealing only with taxes, government borrowing or spending from the Consolidated Fund. It can only be introduced in the Lok Sabha; the Rajya Sabha can only suggest changes within 14 days."},
-      {"n": "Art 123", "t": "Ordinances", "p": "When Parliament isn't in session, the President can issue an ordinance that works like a law. It lapses six weeks after Parliament reassembles unless approved. Governors have a similar power (Art 213)."},
-      {"n": "Art 124", "t": "Supreme Court", "p": "Sets up the Supreme Court of India with the Chief Justice and other judges. Judges serve until 65 and can only be removed by Parliament through impeachment for proved misbehaviour or incapacity."},
-      {"n": "Art 141", "t": "Supreme Court judgments bind all courts", "p": "The law declared by the Supreme Court is binding on every court in India."},
-      {"n": "Art 226", "t": "High Court writ power", "p": "High Courts can issue writs to enforce Fundamental Rights and also for 'any other purpose' — wider than the Supreme Court's power under Art 32. This is the most common route for challenging government action."},
-      {"n": "Art 243–243ZT", "t": "Panchayats and municipalities", "p": "Constitutional status for village panchayats (73rd Amendment) and urban local bodies (74th Amendment): elections every five years, one-third seats reserved for women, and reservation for SC/ST."},
-      {"n": "Art 265", "t": "No tax without law", "p": "No tax can be levied or collected except by authority of a law passed by the legislature."},
-      {"n": "Art 300A", "t": "Right to property", "p": "No one can be deprived of their property except by authority of law. It is a constitutional right (not a Fundamental Right since 1978), so the government must follow a valid law and pay compensation as that law provides."},
-      {"n": "Art 311", "t": "Protection for government employees", "p": "A civil servant can't be dismissed or demoted without an inquiry where they're told the charges and given a reasonable chance to respond, except in specific situations."},
-      {"n": "Art 324–326", "t": "Elections", "p": "The Election Commission of India conducts elections to Parliament, state legislatures and the offices of President and Vice-President. Every citizen aged 18 or above can vote (universal adult franchise)."}
-    ]},
-    {"title": "Emergency and amendment", "sections": [
-      {"n": "Art 352", "t": "National Emergency", "p": "Can be declared if India's security is threatened by war, external aggression or armed rebellion. Must be approved by Parliament within one month. Some Fundamental Rights can be suspended, but never Articles 20 and 21."},
-      {"n": "Art 356", "t": "President's Rule", "p": "If a state government can't function according to the Constitution, the President can take over its administration. Needs Parliament's approval within two months and is subject to judicial review (S.R. Bommai, 1994)."},
-      {"n": "Art 360", "t": "Financial Emergency", "p": "Can be declared if India's financial stability is threatened. Never used so far."},
-      {"n": "Art 368", "t": "Amending the Constitution", "p": "Parliament can amend the Constitution, usually by a special majority; some amendments also need approval from half the states. But it cannot change the 'basic structure' — such as democracy, secularism, federalism, judicial review and the rule of law (Kesavananda Bharati, 1973)."},
-      {"n": "Art 370", "t": "Jammu & Kashmir (abrogated)", "p": "Used to give J&K special status. It was made inoperative in August 2019 and J&K was reorganised into two Union Territories; the Supreme Court upheld this in December 2023."}
-    ]}
-  ]
+ "id": "constitution",
+ "intro": "The supreme law of India. Every other law must fit within it. It sets up Parliament, the courts and the states, and guarantees your Fundamental Rights. Adopted 26 Nov 1949, in force 26 Jan 1950.",
+ "chapters": [
+  {
+   "title": "Preamble",
+   "sections": [
+    {
+     "n": "Preamble",
+     "t": "We, the people of India",
+     "p": "States what India is meant to be: a Sovereign, Socialist, Secular, Democratic Republic. It promises every citizen Justice (social, economic, political), Liberty (of thought, expression, belief, faith, worship), Equality (of status and opportunity) and Fraternity (dignity of the individual, unity of the nation). Courts use it to interpret the rest of the Constitution.",
+     "k": [
+      "'Socialist' and 'Secular' were added by the 42nd Amendment (1976)",
+      "Supreme Court: the Preamble is part of the Constitution (Kesavananda Bharati, 1973)"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Part III — Fundamental Rights",
+   "sections": [
+    {
+     "n": "Art 12",
+     "t": "Who is 'the State'",
+     "p": "Fundamental Rights can be enforced against 'the State' — the central and state governments, Parliament, state legislatures, local bodies like municipalities and panchayats, and bodies controlled by the government (e.g. public-sector companies)."
+    },
+    {
+     "n": "Art 13",
+     "t": "Laws that violate rights are void",
+     "p": "Any law that takes away or cuts down a Fundamental Right is invalid to that extent. This is what lets courts strike down laws."
+    },
+    {
+     "n": "Art 14",
+     "t": "Equality before law",
+     "p": "The State must treat everyone equally under the law and give everyone equal protection of the law. Reasonable classification is allowed (e.g. tax slabs), but arbitrary or unfair treatment is not.",
+     "k": [
+      "Applies to everyone in India, not just citizens"
+     ]
+    },
+    {
+     "n": "Art 15",
+     "t": "No discrimination",
+     "p": "The State cannot discriminate against citizens on grounds only of religion, race, caste, sex or place of birth — including access to shops, restaurants, wells, roads and public places. The State can make special provisions for women, children, SC/ST, backward classes and economically weaker sections."
+    },
+    {
+     "n": "Art 16",
+     "t": "Equal opportunity in public jobs",
+     "p": "All citizens get equal opportunity in government employment. Reservations for backward classes, SC/ST and economically weaker sections (EWS, up to 10%) are permitted."
+    },
+    {
+     "n": "Art 17",
+     "t": "Untouchability abolished",
+     "p": "Untouchability is abolished and practising it in any form is a punishable offence."
+    },
+    {
+     "n": "Art 19",
+     "t": "Six freedoms",
+     "p": "Every citizen has the right to: (a) speech and expression, (b) assemble peacefully without arms, (c) form associations or unions, (d) move freely throughout India, (e) live and settle anywhere in India, (g) practise any profession, trade or business. The State can impose 'reasonable restrictions' — for sovereignty and integrity of India, security, public order, decency, defamation, contempt of court, etc.",
+     "k": [
+      "Press freedom is part of 19(1)(a)",
+      "Right to property was removed from here in 1978 — now Art 300A"
+     ]
+    },
+    {
+     "n": "Art 20",
+     "t": "Protection in criminal cases",
+     "p": "(1) You can't be punished for an act that wasn't a crime when you did it, or get a heavier punishment than the law allowed then. (2) You can't be prosecuted and punished twice for the same offence. (3) You can't be forced to be a witness against yourself."
+    },
+    {
+     "n": "Art 21",
+     "t": "Right to life and personal liberty",
+     "p": "No one can be deprived of life or personal liberty except by a procedure established by law — and that procedure must be fair, just and reasonable. Courts have read many rights into it.",
+     "k": [
+      "Includes: privacy (Puttaswamy, 2017), dignity, livelihood, clean environment, health, speedy trial, free legal aid, shelter, right to die with dignity (passive euthanasia)",
+      "Applies to everyone, not just citizens",
+      "Cannot be suspended even during an Emergency"
+     ]
+    },
+    {
+     "n": "Art 21A",
+     "t": "Right to education",
+     "p": "The State must provide free and compulsory education to all children aged 6 to 14. Implemented through the Right of Children to Free and Compulsory Education (RTE) Act, 2009."
+    },
+    {
+     "n": "Art 22",
+     "t": "Protection on arrest",
+     "p": "If arrested, you must be told the grounds as soon as possible, you can consult and be defended by a lawyer of your choice, and you must be produced before the nearest magistrate within 24 hours (travel time excluded). Separate, limited rules apply to preventive detention."
+    },
+    {
+     "n": "Art 23–24",
+     "t": "Against exploitation",
+     "p": "Human trafficking, begar (forced unpaid labour) and other forced labour are banned. Children under 14 cannot be employed in factories, mines or other hazardous work."
+    },
+    {
+     "n": "Art 25–28",
+     "t": "Freedom of religion",
+     "p": "Everyone is free to follow, practise and spread their religion, subject to public order, morality and health. Religious groups can manage their own affairs. No one can be forced to pay taxes to promote a religion, and no religious instruction is allowed in fully state-funded schools."
+    },
+    {
+     "n": "Art 29–30",
+     "t": "Cultural and educational rights",
+     "p": "Any group with a distinct language, script or culture can preserve it. Religious and linguistic minorities can set up and run their own educational institutions."
+    },
+    {
+     "n": "Art 32",
+     "t": "Right to go to the Supreme Court",
+     "p": "If any Fundamental Right is violated, you can go directly to the Supreme Court. It can issue writs: habeas corpus (produce a detained person), mandamus (order an official to do their duty), prohibition, certiorari (quash a lower authority's decision) and quo warranto (challenge someone's right to hold a public office).",
+     "k": [
+      "Dr Ambedkar called it the 'heart and soul' of the Constitution",
+      "High Courts have wider writ power under Art 226"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Part IV & IVA — Directive Principles and Duties",
+   "sections": [
+    {
+     "n": "Art 36–51",
+     "t": "Directive Principles of State Policy",
+     "p": "Goals the government should keep in mind while making laws — they can't be enforced in court, but guide policy. Examples: equal pay for equal work (39(d)), free legal aid (39A), village panchayats (40), uniform civil code (44), early childhood care (45), protecting environment, forests and wildlife (48A), separating judiciary from executive (50), promoting international peace (51)."
+    },
+    {
+     "n": "Art 51A",
+     "t": "Fundamental Duties",
+     "p": "Eleven duties of every citizen, including: respect the Constitution, national flag and anthem; uphold unity and integrity of India; promote harmony and renounce practices derogatory to women; protect the environment; develop scientific temper; safeguard public property and reject violence; strive for excellence; and parents to provide education to children aged 6–14.",
+     "k": [
+      "Added by the 42nd Amendment (1976); the 11th duty added in 2002",
+      "Not directly enforceable, but courts consider them",
+      "51A(g): protect the natural environment and have compassion for living creatures"
+     ]
+    }
+   ]
+  },
+  {
+   "title": "The Union and the States",
+   "sections": [
+    {
+     "n": "Art 72",
+     "t": "President's power to pardon",
+     "p": "The President can pardon, reduce or suspend a sentence, including a death sentence. Governors have a similar power for state laws (Art 161), but not for death sentences or court-martial."
+    },
+    {
+     "n": "Art 110",
+     "t": "Money Bills",
+     "p": "A bill dealing only with taxes, government borrowing or spending from the Consolidated Fund. It can only be introduced in the Lok Sabha; the Rajya Sabha can only suggest changes within 14 days."
+    },
+    {
+     "n": "Art 123",
+     "t": "Ordinances",
+     "p": "When Parliament isn't in session, the President can issue an ordinance that works like a law. It lapses six weeks after Parliament reassembles unless approved. Governors have a similar power (Art 213)."
+    },
+    {
+     "n": "Art 124",
+     "t": "Supreme Court",
+     "p": "Sets up the Supreme Court of India with the Chief Justice and other judges. Judges serve until 65 and can only be removed by Parliament through impeachment for proved misbehaviour or incapacity."
+    },
+    {
+     "n": "Art 141",
+     "t": "Supreme Court judgments bind all courts",
+     "p": "The law declared by the Supreme Court is binding on every court in India."
+    },
+    {
+     "n": "Art 226",
+     "t": "High Court writ power",
+     "p": "High Courts can issue writs to enforce Fundamental Rights and also for 'any other purpose' — wider than the Supreme Court's power under Art 32. This is the most common route for challenging government action."
+    },
+    {
+     "n": "Art 243–243ZT",
+     "t": "Panchayats and municipalities",
+     "p": "Constitutional status for village panchayats (73rd Amendment) and urban local bodies (74th Amendment): elections every five years, one-third seats reserved for women, and reservation for SC/ST."
+    },
+    {
+     "n": "Art 265",
+     "t": "No tax without law",
+     "p": "No tax can be levied or collected except by authority of a law passed by the legislature."
+    },
+    {
+     "n": "Art 300A",
+     "t": "Right to property",
+     "p": "No one can be deprived of their property except by authority of law. It is a constitutional right (not a Fundamental Right since 1978), so the government must follow a valid law and pay compensation as that law provides."
+    },
+    {
+     "n": "Art 311",
+     "t": "Protection for government employees",
+     "p": "A civil servant can't be dismissed or demoted without an inquiry where they're told the charges and given a reasonable chance to respond, except in specific situations."
+    },
+    {
+     "n": "Art 324–326",
+     "t": "Elections",
+     "p": "The Election Commission of India conducts elections to Parliament, state legislatures and the offices of President and Vice-President. Every citizen aged 18 or above can vote (universal adult franchise)."
+    }
+   ]
+  },
+  {
+   "title": "Emergency and amendment",
+   "sections": [
+    {
+     "n": "Art 352",
+     "t": "National Emergency",
+     "p": "Can be declared if India's security is threatened by war, external aggression or armed rebellion. Must be approved by Parliament within one month. Some Fundamental Rights can be suspended, but never Articles 20 and 21."
+    },
+    {
+     "n": "Art 356",
+     "t": "President's Rule",
+     "p": "If a state government can't function according to the Constitution, the President can take over its administration. Needs Parliament's approval within two months and is subject to judicial review (S.R. Bommai, 1994)."
+    },
+    {
+     "n": "Art 360",
+     "t": "Financial Emergency",
+     "p": "Can be declared if India's financial stability is threatened. Never used so far."
+    },
+    {
+     "n": "Art 368",
+     "t": "Amending the Constitution",
+     "p": "Parliament can amend the Constitution, usually by a special majority; some amendments also need approval from half the states. But it cannot change the 'basic structure' — such as democracy, secularism, federalism, judicial review and the rule of law (Kesavananda Bharati, 1973)."
+    },
+    {
+     "n": "Art 370",
+     "t": "Jammu & Kashmir (abrogated)",
+     "p": "Used to give J&K special status. It was made inoperative in August 2019 and J&K was reorganised into two Union Territories; the Supreme Court upheld this in December 2023."
+    }
+   ]
+  }
+ ]
 }

@@ -1,61 +1,363 @@
 {
-  "updated": "2026-11-09",
-  "categories": [
-    {"id": "constitution", "name": "Constitution", "icon": "🏛️"},
-    {"id": "criminal", "name": "Criminal law", "icon": "⚖️"},
-    {"id": "everyday", "name": "Everyday & consumer", "icon": "🧾"},
-    {"id": "family", "name": "Family & women", "icon": "👪"},
-    {"id": "civil", "name": "Civil & property", "icon": "🏠"},
-    {"id": "work", "name": "Work, tax & business", "icon": "💼"},
-    {"id": "tn", "name": "Tamil Nadu", "icon": "🌴"}
-  ],
-  "acts": [
-    {"id": "constitution", "name": "Constitution of India", "year": 1950, "cat": "constitution", "status": "summary", "src": "https://legislative.gov.in/constitution-of-india/"},
-
-    {"id": "bns", "name": "Bharatiya Nyaya Sanhita", "short": "BNS", "year": 2023, "cat": "criminal", "status": "summary", "replaces": "Indian Penal Code, 1860", "src": "https://www.indiacode.nic.in/handle/123456789/20062"},
-    {"id": "bnss", "name": "Bharatiya Nagarik Suraksha Sanhita", "short": "BNSS", "year": 2023, "cat": "criminal", "status": "summary", "replaces": "Code of Criminal Procedure, 1973", "src": "https://www.indiacode.nic.in/handle/123456789/20099"},
-    {"id": "bsa", "name": "Bharatiya Sakshya Adhiniyam", "short": "BSA", "year": 2023, "cat": "criminal", "status": "summary", "replaces": "Indian Evidence Act, 1872", "src": "https://www.indiacode.nic.in/handle/123456789/20063"},
-    {"id": "pocso", "name": "Protection of Children from Sexual Offences Act", "short": "POCSO", "year": 2012, "cat": "criminal", "status": "summary"},
-    {"id": "ndps", "name": "Narcotic Drugs and Psychotropic Substances Act", "short": "NDPS", "year": 1985, "cat": "criminal", "status": "listed"},
-    {"id": "scst", "name": "SC and ST (Prevention of Atrocities) Act", "year": 1989, "cat": "criminal", "status": "listed"},
-    {"id": "arms", "name": "Arms Act", "year": 1959, "cat": "criminal", "status": "listed"},
-
-    {"id": "mva", "name": "Motor Vehicles Act", "short": "MV Act", "year": 1988, "cat": "everyday", "status": "summary", "note": "As amended in 2019"},
-    {"id": "cpa", "name": "Consumer Protection Act", "short": "CPA", "year": 2019, "cat": "everyday", "status": "summary"},
-    {"id": "rti", "name": "Right to Information Act", "short": "RTI", "year": 2005, "cat": "everyday", "status": "summary"},
-    {"id": "itact", "name": "Information Technology Act", "short": "IT Act", "year": 2000, "cat": "everyday", "status": "summary"},
-    {"id": "niact", "name": "Negotiable Instruments Act (cheque bounce)", "short": "NI Act", "year": 1881, "cat": "everyday", "status": "summary"},
-    {"id": "dpdp", "name": "Digital Personal Data Protection Act", "short": "DPDP", "year": 2023, "cat": "everyday", "status": "listed"},
-    {"id": "lsa", "name": "Legal Services Authorities Act (free legal aid)", "year": 1987, "cat": "everyday", "status": "listed"},
-
-    {"id": "hma", "name": "Hindu Marriage Act", "short": "HMA", "year": 1955, "cat": "family", "status": "summary"},
-    {"id": "hsa", "name": "Hindu Succession Act", "short": "HSA", "year": 1956, "cat": "family", "status": "summary"},
-    {"id": "dv", "name": "Protection of Women from Domestic Violence Act", "short": "DV Act", "year": 2005, "cat": "family", "status": "summary"},
-    {"id": "dowry", "name": "Dowry Prohibition Act", "year": 1961, "cat": "family", "status": "summary"},
-    {"id": "senior", "name": "Maintenance and Welfare of Parents and Senior Citizens Act", "year": 2007, "cat": "family", "status": "summary"},
-    {"id": "sma", "name": "Special Marriage Act", "year": 1954, "cat": "family", "status": "listed"},
-    {"id": "posh", "name": "Sexual Harassment of Women at Workplace (POSH) Act", "year": 2013, "cat": "family", "status": "listed"},
-
-    {"id": "contract", "name": "Indian Contract Act", "year": 1872, "cat": "civil", "status": "listed"},
-    {"id": "tpa", "name": "Transfer of Property Act", "year": 1882, "cat": "civil", "status": "listed"},
-    {"id": "registration", "name": "Registration Act", "year": 1908, "cat": "civil", "status": "listed"},
-    {"id": "cpc", "name": "Code of Civil Procedure", "short": "CPC", "year": 1908, "cat": "civil", "status": "listed"},
-    {"id": "limitation", "name": "Limitation Act", "year": 1963, "cat": "civil", "status": "listed"},
-    {"id": "rera", "name": "Real Estate (Regulation and Development) Act", "short": "RERA", "year": 2016, "cat": "civil", "status": "listed"},
-
-    {"id": "incometax", "name": "Income-tax Act", "year": 2025, "cat": "work", "status": "listed", "note": "Replaced the 1961 Act"},
-    {"id": "cgst", "name": "Central Goods and Services Tax Act", "short": "GST", "year": 2017, "cat": "work", "status": "listed"},
-    {"id": "wages", "name": "Code on Wages", "year": 2019, "cat": "work", "status": "listed"},
-    {"id": "socsec", "name": "Code on Social Security", "year": 2020, "cat": "work", "status": "listed"},
-    {"id": "ir", "name": "Industrial Relations Code", "year": 2020, "cat": "work", "status": "listed"},
-    {"id": "osh", "name": "Occupational Safety, Health and Working Conditions Code", "year": 2020, "cat": "work", "status": "listed"},
-    {"id": "companies", "name": "Companies Act", "year": 2013, "cat": "work", "status": "listed"},
-
-    {"id": "tn-tenancy", "name": "TN Regulation of Rights and Responsibilities of Landlords and Tenants Act", "year": 2017, "cat": "tn", "status": "summary"},
-    {"id": "tn-harassment", "name": "TN Prohibition of Harassment of Woman Act", "year": 1998, "cat": "tn", "status": "summary"},
-    {"id": "tn-ragging", "name": "TN Prohibition of Ragging Act", "year": 1997, "cat": "tn", "status": "summary"},
-    {"id": "tn-depositors", "name": "TN Protection of Interests of Depositors (in Financial Establishments) Act", "year": 1997, "cat": "tn", "status": "summary"},
-    {"id": "tn-shops", "name": "TN Shops and Establishments Act", "year": 1947, "cat": "tn", "status": "listed"},
-    {"id": "tn-prohibition", "name": "TN Prohibition Act", "year": 1937, "cat": "tn", "status": "listed"}
-  ]
+ "updated": "2026-11-09",
+ "categories": [
+  {
+   "id": "constitution",
+   "name": "Constitution",
+   "icon": "🏛️"
+  },
+  {
+   "id": "criminal",
+   "name": "Criminal law",
+   "icon": "⚖️"
+  },
+  {
+   "id": "everyday",
+   "name": "Everyday & consumer",
+   "icon": "🧾"
+  },
+  {
+   "id": "family",
+   "name": "Family & women",
+   "icon": "👪"
+  },
+  {
+   "id": "civil",
+   "name": "Civil & property",
+   "icon": "🏠"
+  },
+  {
+   "id": "work",
+   "name": "Work, tax & business",
+   "icon": "💼"
+  },
+  {
+   "id": "tn",
+   "name": "Tamil Nadu",
+   "icon": "🌴"
+  }
+ ],
+ "acts": [
+  {
+   "id": "constitution",
+   "name": "Constitution of India",
+   "year": 1950,
+   "cat": "constitution",
+   "status": "summary",
+   "src": "https://legislative.gov.in/constitution-of-india/"
+  },
+  {
+   "id": "bns",
+   "name": "Bharatiya Nyaya Sanhita",
+   "short": "BNS",
+   "year": 2023,
+   "cat": "criminal",
+   "status": "summary",
+   "replaces": "Indian Penal Code, 1860",
+   "src": "https://www.indiacode.nic.in/handle/123456789/20062"
+  },
+  {
+   "id": "bnss",
+   "name": "Bharatiya Nagarik Suraksha Sanhita",
+   "short": "BNSS",
+   "year": 2023,
+   "cat": "criminal",
+   "status": "summary",
+   "replaces": "Code of Criminal Procedure, 1973",
+   "src": "https://www.indiacode.nic.in/handle/123456789/20099"
+  },
+  {
+   "id": "bsa",
+   "name": "Bharatiya Sakshya Adhiniyam",
+   "short": "BSA",
+   "year": 2023,
+   "cat": "criminal",
+   "status": "summary",
+   "replaces": "Indian Evidence Act, 1872",
+   "src": "https://www.indiacode.nic.in/handle/123456789/20063"
+  },
+  {
+   "id": "pocso",
+   "name": "Protection of Children from Sexual Offences Act",
+   "short": "POCSO",
+   "year": 2012,
+   "cat": "criminal",
+   "status": "summary"
+  },
+  {
+   "id": "ndps",
+   "name": "Narcotic Drugs and Psychotropic Substances Act",
+   "short": "NDPS",
+   "year": 1985,
+   "cat": "criminal",
+   "status": "listed"
+  },
+  {
+   "id": "scst",
+   "name": "SC and ST (Prevention of Atrocities) Act",
+   "year": 1989,
+   "cat": "criminal",
+   "status": "listed"
+  },
+  {
+   "id": "arms",
+   "name": "Arms Act",
+   "year": 1959,
+   "cat": "criminal",
+   "status": "listed"
+  },
+  {
+   "id": "mva",
+   "name": "Motor Vehicles Act",
+   "short": "MV Act",
+   "year": 1988,
+   "cat": "everyday",
+   "status": "summary",
+   "note": "As amended in 2019"
+  },
+  {
+   "id": "cpa",
+   "name": "Consumer Protection Act",
+   "short": "CPA",
+   "year": 2019,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "rti",
+   "name": "Right to Information Act",
+   "short": "RTI",
+   "year": 2005,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "itact",
+   "name": "Information Technology Act",
+   "short": "IT Act",
+   "year": 2000,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "niact",
+   "name": "Negotiable Instruments Act (cheque bounce)",
+   "short": "NI Act",
+   "year": 1881,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "dpdp",
+   "name": "Digital Personal Data Protection Act",
+   "short": "DPDP",
+   "year": 2023,
+   "cat": "everyday",
+   "status": "listed"
+  },
+  {
+   "id": "lsa",
+   "name": "Legal Services Authorities Act (free legal aid)",
+   "year": 1987,
+   "cat": "everyday",
+   "status": "listed"
+  },
+  {
+   "id": "pca",
+   "name": "Prevention of Cruelty to Animals Act (incl. stray dogs)",
+   "short": "PCA Act",
+   "year": 1960,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "hma",
+   "name": "Hindu Marriage Act",
+   "short": "HMA",
+   "year": 1955,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "hsa",
+   "name": "Hindu Succession Act",
+   "short": "HSA",
+   "year": 1956,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "dv",
+   "name": "Protection of Women from Domestic Violence Act",
+   "short": "DV Act",
+   "year": 2005,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "dowry",
+   "name": "Dowry Prohibition Act",
+   "year": 1961,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "senior",
+   "name": "Maintenance and Welfare of Parents and Senior Citizens Act",
+   "year": 2007,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "sma",
+   "name": "Special Marriage Act",
+   "year": 1954,
+   "cat": "family",
+   "status": "listed"
+  },
+  {
+   "id": "posh",
+   "name": "Sexual Harassment of Women at Workplace (POSH) Act",
+   "year": 2013,
+   "cat": "family",
+   "status": "listed"
+  },
+  {
+   "id": "contract",
+   "name": "Indian Contract Act",
+   "year": 1872,
+   "cat": "civil",
+   "status": "listed"
+  },
+  {
+   "id": "tpa",
+   "name": "Transfer of Property Act",
+   "year": 1882,
+   "cat": "civil",
+   "status": "listed"
+  },
+  {
+   "id": "registration",
+   "name": "Registration Act",
+   "year": 1908,
+   "cat": "civil",
+   "status": "listed"
+  },
+  {
+   "id": "cpc",
+   "name": "Code of Civil Procedure",
+   "short": "CPC",
+   "year": 1908,
+   "cat": "civil",
+   "status": "listed"
+  },
+  {
+   "id": "limitation",
+   "name": "Limitation Act",
+   "year": 1963,
+   "cat": "civil",
+   "status": "listed"
+  },
+  {
+   "id": "rera",
+   "name": "Real Estate (Regulation and Development) Act",
+   "short": "RERA",
+   "year": 2016,
+   "cat": "civil",
+   "status": "listed"
+  },
+  {
+   "id": "incometax",
+   "name": "Income-tax Act",
+   "year": 2025,
+   "cat": "work",
+   "status": "listed",
+   "note": "Replaced the 1961 Act"
+  },
+  {
+   "id": "cgst",
+   "name": "Central Goods and Services Tax Act",
+   "short": "GST",
+   "year": 2017,
+   "cat": "work",
+   "status": "listed"
+  },
+  {
+   "id": "wages",
+   "name": "Code on Wages",
+   "year": 2019,
+   "cat": "work",
+   "status": "listed"
+  },
+  {
+   "id": "socsec",
+   "name": "Code on Social Security",
+   "year": 2020,
+   "cat": "work",
+   "status": "listed"
+  },
+  {
+   "id": "ir",
+   "name": "Industrial Relations Code",
+   "year": 2020,
+   "cat": "work",
+   "status": "listed"
+  },
+  {
+   "id": "osh",
+   "name": "Occupational Safety, Health and Working Conditions Code",
+   "year": 2020,
+   "cat": "work",
+   "status": "listed"
+  },
+  {
+   "id": "companies",
+   "name": "Companies Act",
+   "year": 2013,
+   "cat": "work",
+   "status": "listed"
+  },
+  {
+   "id": "tn-tenancy",
+   "name": "TN Regulation of Rights and Responsibilities of Landlords and Tenants Act",
+   "year": 2017,
+   "cat": "tn",
+   "status": "summary"
+  },
+  {
+   "id": "tn-harassment",
+   "name": "TN Prohibition of Harassment of Woman Act",
+   "year": 1998,
+   "cat": "tn",
+   "status": "summary"
+  },
+  {
+   "id": "tn-ragging",
+   "name": "TN Prohibition of Ragging Act",
+   "year": 1997,
+   "cat": "tn",
+   "status": "summary"
+  },
+  {
+   "id": "tn-depositors",
+   "name": "TN Protection of Interests of Depositors (in Financial Establishments) Act",
+   "year": 1997,
+   "cat": "tn",
+   "status": "summary"
+  },
+  {
+   "id": "tn-shops",
+   "name": "TN Shops and Establishments Act",
+   "year": 1947,
+   "cat": "tn",
+   "status": "listed"
+  },
+  {
+   "id": "tn-prohibition",
+   "name": "TN Prohibition Act",
+   "year": 1937,
+   "cat": "tn",
+   "status": "listed"
+  }
+ ]
 }
