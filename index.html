@@ -332,7 +332,7 @@ function doSearch(q){
   }
   const full = scored.filter(x => numQ || x[2] === groups.length);
   const pool = full.length ? full : scored;
-  return pool.sort((a, b) => b[0] - a[0]).map(x => x[1]).slice(0, 40);
+  return pool.sort((a, b) => (b[2] - a[2]) || (b[0] - a[0])).map(x => x[1]).slice(0, 40);
 }
 const STOP = new Set('a an the of for to in on is are what can i my me do does how about law laws act rule rules section with and or by if it be when who'.split(' '));
 const SYN = {
@@ -341,7 +341,10 @@ const SYN = {
   police:['arrest','fir'], complaint:['fir','complain','complaint'], jail:['imprisonment','arrest','bail'], wife:['woman','marriage','cruelty'], husband:['marriage','cruelty'],
   property:['inheritance','succession','property'], landlord:['tenant','tenancy','rent'], house:['tenant','rent','dwelling'], rent:['tenant','tenancy'],
   online:['cyber','electronic','computer'], fraud:['cheating','cyber','scam'], scam:['cheating','impersonation'], money:['maintenance','compensation','cheque'],
-  parents:['senior citizen','maintenance'], child:['children','minor','pocso'], divorce:['marriage','separation'], salary:['wages'], shop:['consumer','goods']
+  parents:['senior citizen','maintenance'], child:['children','minor','pocso'], divorce:['marriage','separation'], salary:['wages'], shop:['consumer','goods','shops'], job:['employee','employment','wages','worker'], work:['employee','workplace','worker'], office:['workplace','employee'],
+  will:['will','testament','succession'], tax:['income','gst','tax'], gst:['gst','goods and services'], privacy:['data','personal data'], data:['personal data','privacy'],
+  school:['education','child','school'], fees:['capitation','fee','education'], adopt:['adoption','adopt'], talaq:['divorce','muslim'], drugs:['narcotic','ndps','drug'], ganja:['cannabis','ganja'],
+  gun:['firearm','arms'], flat:['rera','apartment','allottee'], builder:['rera','promoter'], liquor:['alcohol','liquor','drunk'], game:['gaming','games'], rummy:['money game','gaming'], poker:['money game','gaming'], fantasy:['money game','gaming'], tenant:['tenancy','lease','rent','tenant'], betting:['gaming','wager','betting'], gratuity:['gratuity']
 };
 function variants(w){
   const v = new Set([w]);

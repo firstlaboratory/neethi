@@ -1,0 +1,19 @@
+{
+  "id": "rte",
+  "intro": "Makes free and compulsory elementary education (Class 1–8) a right for every child aged 6–14, under Article 21A of the Constitution. Also requires private schools to reserve seats for disadvantaged children.",
+  "chapters": [
+    {"title": "Children's rights", "sections": [
+      {"n": "S 3", "t": "Free and compulsory education", "p": "Every child aged 6–14 has the right to free education in a neighbourhood school until Class 8. No fees or charges can stop a child from attending."},
+      {"n": "S 12(1)(c)", "t": "25% seats in private schools", "p": "Private unaided schools (except minority institutions) must admit children from weaker and disadvantaged sections in at least 25% of entry-level seats, free of cost. The government reimburses the school. In Tamil Nadu, applications are made online through the school education department each year."},
+      {"n": "S 13", "t": "No capitation fee or screening", "p": "Schools can't charge capitation fees or interview or test children or parents for admission.", "pen": "Capitation fee: fine up to 10 times the fee. Screening: ₹25,000 first, ₹50,000 after"},
+      {"n": "S 14–15", "t": "Admission can't be denied", "p": "A child can't be denied admission for lack of a birth certificate or other age proof, or because the academic year has started."},
+      {"n": "S 16", "t": "Holding back students", "p": "Earlier, no child could be held back until Class 8. Since a 2019 amendment, schools may hold back students in Class 5 and 8 if they fail a re-examination, where the state or centre decides to apply this. Children still can't be expelled."},
+      {"n": "S 17", "t": "No punishment or harassment", "p": "Physical punishment and mental harassment of children are prohibited. Teachers who violate this face disciplinary action."}
+    ]},
+    {"title": "School standards", "sections": [
+      {"n": "S 18–19, 25", "t": "Recognition and norms", "p": "Schools need recognition and must meet norms on buildings, teachers and facilities. Pupil–teacher ratio: 30:1 in Classes 1–5 and 35:1 in Classes 6–8."},
+      {"n": "S 21", "t": "School Management Committee", "p": "Government and aided schools must have a committee — three-quarters parents, with half women — to monitor the school and plan its development."},
+      {"n": "S 32", "t": "Complaints", "p": "Complaints about violations go to the local authority, then to the State Commission for Protection of Child Rights."}
+    ]}
+  ]
+}

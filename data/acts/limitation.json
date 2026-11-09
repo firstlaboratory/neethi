@@ -1,0 +1,21 @@
+{
+  "id": "limitation",
+  "intro": "Sets the deadlines for going to court. Miss the deadline and your claim is usually lost, however strong it is — so knowing these limits matters.",
+  "chapters": [
+    {"title": "How limitation works", "sections": [
+      {"n": "S 3", "t": "Time-barred cases are dismissed", "p": "Any suit, appeal or application filed after the limitation period is dismissed, even if the other side doesn't raise it."},
+      {"n": "S 5", "t": "Condoning delay", "p": "Courts can admit a late appeal or application if you show 'sufficient cause' for the delay. This doesn't apply to filing a suit."},
+      {"n": "S 12–15", "t": "Time that's excluded", "p": "The day the period starts, time spent getting a certified copy of the judgment, and time spent in good faith pursuing the case in the wrong court are excluded."},
+      {"n": "S 18–19", "t": "Acknowledgment and part payment restart the clock", "p": "A written, signed acknowledgment of a debt, or a part payment made before the period expires, starts a fresh limitation period from that date."}
+    ]},
+    {"title": "Common time limits (Schedule)", "sections": [
+      {"n": "Money", "t": "Recovering money", "p": "Money lent, unpaid price of goods, salary dues, and breach of contract: 3 years — usually from when the money became due or the contract was broken.", "pen": "3 years"},
+      {"n": "Specific performance", "t": "Enforcing a sale agreement", "p": "Suit for specific performance of a contract (e.g. forcing a seller to execute the sale deed): 3 years from the date fixed for performance, or from when it was refused.", "pen": "3 years"},
+      {"n": "Property", "t": "Recovering immovable property", "p": "Suit for possession of immovable property based on title: 12 years from when the other person's possession became adverse to you.", "pen": "12 years"},
+      {"n": "S 27", "t": "Adverse possession", "p": "If someone openly and continuously occupies your land against your rights for 12 years (30 years for government land) and you don't act, your right to recover it is extinguished and they can claim title. Keep an eye on vacant land.", "pen": "12 years (private), 30 years (government)"},
+      {"n": "Appeals", "t": "Appeal deadlines", "p": "Appeal to a District Court: 30 days. Appeal to a High Court from a decree: 90 days. Both run from the date of the decree or order.", "pen": "30 or 90 days"},
+      {"n": "Execution", "t": "Enforcing a decree", "p": "Execution of a decree (other than a mandatory injunction): 12 years.", "pen": "12 years"},
+      {"n": "Other laws", "t": "Special laws have their own limits", "p": "Many laws set their own limits: consumer complaints 2 years, cheque bounce complaint 1 month after the notice period, MACT claims 6 months, RERA and labour matters vary. Those prevail over this Act."}
+    ]}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "registration",
+  "intro": "Decides which documents must be registered at the Sub-Registrar's office, where and how. Registration creates a public record that protects buyers and owners.",
+  "chapters": [
+    {"title": "What must be registered", "sections": [
+      {"n": "S 17", "t": "Compulsory registration", "p": "Must be registered: gift deeds of immovable property; sale deeds and other documents creating or transferring rights in immovable property worth ₹100 or more; leases for more than a year; and agreements of sale where part performance is claimed (since 2001).", "k": ["Unregistered compulsory documents don't transfer rights in the property"]},
+      {"n": "S 18", "t": "Optional registration", "p": "Wills and some other documents may be registered but don't have to be. Registering a will makes it harder to dispute."},
+      {"n": "S 49", "t": "Effect of not registering", "p": "A document that should have been registered but wasn't doesn't affect the property. It can still be used as evidence in a suit for specific performance or for a collateral purpose."}
+    ]},
+    {"title": "How and where", "sections": [
+      {"n": "S 23", "t": "Time limit", "p": "A document must be presented for registration within 4 months of being signed. The Registrar can allow up to 4 more months with a fine."},
+      {"n": "S 28", "t": "Where to register", "p": "Documents about immovable property are registered at the Sub-Registrar's office in whose area the property (or part of it) is located."},
+      {"n": "S 32–35", "t": "Who presents and verification", "p": "The person who signed, a person claiming under it, or their agent with a power of attorney presents the document. The Sub-Registrar verifies identity — in Tamil Nadu, with photographs, thumb impressions and Aadhaar-based verification."},
+      {"n": "S 47", "t": "Effective from signing date", "p": "Once registered, a document operates from the date it was signed, not the date it was registered."},
+      {"n": "TN amendment", "t": "Fraudulent registrations (Tamil Nadu)", "p": "Tamil Nadu amended the Act in 2022 to allow the Registrar to refuse registration of documents involving forged papers or impersonation, and to cancel such fraudulent registrations after inquiry. Earlier, only a civil court could cancel them."}
+    ]}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "cpc",
+  "intro": "The rulebook for civil cases — property disputes, money recovery, injunctions, partition and contract claims. It sets out where to file, how a suit proceeds, appeals and how judgments are enforced.",
+  "chapters": [
+    {"title": "Where to sue", "sections": [
+      {"n": "S 9", "t": "Civil courts hear all civil disputes", "p": "Civil courts can try all suits of a civil nature unless a law expressly or impliedly bars them — e.g. consumer, rent or labour disputes may go to special forums."},
+      {"n": "S 15–20", "t": "Which court", "p": "File in the lowest court competent to try the case by value. Suits about immovable property go to the court where the property is. Other suits can be filed where the defendant lives or works, or where the cause of action arose."},
+      {"n": "S 10–11", "t": "No parallel or repeated cases", "p": "Res sub judice (S 10): a court stays a suit if the same issue between the same parties is already pending elsewhere. Res judicata (S 11): once a competent court has finally decided an issue, the same parties can't re-litigate it."},
+      {"n": "S 80", "t": "Notice before suing the government", "p": "Before suing the government or a public officer for official acts, you must give 2 months' written notice, unless the court allows urgent relief."}
+    ]},
+    {"title": "How a suit proceeds", "sections": [
+      {"n": "Order VII", "t": "Plaint", "p": "The suit starts with a plaint stating the facts, the relief claimed and the court's jurisdiction, with court fee paid. The court can reject it if it shows no cause of action or is barred by law."},
+      {"n": "Order VIII", "t": "Written statement", "p": "The defendant must file a written statement within 30 days of the summons, extendable by the court up to 90 days. In commercial disputes, 120 days is the outer limit."},
+      {"n": "S 89", "t": "Settlement outside court", "p": "Courts can refer disputes to arbitration, conciliation, Lok Adalat or mediation where settlement looks possible."},
+      {"n": "Order XXXIX", "t": "Temporary injunctions", "p": "During the case, the court can order a party not to sell, damage or dispose of property, or to stop an act — if there's a prima facie case, irreparable harm and the balance of convenience favours it."},
+      {"n": "Order XXXVII", "t": "Summary suits", "p": "Fast-track suits to recover money on written contracts, bills of exchange, cheques or promissory notes. The defendant must get court permission to defend."},
+      {"n": "S 151", "t": "Inherent powers", "p": "Courts can make any order needed for justice or to prevent abuse of process where the code doesn't specifically provide."}
+    ]},
+    {"title": "Appeals and enforcement", "sections": [
+      {"n": "S 96, 100", "t": "Appeals", "p": "First appeal from a decree lies to the next higher court, on facts and law. A second appeal to the High Court is allowed only on a substantial question of law."},
+      {"n": "S 114–115", "t": "Review and revision", "p": "Review: the same court can reconsider its decision for an error apparent on the record or new evidence. Revision: the High Court can correct jurisdictional errors by lower courts."},
+      {"n": "Order XXI", "t": "Execution of decrees", "p": "If the losing party doesn't comply, the decree-holder can file for execution — attachment and sale of property, arrest in some cases, or delivery of possession. Execution must be sought within 12 years of the decree."}
+    ]}
+  ]
+}

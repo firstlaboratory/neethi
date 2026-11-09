@@ -1,0 +1,26 @@
+{
+  "id": "contract",
+  "intro": "The basic law on agreements — what makes a promise legally binding, when it can be cancelled, and what you can claim if someone breaks it. Covers everyday deals, from a phone purchase to a business contract or job offer.",
+  "chapters": [
+    {"title": "Making a valid contract", "sections": [
+      {"n": "S 2, 10", "t": "What makes a contract valid", "p": "A contract is an agreement the law will enforce. It needs: free consent of parties who are competent to contract, a lawful consideration (something in return), a lawful object, and it must not be declared void by law. It can be oral or written, unless a specific law requires writing or registration.", "k": ["Oral agreements are valid but hard to prove — put important deals in writing"]},
+      {"n": "S 11", "t": "Who can contract", "p": "Anyone who is 18 or older, of sound mind, and not disqualified by law. A contract with a minor is void from the start (Mohori Bibee, 1903)."},
+      {"n": "S 13–19", "t": "Free consent", "p": "Consent isn't free if obtained by coercion (threats), undue influence (abusing a position of power over the other), fraud (deliberate deception) or misrepresentation (innocent false statement). Such contracts are voidable — the affected party can cancel them."},
+      {"n": "S 20", "t": "Mistake", "p": "If both parties are mistaken about a fact essential to the agreement, it is void. A mistake by just one party usually doesn't affect the contract."},
+      {"n": "S 23", "t": "Unlawful agreements", "p": "Agreements whose object or consideration is illegal, fraudulent, harmful to someone's person or property, immoral or against public policy are void — e.g. an agreement to pay a bribe."},
+      {"n": "S 25", "t": "No consideration, no contract", "p": "An agreement without something in return is void — except a written and registered agreement made out of natural love and affection, a promise to compensate for something done voluntarily, or a written promise to pay a time-barred debt."}
+    ]},
+    {"title": "Void agreements", "sections": [
+      {"n": "S 27", "t": "Restraint of trade (non-compete)", "p": "Any agreement that stops someone from carrying on a lawful profession, trade or business is void. This is why post-employment non-compete clauses in Indian job contracts are generally unenforceable. Restrictions during employment, or when selling a business's goodwill within reasonable limits, are allowed."},
+      {"n": "S 28", "t": "Blocking legal action", "p": "A clause that completely prevents a party from going to court is void. Arbitration clauses are allowed."},
+      {"n": "S 30", "t": "Wagering agreements", "p": "Bets and wagers are void — courts won't enforce them. (Gambling itself is governed by separate state laws.)"},
+      {"n": "S 56", "t": "Impossibility (frustration)", "p": "If something agreed becomes impossible or unlawful after the contract is made, through no fault of the parties, the contract becomes void. Money paid may have to be returned."}
+    ]},
+    {"title": "Breach and remedies", "sections": [
+      {"n": "S 73", "t": "Compensation for breach", "p": "The party who suffers from a breach can claim compensation for loss that naturally arose from the breach or that both parties knew was likely when they made the contract. Remote or indirect losses can't be claimed."},
+      {"n": "S 74", "t": "Penalty and liquidated damages", "p": "If the contract names an amount payable on breach, the court awards only reasonable compensation up to that amount — not automatically the full figure."},
+      {"n": "S 124–147", "t": "Indemnity and guarantee", "p": "Indemnity: one person promises to save another from loss. Guarantee: a surety promises to pay if the main borrower defaults. As a guarantor, you can be sued directly for the whole debt, so read carefully before signing as a loan guarantor."},
+      {"n": "S 182–238", "t": "Agency", "p": "An agent acts on behalf of a principal, and the principal is bound by what the agent does within their authority — e.g. a property broker or a company employee signing on its behalf."}
+    ]}
+  ]
+}

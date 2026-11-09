@@ -1,0 +1,13 @@
+{
+  "id": "tn-prohibition",
+  "intro": "Tamil Nadu's liquor law. It bans making, possessing, selling and transporting liquor except under licences and permits. Retail sale of liquor is done by the state corporation TASMAC. Overview of key points.",
+  "chapters": [
+    {"title": "Key points", "sections": [
+      {"n": "Ban", "t": "What's prohibited", "p": "Manufacturing, transporting, possessing, selling or buying liquor without a licence or permit is an offence. Licensed retail sale happens only through TASMAC shops and licensed bars."},
+      {"n": "Age", "t": "Minimum age", "p": "Liquor can't be sold to anyone under 21."},
+      {"n": "Spurious liquor", "t": "Illicit and spurious liquor", "p": "Making or selling illicit arrack or spurious liquor is a serious offence. After the 2024 Kallakurichi hooch tragedy, a 2024 amendment sharply increased punishments — including life imprisonment and heavy fines when spurious liquor causes death."},
+      {"n": "Public places", "t": "Drinking in public", "p": "Drinking in public places, being drunk and disorderly, and drunk driving (also under the Motor Vehicles Act) are punishable."},
+      {"n": "Limits", "t": "Possession limits", "p": "Even legally purchased liquor can only be possessed within limits prescribed by the government. Carrying liquor across state borders beyond permitted limits is an offence."}
+    ]}
+  ]
+}

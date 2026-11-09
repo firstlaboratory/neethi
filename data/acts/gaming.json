@@ -1,0 +1,14 @@
+{
+  "id": "gaming",
+  "intro": "Bans online money games — any online game played by paying money in the hope of winning more, whether it's based on skill or chance (including fantasy sports, rummy and poker for stakes). It promotes e-sports and online social games. In force since 1 May 2026.",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "Ban", "t": "Online money games banned", "p": "No one can offer, operate or help offer online money games, whether the game is skill-based or chance-based. Banks and payment providers can't process transactions for them.", "pen": "Up to 3 years and/or ₹1 crore"},
+      {"n": "Ads", "t": "Advertising banned", "p": "Advertising or promoting online money games in any media, including by celebrities and influencers.", "pen": "Up to 2 years and/or ₹50 lakh; stricter for repeat offences"},
+      {"n": "Players", "t": "Players are treated as victims", "p": "The penalties target operators, promoters and facilitators — people who play are treated as victims rather than offenders."},
+      {"n": "E-sports", "t": "E-sports and social games encouraged", "p": "E-sports are recognised as a legitimate competitive sport and can have entry fees and performance-based prizes, but no betting. Online social and educational games without money stakes are promoted."},
+      {"n": "Authority", "t": "Online Gaming Authority", "p": "A central Online Gaming Authority of India decides which games are money games, registers e-sports and social games, and handles complaints. Designated cyber police can investigate offences."},
+      {"n": "Tamil Nadu", "t": "Tamil Nadu's own law", "p": "Tamil Nadu had already banned online gambling through its 2022 law; the central Act now applies across India."}
+    ]}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rera",
+  "intro": "Protects home buyers from builder delays, hidden changes and misused money. Every state has a RERA authority — in Tamil Nadu, TNRERA. Check a project's registration on the state RERA website before booking.",
+  "chapters": [
+    {"title": "Builder's obligations", "sections": [
+      {"n": "S 3", "t": "Projects must be registered", "p": "A builder can't advertise, book or sell flats or plots in a project without registering it with RERA, if the land is over 500 sq m or it has more than 8 units. Agents must register too (S 9).", "pen": "S 59: up to 10% of project cost; more for continued violation"},
+      {"n": "S 4", "t": "70% in a separate account", "p": "70% of money collected from buyers must go into a separate bank account and be used only for that project's construction and land cost."},
+      {"n": "S 11", "t": "Disclosures", "p": "The builder must update the project's RERA web page with sanctioned plans, approvals, progress and booking status."},
+      {"n": "S 13", "t": "Advance capped at 10%", "p": "The builder can't take more than 10% of the price as advance or application fee before signing a registered agreement for sale."},
+      {"n": "S 14", "t": "No plan changes; defect liability", "p": "The builder can't change sanctioned plans or specifications without your consent (and two-thirds of allottees for common areas). Structural defects or poor workmanship reported within 5 years of possession must be fixed free within 30 days, failing which you get compensation."}
+    ]},
+    {"title": "Buyer's rights", "sections": [
+      {"n": "S 2(k)", "t": "Price on carpet area", "p": "Flats must be sold on carpet area — the usable floor area inside the walls — not on inflated 'super built-up' area."},
+      {"n": "S 18", "t": "Delay in possession", "p": "If the builder fails to hand over possession on the promised date, you can choose to withdraw and get a full refund with interest and compensation, or stay in the project and get interest for every month of delay."},
+      {"n": "S 19", "t": "Your rights", "p": "Right to information about plans and schedule, to possession on time, to necessary documents and plans, and to have the residents' association formed and common areas handed over."},
+      {"n": "S 31", "t": "Filing a complaint", "p": "File complaints online with the state RERA Authority (or its adjudicating officer for compensation). Appeals go to the Real Estate Appellate Tribunal within 60 days (S 44)."}
+    ]}
+  ]
+}

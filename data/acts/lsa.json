@@ -1,0 +1,14 @@
+{
+  "id": "lsa",
+  "intro": "Gives free legal aid to people who can't afford a lawyer and sets up Lok Adalats for quick, free settlements. Call 15100 or contact the District or Taluk Legal Services Authority at your local court.",
+  "chapters": [
+    {"title": "Free legal aid", "sections": [
+      {"n": "S 12", "t": "Who gets free legal services", "p": "SC/ST members; victims of trafficking or forced labour; women and children; persons with disabilities; victims of mass disasters, caste violence, floods or earthquakes; industrial workers; people in custody; and people whose annual income is below the limit set by the state.", "k": ["Free legal aid includes a lawyer, court fees, typing and drafting costs and certified copies"]},
+      {"n": "S 13", "t": "How to apply", "p": "Apply in writing (or orally, recorded by the authority) with an affidavit of income where needed. Legal Services Authorities exist at the national, state, district and taluk levels, and at every High Court and the Supreme Court."}
+    ]},
+    {"title": "Lok Adalats", "sections": [
+      {"n": "S 19–21", "t": "Lok Adalats", "p": "People's courts where pending or pre-litigation disputes — cheque bounce, motor accident claims, family disputes, bank loans, electricity bills — are settled by compromise. National Lok Adalats are held across the country on fixed dates.", "k": ["The award is final and binding like a decree, and there's no appeal", "Court fee paid on a pending case is refunded when it settles"]},
+      {"n": "S 22B–22E", "t": "Permanent Lok Adalats", "p": "For disputes with public utility services — transport, post, telecom, electricity, water, hospitals, insurance, banks, education and housing — up to ₹1 crore. If conciliation fails, the Permanent Lok Adalat can decide the case on merits."}
+    ]}
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tn-shops",
+  "intro": "Governs working conditions for employees of shops, restaurants, hotels, theatres and other commercial establishments in Tamil Nadu. Overview of key points — check current rules, as the state has amended them several times and the national labour codes now overlap.",
+  "chapters": [
+    {"title": "Key points", "sections": [
+      {"n": "Registration", "t": "Registration", "p": "Shops and establishments must register (or be covered by an intimation) with the Labour Department, now done online through the Tamil Nadu Labour Department portal."},
+      {"n": "Hours", "t": "Working hours", "p": "Employees can work up to 8 hours a day and 48 hours a week, with rest intervals. Overtime must be paid at twice the ordinary wage."},
+      {"n": "Holidays", "t": "Weekly holiday and leave", "p": "Every employee gets a weekly holiday with wages, plus annual paid leave, casual leave and sick leave as set by the law."},
+      {"n": "24x7", "t": "Shops open 24 hours", "p": "Tamil Nadu permits shops and establishments to stay open 24 hours on all days, subject to conditions such as giving employees weekly holidays and limiting their hours."},
+      {"n": "Women", "t": "Women employees at night", "p": "Women can work night shifts with their written consent, and the employer must provide safety, transport and other protections."},
+      {"n": "Seating", "t": "Right to sit", "p": "A 2021 amendment requires employers to provide seating for employees, so shop staff aren't made to stand throughout their shift."},
+      {"n": "Notice", "t": "Termination", "p": "An employee with at least 6 months' service can't be dismissed without a month's notice or wages in lieu, except for misconduct after inquiry. Employees can appeal against dismissal."}
+    ]}
+  ]
+}

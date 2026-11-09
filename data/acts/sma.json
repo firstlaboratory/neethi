@@ -1,0 +1,18 @@
+{
+  "id": "sma",
+  "intro": "A civil marriage law open to any two people regardless of religion — commonly used for inter-faith marriages, or by anyone who wants a non-religious registered marriage.",
+  "chapters": [
+    {"title": "Getting married", "sections": [
+      {"n": "S 4", "t": "Conditions", "p": "Neither party has a living spouse; both can give valid consent; the man is at least 21 and the woman at least 18; and they're not within prohibited degrees of relationship (unless custom permits)."},
+      {"n": "S 5", "t": "Notice of intended marriage", "p": "The couple gives written notice to the Marriage Officer of the district where at least one of them has lived for the last 30 days."},
+      {"n": "S 6–8", "t": "Publication and objections", "p": "The notice is displayed in the Marriage Officer's office. Anyone can object within 30 days, but only on the ground that a legal condition (S 4) isn't met. The officer must inquire and decide within 30 days."},
+      {"n": "S 11–13", "t": "Solemnisation and certificate", "p": "After 30 days without valid objection, the marriage is solemnised before the Marriage Officer and three witnesses, and a marriage certificate is entered in the register — conclusive proof of marriage."},
+      {"n": "S 15", "t": "Registering an existing marriage", "p": "Couples already married under other rites can register their marriage under this Act if the conditions are met."}
+    ]},
+    {"title": "Effects and divorce", "sections": [
+      {"n": "S 19, 21", "t": "Family and succession", "p": "Marriage under this Act severs a Hindu, Buddhist, Sikh or Jain party from their joint family. Succession to the couple's property is governed by the Indian Succession Act — except where both parties are Hindu, Buddhist, Sikh or Jain, in which case Hindu succession law applies (S 21A)."},
+      {"n": "S 27", "t": "Grounds for divorce", "p": "Similar to the Hindu Marriage Act: adultery, desertion for 2 years, cruelty, imprisonment for 7 years or more, incurable unsound mind, communicable venereal disease, not heard of for 7 years, and non-resumption of cohabitation after a separation or restitution decree."},
+      {"n": "S 28", "t": "Divorce by mutual consent", "p": "If the couple has lived separately for a year and agrees the marriage should end, they can file jointly; the decree is passed after a 6-month waiting period (which courts can waive)."}
+    ]}
+  ]
+}

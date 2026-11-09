@@ -1,0 +1,14 @@
+{
+  "id": "wages",
+  "intro": "One of four labour codes in force since 21 November 2025, replacing the Payment of Wages, Minimum Wages, Payment of Bonus and Equal Remuneration Acts. Applies to all employees, in both organised and unorganised sectors. Detailed figures depend on central and state rules.",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "Minimum wage", "t": "Minimum wage for everyone", "p": "Every employee is entitled to at least the minimum wage, fixed by the government. The Centre sets a national 'floor wage', and no state can fix minimum wages below it."},
+      {"n": "Definition", "t": "What counts as 'wages' (50% rule)", "p": "Basic pay, dearness allowance and retaining allowance must make up at least half of total pay. If allowances exceed 50%, the excess is counted as wages — which raises PF, gratuity and other benefits calculated on wages."},
+      {"n": "Timely payment", "t": "Paying wages on time", "p": "Monthly wages must be paid by the 7th of the following month. When someone is dismissed, resigns or is retrenched, dues must be paid within 2 working days."},
+      {"n": "Deductions", "t": "Limits on deductions", "p": "Only authorised deductions (tax, PF, advances, fines for specified acts, etc.) can be made, and total deductions can't exceed 50% of wages."},
+      {"n": "Equal pay", "t": "No gender discrimination", "p": "Employers can't discriminate on grounds of gender, including transgender identity, in wages or in recruitment for the same or similar work."},
+      {"n": "Bonus", "t": "Bonus", "p": "Employees earning up to the prescribed wage ceiling who've worked at least 30 days in a year are entitled to an annual bonus of 8.33% to 20% of wages, depending on the employer's profits."}
+    ]}
+  ]
+}

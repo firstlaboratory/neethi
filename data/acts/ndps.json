@@ -1,0 +1,18 @@
+{
+  "id": "ndps",
+  "intro": "India's drug law. Punishment depends heavily on quantity — 'small', 'intermediate' or 'commercial' — as notified by the government for each drug. It also offers treatment instead of prosecution for people struggling with addiction.",
+  "chapters": [
+    {"title": "Offences and punishment", "sections": [
+      {"n": "S 2", "t": "Quantity decides punishment", "p": "Each drug has a notified 'small quantity' and 'commercial quantity'. For example, for ganja (cannabis) small quantity is up to 1 kg and commercial is 20 kg or more; for heroin, small is up to 5 g and commercial is 250 g or more. Anything in between is 'intermediate'.", "k": ["Bhang (cannabis leaves) isn't covered by the Act's definition of ganja — it is regulated by state excise laws"]},
+      {"n": "S 20–22", "t": "Possession, sale, transport", "p": "Producing, manufacturing, possessing, selling, buying, transporting or using drugs illegally.", "pen": "Small: up to 1 year and/or ₹10,000. Intermediate: up to 10 years + up to ₹1 lakh. Commercial: 10–20 years + ₹1–2 lakh"},
+      {"n": "S 27", "t": "Consuming drugs", "p": "Personal consumption of drugs.", "pen": "Up to 1 year and/or ₹20,000 for cocaine, morphine, heroin and similar; up to 6 months and/or ₹10,000 for other drugs"},
+      {"n": "S 27A", "t": "Financing and harbouring", "p": "Financing drug trafficking, or harbouring people involved in it.", "pen": "10–20 years + ₹1–2 lakh"},
+      {"n": "S 31–31A", "t": "Repeat offenders", "p": "Repeat offenders face one and a half times the punishment. For specified large quantities, repeat offenders may face death."}
+    ]},
+    {"title": "Safeguards and treatment", "sections": [
+      {"n": "S 42, 50", "t": "Search safeguards", "p": "Officers searching without a warrant must record reasons. Before a personal search, you must be told you have the right to be searched in front of a Gazetted Officer or a Magistrate. Courts often acquit when these steps are skipped."},
+      {"n": "S 37", "t": "Strict bail for commercial quantity", "p": "For commercial quantities, bail is granted only if the court is satisfied there are reasonable grounds to believe the accused is not guilty and won't offend on bail."},
+      {"n": "S 39, 64A", "t": "Treatment instead of jail", "p": "A person addicted to drugs who's charged with consumption or small-quantity possession and volunteers for de-addiction treatment at a recognised centre can be protected from prosecution. Courts can also release convicted addicts for treatment."}
+    ]}
+  ]
+}

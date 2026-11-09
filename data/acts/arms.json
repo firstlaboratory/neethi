@@ -1,0 +1,13 @@
+{
+  "id": "arms",
+  "intro": "Controls who can own, carry, make or sell firearms and ammunition in India. Licences are issued by the District Magistrate (in cities, often the Police Commissioner).",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "S 3", "t": "Licence needed", "p": "No one can acquire, possess or carry a firearm or ammunition without a licence. Since a 2019 amendment, a person can hold at most two firearms."},
+      {"n": "S 13–15", "t": "Getting a licence", "p": "Apply to the licensing authority, who gets a police report. The licence can be refused for reasons like public safety, or if the applicant is under 21, convicted of certain offences, or of unsound mind. Licences are valid for 5 years and renewable."},
+      {"n": "S 17", "t": "Suspension and cancellation", "p": "The authority can suspend or cancel a licence if the holder is unfit, breaks conditions, or for public safety — with written reasons."},
+      {"n": "S 25", "t": "Offences", "p": "Making, selling, possessing or carrying firearms without a licence, and dealing in prohibited arms, are serious offences with multi-year prison terms. Penalties were made stricter in 2019, including for illegal manufacture and trafficking.", "k": ["Celebratory firing that endangers life or safety: up to 2 years and/or ₹1 lakh fine (added in 2019)"]},
+      {"n": "Elections", "t": "Depositing arms during elections", "p": "During elections, district authorities usually order licence holders to deposit their firearms at the police station or with licensed dealers, with some exemptions."}
+    ]}
+  ]
+}

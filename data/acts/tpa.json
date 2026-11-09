@@ -1,0 +1,24 @@
+{
+  "id": "tpa",
+  "intro": "Governs transfers of property between living people — sale, mortgage, lease, gift and exchange. Inheritance is covered by succession laws instead.",
+  "chapters": [
+    {"title": "General rules", "sections": [
+      {"n": "S 5–6", "t": "What can be transferred", "p": "Property of any kind can be transferred, except things like a mere chance of inheriting, a right to future maintenance, or a public office."},
+      {"n": "S 10", "t": "Conditions banning resale", "p": "A condition that completely stops the new owner from selling or transferring the property is void (with an exception for leases)."},
+      {"n": "S 52", "t": "Lis pendens — property under a court case", "p": "While a court case about immovable property is pending, neither party can transfer it in a way that affects the other party's rights. A buyer during the case is bound by the court's final decision. Always check for pending cases before buying property."},
+      {"n": "S 53A", "t": "Part performance", "p": "If you've signed a written agreement to buy property, paid, and been put in possession, the seller can't evict you on the ground that the sale deed wasn't executed — provided you're willing to complete your part."}
+    ]},
+    {"title": "Sale and mortgage", "sections": [
+      {"n": "S 54", "t": "Sale of immovable property", "p": "A sale of immovable property worth ₹100 or more is valid only through a registered sale deed. A sale agreement by itself doesn't transfer ownership.", "k": ["Stamp duty and registration in Tamil Nadu are paid at the Sub-Registrar's office, now largely online (TNREGINET)"]},
+      {"n": "S 55", "t": "Duties of seller and buyer", "p": "The seller must disclose material defects, produce title documents and pay dues up to the sale date. The buyer must disclose facts that increase the property's value that the seller may not know, and pay the price."},
+      {"n": "S 58", "t": "Mortgages", "p": "A mortgage transfers an interest in immovable property as security for a loan. Types include simple mortgage, mortgage by conditional sale, usufructuary (lender takes possession and income), and mortgage by deposit of title deeds (common for home loans)."},
+      {"n": "S 60", "t": "Right to redeem", "p": "Once the debt is paid, the borrower has the right to get the property and documents back. This right can't be taken away by the loan agreement."}
+    ]},
+    {"title": "Leases and gifts", "sections": [
+      {"n": "S 105", "t": "Lease", "p": "A lease transfers the right to enjoy immovable property for a period, in exchange for rent."},
+      {"n": "S 106", "t": "Notice to end a lease", "p": "If there's no agreement on the point, a month-to-month lease ends with 15 days' notice, and a year-to-year lease of agricultural or manufacturing property with 6 months' notice. The notice must be in writing. In Tamil Nadu, residential tenancies are now mainly governed by the 2017 TN tenancy law."},
+      {"n": "S 107", "t": "Registration of leases", "p": "A lease of immovable property for more than a year, or with yearly rent, must be made by a registered document."},
+      {"n": "S 122–126", "t": "Gift", "p": "A gift of immovable property must be by registered deed, signed by the giver and attested by two witnesses, and accepted by the receiver during the giver's lifetime. A gift generally can't be revoked, except on a condition agreed by both or for reasons that would cancel a contract (like fraud). Senior citizens can also seek cancellation under the Senior Citizens Act if promised care isn't given."}
+    ]}
+  ]
+}

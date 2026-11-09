@@ -1,0 +1,19 @@
+{
+  "id": "muslim",
+  "intro": "Muslim personal law in India comes mainly from Sharia, applied through the 1937 Shariat Act, plus several statutes on divorce and maintenance. Sunni and Shia schools differ on some rules.",
+  "chapters": [
+    {"title": "Marriage and divorce", "sections": [
+      {"n": "Shariat Act 1937", "t": "Sharia applies", "p": "For Muslims, matters of marriage, divorce, maintenance, dower (mahr), guardianship, gifts, inheritance and waqf are decided by Muslim personal law (Sharia)."},
+      {"n": "Mahr", "t": "Dower", "p": "Mahr is an amount the husband pays or promises to pay the wife on marriage. It is her property and a debt the husband owes; unpaid mahr can be claimed after divorce or his death."},
+      {"n": "2019 Act S 3–4", "t": "Instant triple talaq is void and a crime", "p": "Pronouncing talaq-e-biddat (instant triple talaq, in any form including spoken, written or electronic) is void and illegal, after the Supreme Court struck it down in 2017.", "pen": "Up to 3 years + fine"},
+      {"n": "2019 Act S 5–7", "t": "Wife's rights after triple talaq", "p": "The wife can claim a subsistence allowance for herself and dependent children, and custody of minor children. The offence is cognizable if she or a relative complains; it can be compounded at her instance; and bail is granted only after hearing her."},
+      {"n": "DMMA 1939 S 2", "t": "Wife's grounds for divorce", "p": "A Muslim wife can get a court decree of divorce if: the husband's whereabouts are unknown for 4 years; he fails to maintain her for 2 years; he's sentenced to 7 years or more; he fails his marital obligations for 3 years; impotence; insanity for 2 years or serious disease; cruelty; or she was married before 15 and repudiated it before 18."},
+      {"n": "Khula, mubarat", "t": "Other forms of divorce", "p": "Khula is divorce at the wife's instance, usually by returning the mahr; mubarat is divorce by mutual consent. Talaq-e-ahsan and talaq-e-hasan (pronounced over the iddat period, with a chance to reconcile) remain recognised."}
+    ]},
+    {"title": "Maintenance and inheritance", "sections": [
+      {"n": "1986 Act; BNSS S 144", "t": "Maintenance after divorce", "p": "A divorced Muslim woman is entitled to reasonable and fair provision and maintenance from her former husband, made within the iddat period but covering her future (Danial Latifi, 2001). In 2024, the Supreme Court held she can also claim maintenance under the general criminal law provision (now BNSS S 144)."},
+      {"n": "Inheritance", "t": "Inheritance under Sharia", "p": "Shares are fixed by Sharia. Generally a son gets twice a daughter's share; a wife gets one-eighth if there are children (one-fourth if none); a husband gets one-fourth if there are children (half if none)."},
+      {"n": "Wills", "t": "Wasiyat (will) — one-third limit", "p": "A Muslim can bequeath only up to one-third of their property by will, after funeral expenses and debts, and not to a legal heir — unless the other heirs consent after death."}
+    ]}
+  ]
+}

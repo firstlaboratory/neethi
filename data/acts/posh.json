@@ -1,0 +1,23 @@
+{
+  "id": "posh",
+  "intro": "Protects women from sexual harassment at work — offices, factories, shops, hospitals, homes (for domestic workers), and anywhere visited because of work, including transport provided by the employer.",
+  "chapters": [
+    {"title": "What it covers", "sections": [
+      {"n": "S 2(a), 2(o)", "t": "Who and where", "p": "Any woman, of any age, whether employed or visiting — interns, trainees, contract workers and domestic workers included. 'Workplace' covers government and private offices, and any place visited during employment, including employer-provided transport."},
+      {"n": "S 2(n), 3", "t": "What is sexual harassment", "p": "Unwelcome physical contact and advances, demands for sexual favours, sexually coloured remarks, showing pornography, or any other unwelcome physical, verbal or non-verbal conduct of a sexual nature. Also: implied promises of job benefits or threats about her job, interfering with her work, or creating a hostile or intimidating environment linked to such conduct."}
+    ]},
+    {"title": "Committees and complaints", "sections": [
+      {"n": "S 4", "t": "Internal Committee", "p": "Every workplace with 10 or more employees must form an Internal Committee: a senior woman employee as presiding officer, at least two employees committed to women's causes, and one external member from an NGO or with relevant legal knowledge. At least half must be women."},
+      {"n": "S 6", "t": "Local Committee", "p": "The District Officer forms a Local Committee for workplaces with fewer than 10 employees, for domestic workers, or when the complaint is against the employer."},
+      {"n": "S 9", "t": "Filing a complaint", "p": "Complain in writing within 3 months of the incident (or the last incident in a series). The committee can extend this by another 3 months for good reason. Friends, relatives or colleagues can file if she can't."},
+      {"n": "S 10–13", "t": "Inquiry", "p": "At her request, the committee can try conciliation — but no money settlement is allowed. Otherwise it inquires, with powers like a civil court, and must finish within 90 days. Its report goes to the employer within 10 days, who must act within 60 days."},
+      {"n": "S 12", "t": "Interim relief", "p": "During the inquiry, she can ask to transfer herself or the accused, or for leave of up to 3 months (in addition to regular leave)."},
+      {"n": "S 13–15", "t": "Outcomes", "p": "If proved, the employer must act under service rules — warning, withholding promotion or increments, termination — and can deduct compensation from the harasser's salary for her."},
+      {"n": "S 14", "t": "False complaints", "p": "Action can be taken for a malicious or knowingly false complaint — but not merely because the complaint couldn't be proved."},
+      {"n": "S 16", "t": "Confidentiality", "p": "The identities of the woman, accused and witnesses, and the proceedings, can't be published or disclosed to the public or media."}
+    ]},
+    {"title": "Employer duties", "sections": [
+      {"n": "S 19, 26", "t": "Employer must comply", "p": "Employers must provide a safe workplace, display the consequences of harassment and the committee's details, hold awareness programmes, and help her file a police complaint if she wants to.", "pen": "Up to ₹50,000 fine; double for repeat, and possible cancellation of business licence"}
+    ]}
+  ]
+}

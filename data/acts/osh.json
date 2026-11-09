@@ -1,0 +1,14 @@
+{
+  "id": "osh",
+  "intro": "One of four labour codes in force since 21 November 2025. Replaces 13 laws including the Factories Act and Contract Labour Act — covering safety, health, working hours and conditions.",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "Appointment letter", "t": "Appointment letters for all", "p": "Every employee must be given an appointment letter setting out their role, wages and terms."},
+      {"n": "Hours", "t": "Working hours and overtime", "p": "Normal work is capped at 8 hours a day and 48 hours a week, with a weekly holiday. Overtime must be paid at twice the normal wage rate and needs the worker's consent."},
+      {"n": "Women", "t": "Women at night", "p": "Women can work in all establishments, including at night (before 6 am and after 7 pm), with their consent and the safety, holiday and working-hour conditions set by the government."},
+      {"n": "Health check", "t": "Free annual health check-ups", "p": "Employers must provide free annual health check-ups for workers aged 40 and above, as prescribed."},
+      {"n": "Contract labour", "t": "Contract labour", "p": "Contractors supplying 50 or more workers need a licence. The principal employer must ensure contract workers get facilities like canteens and drinking water, and must pay wages if the contractor fails to."},
+      {"n": "Migrant workers", "t": "Inter-state migrant workers", "p": "Migrant workers earning up to a set limit get an annual travel allowance to visit home, and can access ration benefits anywhere."}
+    ]}
+  ]
+}

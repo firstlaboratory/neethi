@@ -1,0 +1,21 @@
+{
+  "id": "dpdp",
+  "intro": "India's data privacy law. It controls how companies and the government collect and use your digital personal data, and gives you rights over it. The DPDP Rules were notified in November 2025, with obligations rolling out in phases over 12–18 months.",
+  "chapters": [
+    {"title": "Your rights", "sections": [
+      {"n": "S 5–6", "t": "Notice and consent", "p": "Organisations ('data fiduciaries') must tell you in clear language what data they collect and why, and get your free, specific and informed consent. You can withdraw consent as easily as you gave it."},
+      {"n": "S 11–14", "t": "Your rights over your data", "p": "You can ask for a summary of your data and who it's been shared with, have it corrected, completed, updated or erased, get your grievances addressed, and nominate someone to exercise your rights after your death or incapacity."},
+      {"n": "S 9", "t": "Children's data", "p": "For anyone under 18, organisations need verifiable consent from a parent or guardian, and can't track, behaviourally monitor or target ads at children."},
+      {"n": "S 15", "t": "Your duties", "p": "You must not impersonate others, give false information, or file frivolous complaints.", "pen": "Up to ₹10,000"}
+    ]},
+    {"title": "Organisations' duties", "sections": [
+      {"n": "S 8", "t": "Security and deletion", "p": "Organisations must keep data accurate, protect it with reasonable security safeguards, and delete it once the purpose is served or consent is withdrawn — unless a law requires retention."},
+      {"n": "S 8(6)", "t": "Breach notification", "p": "If there's a data breach, affected people and the Data Protection Board must be informed promptly, in plain language, with what happened, its impact and the safeguards being taken."},
+      {"n": "S 33", "t": "Penalties", "p": "The Data Protection Board can impose penalties depending on the breach.", "pen": "Up to ₹250 crore for failing to take security safeguards; up to ₹200 crore for not notifying breaches or failing children's data duties"}
+    ]},
+    {"title": "Complaints", "sections": [
+      {"n": "S 13, 27", "t": "How to complain", "p": "First complain to the organisation's grievance officer. If unresolved, complain to the Data Protection Board of India, which works digitally. Appeals go to the TDSAT."},
+      {"n": "S 17", "t": "Exemptions", "p": "The government can exempt its agencies for reasons like sovereignty, security and public order, and processing for preventing or investigating crimes is exempt from many duties."}
+    ]}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "cgst",
+  "intro": "GST is a single tax on supply of goods and services, shared between the Centre (CGST) and states (SGST), or IGST for inter-state sales. Since 22 September 2025 ('GST 2.0'), most goods fall into two main rates — 5% and 18% — with 40% for luxury and sin goods.",
+  "chapters": [
+    {"title": "For everyone", "sections": [
+      {"n": "Rates", "t": "GST rates", "p": "Nil for essentials like unpackaged food grains, fresh milk, vegetables and many education and healthcare items. 5% for daily-use items like packaged foods, soap, toothpaste, and many medicines and medical devices. 18% for most other goods and services. 40% for tobacco products, luxury cars and other 'sin' or luxury goods. Special low rates apply to gold, silver and diamonds.", "k": ["Individual life and health insurance premiums were made GST-free in 2025", "Check the GST portal or notifications for an item's exact rate"]},
+      {"n": "Bill", "t": "Checking a GST bill", "p": "A registered business must issue a tax invoice showing its GSTIN, rate and tax amount. You can verify a GSTIN on the GST portal. Charging GST without registration is illegal."},
+      {"n": "Rate cuts", "t": "Passing on rate cuts", "p": "When rates are cut, businesses are expected to pass on the benefit through lower prices. Complaints about not passing on cuts can be raised on the National Consumer Helpline (1915) or with GST authorities."}
+    ]},
+    {"title": "For businesses", "sections": [
+      {"n": "S 22", "t": "Who must register", "p": "Businesses with annual aggregate turnover above ₹40 lakh (goods, in most states including Tamil Nadu) or ₹20 lakh (services) must register. Inter-state sellers of goods and e-commerce sellers usually need registration regardless of turnover."},
+      {"n": "S 10", "t": "Composition scheme", "p": "Small businesses with turnover up to ₹1.5 crore (₹75 lakh in some states) can pay a low fixed rate on turnover with simpler returns, but can't collect GST from customers or claim input tax credit."},
+      {"n": "S 16", "t": "Input tax credit", "p": "Businesses can reduce their GST payable by the GST already paid on purchases used for business, if the supplier has filed returns and the invoice appears in their GSTR-2B."},
+      {"n": "Returns", "t": "Returns", "p": "Regular taxpayers file GSTR-1 (sales) and GSTR-3B (summary and payment) monthly or quarterly, and an annual return. Late filing attracts late fees and interest."},
+      {"n": "S 122", "t": "Penalties", "p": "Issuing invoices without supply, collecting tax without paying it, or evading tax attracts penalties of at least ₹10,000 or the tax evaded. Large frauds can lead to arrest and prosecution (S 132)."}
+    ]}
+  ]
+}

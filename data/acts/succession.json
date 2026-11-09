@@ -1,0 +1,17 @@
+{
+  "id": "succession",
+  "intro": "Governs wills for people of all religions (except Muslims), and inheritance without a will for Christians, Parsis and those married under the Special Marriage Act. Hindus' inheritance without a will is under the Hindu Succession Act.",
+  "chapters": [
+    {"title": "Wills", "sections": [
+      {"n": "S 59", "t": "Who can make a will", "p": "Any adult of sound mind. A will made while drunk, ill or otherwise unable to understand what one is doing is invalid."},
+      {"n": "S 61", "t": "Fraud and coercion", "p": "A will, or any part of it, made because of fraud, coercion or undue influence that takes away the person's free will is void."},
+      {"n": "S 63", "t": "How to make a valid will", "p": "Must be in writing, signed (or thumb-marked) by the person making it, and attested by at least two witnesses who saw them sign. Witnesses shouldn't be beneficiaries. Registration and stamp paper are not required, though registration helps.", "k": ["Writing the will on plain paper is fine", "Name an executor to carry out the will"]},
+      {"n": "S 70", "t": "Changing or cancelling a will", "p": "A will can be revoked or changed any time during the person's life — by a new will, a codicil (signed and attested like a will), or by tearing or burning it with intent to revoke. The latest valid will prevails."},
+      {"n": "S 213", "t": "Probate", "p": "Probate (court certification of a will) is required for wills made in, or concerning immovable property within, the old presidency towns — including the Chennai area under the Madras High Court's original jurisdiction. Elsewhere it's optional but can help when banks or authorities ask."}
+    ]},
+    {"title": "Inheritance without a will", "sections": [
+      {"n": "S 33–49", "t": "Christians and others", "p": "When a Christian (or person under this part) dies without a will: if survived by a spouse and children, the spouse gets one-third and the children share two-thirds equally — sons and daughters alike. With no children, the spouse gets half and relatives the rest."},
+      {"n": "S 372", "t": "Succession certificate", "p": "To collect debts and securities (bank deposits, shares) of a deceased person, heirs can apply to the civil court for a succession certificate. In Tamil Nadu, a legal heir certificate from the Tahsildar is commonly used for government and bank purposes."}
+    ]}
+  ]
+}

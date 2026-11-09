@@ -1,0 +1,14 @@
+{
+  "id": "ir",
+  "intro": "One of four labour codes in force since 21 November 2025. Replaces the Industrial Disputes Act, Trade Unions Act and Standing Orders Act — covering hiring and firing rules, strikes, unions and dispute resolution.",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "Fixed-term", "t": "Fixed-term employment", "p": "Employers can hire workers on fixed-term contracts, who must get the same wages, hours and benefits as permanent workers doing the same work, and pro-rata gratuity."},
+      {"n": "Standing orders", "t": "Service rules (standing orders)", "p": "Establishments with 300 or more workers must have standing orders setting out conditions of service, misconduct and disciplinary procedures."},
+      {"n": "Layoff & closure", "t": "Layoff, retrenchment and closure", "p": "Factories, mines and plantations with 300 or more workers need government permission before laying off, retrenching or closing (the earlier limit was 100). States may raise this limit."},
+      {"n": "Retrenchment", "t": "Retrenchment compensation and reskilling", "p": "Retrenched workers get 15 days' average pay for every completed year of service, plus 15 days' wages paid by the employer into a reskilling fund."},
+      {"n": "Strikes", "t": "Strike notice", "p": "Workers in any establishment must give 14 days' notice before a strike, and can't strike during conciliation or tribunal proceedings. Earlier, notice was required only in public utility services."},
+      {"n": "Disputes", "t": "Resolving disputes", "p": "Each establishment with 20 or more workers needs a Grievance Redressal Committee. Workers can approach the Industrial Tribunal directly if conciliation fails within the set time."}
+    ]}
+  ]
+}

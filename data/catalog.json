@@ -90,21 +90,21 @@
    "short": "NDPS",
    "year": 1985,
    "cat": "criminal",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "scst",
    "name": "SC and ST (Prevention of Atrocities) Act",
    "year": 1989,
    "cat": "criminal",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "arms",
    "name": "Arms Act",
    "year": 1959,
    "cat": "criminal",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "mva",
@@ -153,14 +153,14 @@
    "short": "DPDP",
    "year": 2023,
    "cat": "everyday",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "lsa",
    "name": "Legal Services Authorities Act (free legal aid)",
    "year": 1987,
    "cat": "everyday",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "pca",
@@ -213,35 +213,35 @@
    "name": "Special Marriage Act",
    "year": 1954,
    "cat": "family",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "posh",
    "name": "Sexual Harassment of Women at Workplace (POSH) Act",
    "year": 2013,
    "cat": "family",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "contract",
    "name": "Indian Contract Act",
    "year": 1872,
    "cat": "civil",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "tpa",
    "name": "Transfer of Property Act",
    "year": 1882,
    "cat": "civil",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "registration",
    "name": "Registration Act",
    "year": 1908,
    "cat": "civil",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "cpc",
@@ -249,14 +249,14 @@
    "short": "CPC",
    "year": 1908,
    "cat": "civil",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "limitation",
    "name": "Limitation Act",
    "year": 1963,
    "cat": "civil",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "rera",
@@ -264,14 +264,14 @@
    "short": "RERA",
    "year": 2016,
    "cat": "civil",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "incometax",
    "name": "Income-tax Act",
    "year": 2025,
    "cat": "work",
-   "status": "listed",
+   "status": "summary",
    "note": "Replaced the 1961 Act"
   },
   {
@@ -280,42 +280,42 @@
    "short": "GST",
    "year": 2017,
    "cat": "work",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "wages",
    "name": "Code on Wages",
    "year": 2019,
    "cat": "work",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "socsec",
    "name": "Code on Social Security",
    "year": 2020,
    "cat": "work",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "ir",
    "name": "Industrial Relations Code",
    "year": 2020,
    "cat": "work",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "osh",
    "name": "Occupational Safety, Health and Working Conditions Code",
    "year": 2020,
    "cat": "work",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "companies",
    "name": "Companies Act",
    "year": 2013,
    "cat": "work",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "tn-tenancy",
@@ -350,14 +350,57 @@
    "name": "TN Shops and Establishments Act",
    "year": 1947,
    "cat": "tn",
-   "status": "listed"
+   "status": "summary"
   },
   {
    "id": "tn-prohibition",
    "name": "TN Prohibition Act",
    "year": 1937,
    "cat": "tn",
-   "status": "listed"
+   "status": "summary"
+  },
+  {
+   "id": "succession",
+   "name": "Indian Succession Act (wills)",
+   "year": 1925,
+   "cat": "civil",
+   "status": "summary"
+  },
+  {
+   "id": "rte",
+   "name": "Right to Education Act",
+   "short": "RTE",
+   "year": 2009,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "gaming",
+   "name": "Promotion and Regulation of Online Gaming Act",
+   "year": 2025,
+   "cat": "everyday",
+   "status": "summary"
+  },
+  {
+   "id": "adoption",
+   "name": "Adoption and guardianship (HAMA, JJ Act, guardianship laws)",
+   "year": 1956,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "muslim",
+   "name": "Muslim personal law (marriage, divorce, maintenance, inheritance)",
+   "year": 1937,
+   "cat": "family",
+   "status": "summary"
+  },
+  {
+   "id": "christian",
+   "name": "Christian marriage, divorce and inheritance",
+   "year": 1872,
+   "cat": "family",
+   "status": "summary"
   }
  ]
 }

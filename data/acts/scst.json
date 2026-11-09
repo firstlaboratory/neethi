@@ -1,0 +1,16 @@
+{
+  "id": "scst",
+  "intro": "Protects members of Scheduled Castes and Scheduled Tribes from caste-based atrocities, with special courts, victim rights and relief. Offences can only be committed by people who are not SC/ST against SC/ST members.",
+  "chapters": [
+    {"title": "Offences", "sections": [
+      {"n": "S 3(1)", "t": "Atrocities", "p": "Includes: forcing someone to eat or drink anything inedible; dumping waste or carcasses at their home; garlanding with footwear or parading naked; wrongfully occupying or dispossessing them of land; forcing them into labour; social or economic boycott; intentionally insulting or intimidating them with intent to humiliate in a place within public view; preventing them from voting or using public places; and sexual exploitation.", "pen": "6 months to 5 years + fine"},
+      {"n": "S 3(2)", "t": "Serious crimes because of caste", "p": "Committing an offence under the BNS punishable with 10 years or more against a person because they are SC/ST.", "pen": "Life imprisonment + fine"},
+      {"n": "S 4", "t": "Public servants' neglect", "p": "A public servant (not SC/ST) who wilfully neglects their duties under this Act — such as refusing to register a complaint.", "pen": "6 months to 1 year"}
+    ]},
+    {"title": "Procedure and rights", "sections": [
+      {"n": "S 14", "t": "Special Courts", "p": "Exclusive Special Courts try these cases. The chargesheet should be filed within 60 days, and trials conducted day to day as far as possible."},
+      {"n": "S 15A", "t": "Victims' rights", "p": "Victims and witnesses have rights to protection, travel and maintenance expenses, to be informed of every court proceeding, to be heard on bail and discharge, and to relief and rehabilitation from the state."},
+      {"n": "S 18, 18A", "t": "No anticipatory bail", "p": "Anticipatory bail isn't available for offences under this Act, and no preliminary enquiry or approval is needed before registering an FIR or arresting. The Supreme Court upheld this in 2020 but said courts can still grant relief where the complaint doesn't make out a case at all."}
+    ]}
+  ]
+}

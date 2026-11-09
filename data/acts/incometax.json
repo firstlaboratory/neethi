@@ -1,0 +1,25 @@
+{
+  "id": "incometax",
+  "intro": "The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026. It simplifies the language and structure, but tax rates and choices stay largely the same. Section numbers have changed, so older articles may cite outdated ones. Rates below are for the tax year 2026-27 (April 2026 – March 2027).",
+  "chapters": [
+    {"title": "Basics", "sections": [
+      {"n": "Tax year", "t": "'Tax year' replaces 'previous year' and 'assessment year'", "p": "The new Act uses a single 'tax year' — the financial year in which you earn the income — instead of the confusing previous year / assessment year pair."},
+      {"n": "Regimes", "t": "New regime is the default", "p": "The new regime, with lower rates but few deductions, applies by default. You can opt for the old regime if your deductions (like 80C investments, home loan interest, HRA) make it cheaper. Salaried people can choose every year; business owners have limited switching."}
+    ]},
+    {"title": "Tax slabs and deductions", "sections": [
+      {"n": "New regime", "t": "New regime slabs", "p": "Up to ₹4 lakh: nil. ₹4–8 lakh: 5%. ₹8–12 lakh: 10%. ₹12–16 lakh: 15%. ₹16–20 lakh: 20%. ₹20–24 lakh: 25%. Above ₹24 lakh: 30%. Health and education cess of 4% is added to the tax.", "k": ["Rebate makes income up to ₹12 lakh effectively tax-free (₹12.75 lakh for salaried people after the ₹75,000 standard deduction)", "Budget 2026 made no change to slabs"]},
+      {"n": "Old regime", "t": "Old regime slabs", "p": "Below 60: up to ₹2.5 lakh nil; ₹2.5–5 lakh 5%; ₹5–10 lakh 20%; above ₹10 lakh 30%. Seniors (60–79) are exempt up to ₹3 lakh; super seniors (80+) up to ₹5 lakh. Income up to ₹5 lakh is effectively tax-free through rebate."},
+      {"n": "Standard deduction", "t": "Standard deduction", "p": "Salaried people and pensioners get a flat deduction of ₹75,000 under the new regime and ₹50,000 under the old regime."},
+      {"n": "Old-regime deductions", "t": "Deductions in the old regime", "p": "Investments like PPF, EPF, ELSS, life insurance and children's tuition fees up to ₹1.5 lakh; health insurance premiums; home loan interest up to ₹2 lakh for a self-occupied house; HRA; and others. Most aren't available in the new regime — except employer's NPS contribution and a few others."}
+    ]},
+    {"title": "Capital gains", "sections": [
+      {"n": "Equity", "t": "Shares and equity mutual funds", "p": "Long-term gains (held over 12 months) are taxed at 12.5% on gains above ₹1.25 lakh a year. Short-term gains are taxed at 20%."},
+      {"n": "Property & others", "t": "Property, gold and other assets", "p": "Long-term gains on property and most other assets are taxed at 12.5% without indexation. For property bought before 23 July 2024, individuals can choose the older 20%-with-indexation method if that's lower."}
+    ]},
+    {"title": "Filing and compliance", "sections": [
+      {"n": "Returns", "t": "Filing your return", "p": "Individuals not needing an audit must file by 31 July after the tax year ends. Check your Annual Information Statement (AIS) and Form 26AS on the income tax portal to match income and TDS.", "pen": "Late filing fee: ₹5,000 (₹1,000 if income is up to ₹5 lakh)"},
+      {"n": "Advance tax", "t": "Advance tax", "p": "If your tax due after TDS is ₹10,000 or more in a year, pay advance tax in instalments (June, September, December, March) to avoid interest. Resident seniors without business income are exempt."},
+      {"n": "TDS", "t": "Tax deducted at source", "p": "Employers, banks, tenants paying high rent and others deduct tax before paying you and deposit it against your PAN. It's credited when you file your return; excess is refunded."}
+    ]}
+  ]
+}

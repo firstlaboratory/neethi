@@ -1,0 +1,14 @@
+{
+  "id": "socsec",
+  "intro": "One of four labour codes in force since 21 November 2025. Brings together nine laws on provident fund (EPF), ESI health insurance, gratuity, maternity benefit and others — and for the first time covers gig and platform workers.",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "Gratuity", "t": "Gratuity", "p": "Gratuity is paid on leaving a job after 5 years of continuous service, at 15 days' wages for each year (capped by law). Fixed-term employees now get gratuity after just 1 year of service.", "k": ["Gratuity is calculated on 'wages' — the 50% rule means higher gratuity for many employees"]},
+      {"n": "EPF", "t": "Provident fund", "p": "Covered establishments (generally with 20 or more employees) must contribute to EPF along with the employee. Smaller establishments can join voluntarily."},
+      {"n": "ESI", "t": "ESI health insurance", "p": "ESI coverage — medical care, sickness, maternity and disability benefits — is being extended across all districts, and to establishments with 10 or more employees. Establishments doing hazardous work are covered even with fewer workers."},
+      {"n": "Maternity", "t": "Maternity benefit", "p": "Women employees get up to 26 weeks of paid maternity leave (12 weeks if they already have two children), and adoptive and commissioning mothers get 12 weeks. Establishments with 50 or more employees must provide a crèche."},
+      {"n": "Gig workers", "t": "Gig and platform workers", "p": "Gig and platform workers (delivery partners, ride-hailing drivers, etc.) are recognised for the first time. Aggregators must contribute a small percentage of turnover to a social security fund for them, for schemes like accident and health cover."},
+      {"n": "Unorganised", "t": "Unorganised workers", "p": "Unorganised workers can register on the e-Shram portal to access government social security schemes."}
+    ]}
+  ]
+}

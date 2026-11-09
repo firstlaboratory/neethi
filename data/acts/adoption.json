@@ -1,0 +1,19 @@
+{
+  "id": "adoption",
+  "intro": "Covers adoption and guardianship of children: the Hindu Adoptions and Maintenance Act (1956), the Juvenile Justice Act (2015) which lets people of any religion adopt through CARA, and guardianship laws.",
+  "chapters": [
+    {"title": "Adoption", "sections": [
+      {"n": "HAMA S 7–8", "t": "Who can adopt (Hindu law)", "p": "Any adult Hindu of sound mind. A married man needs his wife's consent; a married woman needs her husband's consent. Single men and women can also adopt."},
+      {"n": "HAMA S 11", "t": "Conditions", "p": "You can't adopt a son if you already have a living Hindu son, or a daughter if you have a living daughter. If the adoptive parent and child are of opposite gender, the parent must be at least 21 years older."},
+      {"n": "HAMA S 12", "t": "Effect of adoption", "p": "The adopted child becomes the child of the adoptive family for all purposes, including inheritance, and their ties with the birth family end."},
+      {"n": "JJ Act S 56–58", "t": "Adoption through CARA (any religion)", "p": "Orphaned, abandoned or surrendered children are adopted through the Central Adoption Resource Authority. Prospective parents register on the CARA portal, a home study is done, and a child is referred. The District Magistrate issues the adoption order (since a 2021 amendment)."},
+      {"n": "JJ Act S 80–81", "t": "Illegal adoption and child selling", "p": "Adopting outside the legal procedure, or buying or selling children, are crimes.", "pen": "Illegal adoption: up to 3 years and/or ₹1 lakh. Selling or buying a child: up to 5 years + ₹1 lakh"}
+    ]},
+    {"title": "Guardianship and maintenance", "sections": [
+      {"n": "HMGA S 6", "t": "Natural guardian (Hindu)", "p": "The father, and after him the mother, is the natural guardian of a minor. The Supreme Court held (Githa Hariharan, 1999) that the mother can act as natural guardian when the father is absent or not taking care of the child. Custody of a child under 5 ordinarily stays with the mother."},
+      {"n": "HMGA S 8", "t": "Selling a minor's property", "p": "A guardian can't sell, mortgage or gift a minor's immovable property without the court's permission."},
+      {"n": "GWA 1890", "t": "Court-appointed guardians", "p": "For any religion, a District Court can appoint a guardian of a minor's person or property. The child's welfare is the deciding factor."},
+      {"n": "HAMA S 18–20", "t": "Maintenance", "p": "A Hindu wife is entitled to maintenance from her husband, and can live separately and still claim it for reasons like cruelty or desertion. Parents must maintain their minor children and unmarried daughters, and children must maintain aged or infirm parents."}
+    ]}
+  ]
+}

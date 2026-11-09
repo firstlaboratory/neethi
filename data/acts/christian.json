@@ -1,0 +1,19 @@
+{
+  "id": "christian",
+  "intro": "Christian marriages are governed by the Indian Christian Marriage Act, 1872, divorce by the Divorce Act, 1869, and inheritance by the Indian Succession Act, 1925.",
+  "chapters": [
+    {"title": "Marriage", "sections": [
+      {"n": "ICMA S 5", "t": "Who can solemnise", "p": "A Christian marriage can be solemnised by an ordained minister of religion, a clergyman of the Church of Scotland, a licensed minister, or a Marriage Registrar appointed under the Act."},
+      {"n": "ICMA S 60", "t": "Conditions", "p": "The man must be at least 21 and the woman at least 18; neither can have a living spouse; and the marriage takes place before two witnesses."},
+      {"n": "ICMA S 12–25", "t": "Notice and registration", "p": "Notice of the intended marriage is given and published; anyone can object on legal grounds. After the ceremony, the marriage is registered and a certificate is issued."}
+    ]},
+    {"title": "Divorce", "sections": [
+      {"n": "DA S 10", "t": "Grounds for divorce", "p": "Either spouse can seek divorce for: adultery; conversion to another religion; incurable unsound mind for 2 years; communicable venereal disease for 2 years; not heard of for 7 years; wilful refusal to consummate; not complying with a decree for restitution of conjugal rights for 2 years; desertion for 2 years; or cruelty causing reasonable apprehension of harm."},
+      {"n": "DA S 10A", "t": "Divorce by mutual consent", "p": "Spouses who have lived separately for at least 2 years and agree they can't live together can file jointly. The Kerala High Court held in 2021 that a one-year separation is enough, aligning it with other personal laws."},
+      {"n": "DA S 36–37", "t": "Alimony", "p": "The court can order maintenance during the case and permanent alimony on divorce, considering both parties' means."}
+    ]},
+    {"title": "Inheritance", "sections": [
+      {"n": "ISA S 33–35", "t": "Shares without a will", "p": "If a Christian dies without a will, survived by a spouse and children, the spouse gets one-third and the children share two-thirds equally. Sons and daughters take equal shares (Mary Roy, 1986, extended this to the former Travancore and Cochin areas)."}
+    ]}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "companies",
+  "intro": "Governs how companies are formed, run and closed — directors' duties, annual filings, audits and corporate social responsibility. Overview of the provisions small business owners most often need.",
+  "chapters": [
+    {"title": "Starting a company", "sections": [
+      {"n": "S 2, 3", "t": "Types of company", "p": "Private limited (at least 2 directors and 2 members, shares not freely transferable); public limited (at least 3 directors and 7 members); and One Person Company (a single owner-director). An LLP is a separate structure under its own Act."},
+      {"n": "S 7", "t": "Incorporation", "p": "Companies are registered online with the Ministry of Corporate Affairs using the SPICe+ form, which also gets the PAN, TAN, GST and EPF/ESIC registrations together."},
+      {"n": "S 149, 152", "t": "Directors", "p": "Each director needs a Director Identification Number (DIN). At least one director must be resident in India. Certain listed and large public companies must have at least one woman director and independent directors."}
+    ]},
+    {"title": "Running a company", "sections": [
+      {"n": "S 96", "t": "Annual general meeting", "p": "Companies (other than OPCs) must hold an AGM within 6 months of the end of the financial year (the first one within 9 months)."},
+      {"n": "S 92, 137", "t": "Annual filings", "p": "Financial statements (AOC-4) and the annual return (MGT-7/7A) must be filed with the Registrar of Companies each year. Late filing attracts additional fees per day."},
+      {"n": "S 139", "t": "Auditors", "p": "Every company must appoint a statutory auditor, generally for a 5-year term, to audit its accounts."},
+      {"n": "S 135", "t": "Corporate social responsibility", "p": "Companies with net worth of ₹500 crore, turnover of ₹1,000 crore, or net profit of ₹5 crore or more must spend at least 2% of average net profits on CSR activities."},
+      {"n": "S 166", "t": "Directors' duties", "p": "Directors must act in good faith in the company's interest, with due care and independent judgment, avoid conflicts of interest and not make undue gains."}
+    ]},
+    {"title": "Closing and penalties", "sections": [
+      {"n": "S 248", "t": "Striking off", "p": "A company not doing business can apply to be struck off the register (or the Registrar can strike it off for failing to file). Insolvent companies are wound up under the Insolvency and Bankruptcy Code."},
+      {"n": "S 447", "t": "Fraud", "p": "Fraud involving a company — by directors, officers or others.", "pen": "6 months to 10 years + fine up to 3 times the amount involved"}
+    ]}
+  ]
+}
