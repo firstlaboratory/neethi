@@ -1,0 +1,15 @@
+{
+  "id": "tn-tenancy",
+  "intro": "Tamil Nadu's rent law since 2019. It requires written, registered tenancy agreements, caps security deposits and sets up Rent Authorities and Rent Courts for quick disputes. Overview of key points — check the Act or rules for exact details.",
+  "chapters": [
+    {"title": "Key points", "sections": [
+      {"n": "Agreement", "t": "Written agreement is compulsory", "p": "Every tenancy must have a written agreement, and the landlord and tenant must inform the Rent Authority of it, which gives a unique identification number. Unregistered tenancies make it harder to enforce rights in the Rent Court."},
+      {"n": "Deposit", "t": "Security deposit cap", "p": "For residential premises, the advance can't exceed 3 months' rent; for non-residential premises, 6 months' rent. It must be refunded when the tenant vacates, after adjusting dues."},
+      {"n": "Rent", "t": "Rent revision", "p": "Rent is revised as agreed in the tenancy agreement. If there's a dispute, either side can approach the Rent Authority."},
+      {"n": "Essentials", "t": "No cutting essential supplies", "p": "A landlord can't cut off essential services like water or electricity to force a tenant out. The Rent Authority can order restoration and compensation."},
+      {"n": "Repairs", "t": "Repairs and maintenance", "p": "Responsibility for repairs is split as per the agreement and the Act — structural repairs generally fall on the landlord, minor day-to-day upkeep on the tenant."},
+      {"n": "Eviction", "t": "Grounds for eviction", "p": "The landlord can seek eviction through the Rent Court for reasons including: tenant hasn't paid rent for two consecutive months, has sublet without written consent, misuses the premises, or causes substantial damage; or the landlord needs it for repairs that can't be done with the tenant in it. A tenant who stays on after the tenancy ends may be charged double, then four times, the rent."},
+      {"n": "Forums", "t": "Rent Authority, Rent Court, Rent Tribunal", "p": "Disputes go to these special forums, not regular civil courts. They're meant to decide cases quickly — Rent Courts within about 60 days."}
+    ]}
+  ]
+}

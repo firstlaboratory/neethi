@@ -1,0 +1,27 @@
+{
+  "id": "cpa",
+  "intro": "Protects buyers of goods and services — online or offline — against defective products, poor service, unfair practices and misleading ads. Complaints go to consumer commissions, which are cheaper and faster than civil courts. Helpline: 1915.",
+  "chapters": [
+    {"title": "Who's protected and what's covered", "sections": [
+      {"n": "S 2(7)", "t": "Who is a consumer", "p": "Anyone who buys goods or hires services for payment (paid, promised or in instalments), including online, teleshopping and direct selling. Not someone who buys for resale or for a commercial purpose (except to earn a livelihood through self-employment)."},
+      {"n": "S 2(9)", "t": "Consumer rights", "p": "Six rights: safety against hazardous goods; information about quality, quantity, price and standards; access to a variety of goods at competitive prices; to be heard; to seek redressal; and consumer awareness."},
+      {"n": "S 2(11)", "t": "Deficiency in service", "p": "Any fault, shortcoming or inadequacy in quality or manner of service, including negligence or deliberately withholding relevant information."},
+      {"n": "S 2(47)", "t": "Unfair trade practices", "p": "Includes false claims about goods/services, misleading ads, not issuing a bill, refusing to take back defective goods or refund within the stated period (or 30 days), and disclosing a consumer's personal information without legal need."}
+    ]},
+    {"title": "Filing a complaint", "sections": [
+      {"n": "S 34, 47, 58", "t": "Which commission", "p": "Based on the value paid for goods or services: District Commission up to ₹50 lakh; State Commission ₹50 lakh–₹2 crore; National Commission above ₹2 crore (Consumer Protection (Jurisdiction) Rules, 2021)."},
+      {"n": "S 35", "t": "How and where to file", "p": "You can file where you live or work — not just where the seller is. Complaints can be filed online through the government's e-filing portal. No court fee for claims up to ₹5 lakh. You can argue the case yourself without a lawyer."},
+      {"n": "S 37", "t": "Mediation", "p": "The commission can refer the dispute to mediation if both sides agree."},
+      {"n": "S 38", "t": "Time to decide", "p": "Commissions should decide within 3 months of notice to the opposite party, or 5 months if testing of goods is needed."},
+      {"n": "S 39", "t": "What you can get", "p": "Replacement, repair, refund, compensation for loss or injury, punitive damages, discontinuing unfair practices, withdrawal of hazardous goods, and corrective advertising."},
+      {"n": "S 41", "t": "Appeal", "p": "Appeal against a District Commission order to the State Commission within 45 days; the appellant must deposit 50% of the amount awarded."},
+      {"n": "S 69", "t": "Time limit", "p": "A complaint must be filed within 2 years of the cause of action. Delay can be condoned for sufficient cause."}
+    ]},
+    {"title": "Product liability and ads", "sections": [
+      {"n": "S 82–87", "t": "Product liability", "p": "Manufacturers, service providers and sellers are liable for harm caused by defective products or deficient services — e.g. manufacturing or design defects, or inadequate warnings and instructions."},
+      {"n": "S 10, 18–21", "t": "Central Consumer Protection Authority", "p": "The CCPA can investigate, order recalls and refunds, and penalise misleading ads. Celebrities endorsing misleading ads can be fined and banned from endorsements for up to 1–3 years."},
+      {"n": "S 89", "t": "False or misleading ads", "p": "Manufacturers or service providers who make false or misleading ads harmful to consumers are punishable.", "pen": "Up to 2 years + ₹10 lakh; repeat up to 5 years + ₹50 lakh"},
+      {"n": "S 72", "t": "Not obeying a commission's order", "p": "Failing to comply with an order of a consumer commission.", "pen": "1 month–3 years and/or ₹25,000–₹1 lakh"}
+    ]}
+  ]
+}

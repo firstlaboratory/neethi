@@ -1,0 +1,49 @@
+{
+  "id": "bnss",
+  "intro": "The rulebook for how criminal cases run — FIRs, arrest, investigation, bail, trial and appeal. In force since 1 July 2024, replacing the Code of Criminal Procedure (CrPC) of 1973. It adds e-FIRs, video recording of searches, forensic visits and timelines for investigations and trials.",
+  "chapters": [
+    {"title": "FIR and investigation", "sections": [
+      {"n": "S 173", "t": "FIR — reporting a crime", "p": "Information about a cognizable offence can be given orally, in writing, or electronically. You can file it at any police station regardless of where the crime happened ('Zero FIR'); it is then transferred. An e-FIR must be signed by the informant within 3 days. You get a free copy of the FIR. For offences punishable with 3–7 years, police may do a preliminary enquiry (within 14 days) before registering.", "k": ["If police refuse, you can send the complaint to the Superintendent of Police (173(4)), and then approach a magistrate", "Statements of women victims of certain sexual offences are recorded by a woman officer"], "o": "CrPC 154"},
+      {"n": "S 175", "t": "Police power to investigate", "p": "Police can investigate cognizable offences without a magistrate's order. If police don't act, a magistrate can order investigation on your application (175(3)) — usually after you've approached the SP.", "o": "CrPC 156"},
+      {"n": "S 176", "t": "How investigation proceeds", "p": "For offences punishable with 7 years or more, a forensic team must visit the crime scene to collect evidence, and the process should be video-recorded on a mobile phone or other device.", "o": "CrPC 157"},
+      {"n": "S 180", "t": "Police questioning of witnesses", "p": "Police can examine people who know the facts. You must answer truthfully but are not bound to answer questions that may incriminate you. Statements can be recorded by audio-video.", "o": "CrPC 161"},
+      {"n": "S 183", "t": "Confessions before a magistrate", "p": "Confessions and statements are recorded by a magistrate, who must warn the person they're not bound to confess and that it may be used against them. A confession to police alone is not admissible (see BSA S 23).", "o": "CrPC 164"},
+      {"n": "S 184", "t": "Medical exam of a rape victim", "p": "A registered doctor must examine the victim within 24 hours of receiving information, with her consent, and send the report to the investigating officer within 7 days.", "o": "CrPC 164A"},
+      {"n": "S 193", "t": "Chargesheet (final report)", "p": "Investigation must finish without unnecessary delay. For rape and POCSO offences, it should be completed within 2 months. Police must update the victim/informant on progress within 90 days, including electronically.", "o": "CrPC 173"},
+      {"n": "S 94", "t": "Producing documents", "p": "Courts or police can summon any document, electronic communication or device that is needed for an investigation or trial.", "o": "CrPC 91"},
+      {"n": "S 105", "t": "Video recording of searches", "p": "Search and seizure — including preparing the list of seized items — must be recorded by audio-video, preferably on a mobile phone, and sent to the magistrate.", "o": "New"},
+      {"n": "S 107", "t": "Attaching proceeds of crime", "p": "A court can attach and forfeit property derived from a crime, on application of the police.", "o": "New"}
+    ]},
+    {"title": "Arrest — your rights", "sections": [
+      {"n": "S 35", "t": "Arrest without warrant", "p": "Police can arrest without a warrant for cognizable offences in specified situations. For offences punishable with up to 7 years, police should usually issue a notice to appear instead of arresting, if conditions are met. People above 60 or infirm can't be arrested for offences punishable with less than 3 years without permission of an officer of DSP rank or above.", "k": ["If you comply with a notice of appearance, you generally shouldn't be arrested"], "o": "CrPC 41, 41A"},
+      {"n": "S 36", "t": "How arrest must be made", "p": "The officer must wear a clear name tag and identification. An arrest memo must be prepared, attested by a family member or local witness, and signed by the arrested person.", "o": "CrPC 41B"},
+      {"n": "S 43", "t": "Women and handcuffs", "p": "A woman can't be arrested after sunset and before sunrise except in exceptional cases, with a woman officer and prior permission of a magistrate. Handcuffs may be used for habitual or repeat offenders, escapees, and those accused of serious crimes like organised crime, terrorism or murder.", "o": "CrPC 46"},
+      {"n": "S 47", "t": "Right to know grounds and bail", "p": "You must be told the full grounds of arrest immediately. If the offence is bailable, you must be told you have the right to bail and can arrange sureties.", "o": "CrPC 50"},
+      {"n": "S 48", "t": "Family must be informed", "p": "Police must inform a relative, friend or person you nominate about your arrest and where you're held. Details are displayed at the police station and district control room.", "o": "CrPC 50A"},
+      {"n": "S 58", "t": "24-hour limit", "p": "You can't be held in police custody for more than 24 hours (excluding travel time) without being produced before a magistrate.", "o": "CrPC 57"},
+      {"n": "S 187", "t": "Custody during investigation", "p": "A magistrate can allow police custody of up to 15 days in total, which may be taken in parts during the first 40 days (offences up to 10 years) or 60 days (more serious offences). Total detention without chargesheet is capped at 60 or 90 days — after that you get 'default bail'.", "o": "CrPC 167"}
+    ]},
+    {"title": "Bail", "sections": [
+      {"n": "S 478", "t": "Bail in bailable offences", "p": "For bailable offences, bail is a right. The police officer or court must release you on bail (or a bond, if you can't afford it).", "o": "CrPC 436"},
+      {"n": "S 479", "t": "Maximum detention of undertrials", "p": "An undertrial who has spent half the maximum sentence in jail must be released on bail. A first-time offender must be released after one-third. Not for offences punishable by death or life imprisonment. Jail superintendents must apply on their behalf.", "o": "CrPC 436A"},
+      {"n": "S 480", "t": "Bail in non-bailable offences", "p": "Courts can grant bail in non-bailable offences, but not usually where there are reasonable grounds to believe the person committed an offence punishable with death or life. Women, children under 16, and the sick or infirm get special consideration.", "o": "CrPC 437"},
+      {"n": "S 482", "t": "Anticipatory bail", "p": "If you fear arrest for a non-bailable offence, you can apply to the Sessions Court or High Court for anticipatory bail — if granted, you're released on bail if arrested.", "o": "CrPC 438"},
+      {"n": "S 483", "t": "Bail powers of High Court and Sessions Court", "p": "These courts have wider powers to grant bail and to set aside or modify conditions imposed by a magistrate.", "o": "CrPC 439"}
+    ]},
+    {"title": "Trial", "sections": [
+      {"n": "S 223", "t": "Private complaint to a magistrate", "p": "You can file a criminal complaint directly with a magistrate. The magistrate examines you and witnesses on oath, and must give the accused a chance to be heard before taking cognizance.", "o": "CrPC 200"},
+      {"n": "S 230", "t": "Documents to the accused", "p": "The accused and victim (if represented) must be given copies of the police report and documents within 14 days of first appearance, including electronically.", "o": "CrPC 207"},
+      {"n": "S 251", "t": "Framing charges", "p": "In Sessions trials, charges should be framed within 60 days of the first hearing on charge.", "o": "CrPC 228"},
+      {"n": "S 258", "t": "Time limit for judgment", "p": "Judgment should be delivered within 30 days of arguments ending, extendable to 45 days for specific reasons.", "o": "CrPC 235"},
+      {"n": "S 356", "t": "Trial in absentia", "p": "If a proclaimed offender absconds to avoid trial, the trial can proceed and judgment be given in their absence, after following specified safeguards.", "o": "New"},
+      {"n": "S 398", "t": "Witness protection", "p": "Every state must have a witness protection scheme to protect witnesses from threats.", "o": "New"},
+      {"n": "S 530", "t": "Electronic mode", "p": "Trials, inquiries, summons, examination of witnesses and appeals can be held in electronic mode, including video-conferencing.", "o": "New"}
+    ]},
+    {"title": "Other important provisions", "sections": [
+      {"n": "S 144", "t": "Maintenance of wives, children and parents", "p": "A person with enough means who neglects or refuses to maintain their wife, children or parents who can't maintain themselves can be ordered by a magistrate to pay monthly maintenance. Applies regardless of religion.", "o": "CrPC 125"},
+      {"n": "S 163", "t": "Urgent orders against nuisance", "p": "A District Magistrate or other executive magistrate can issue urgent orders (e.g. banning gatherings) to prevent danger, obstruction or disturbance of public peace. Orders last up to 2 months, extendable by the state to 6 months.", "o": "CrPC 144"},
+      {"n": "S 126", "t": "Security for keeping the peace", "p": "An executive magistrate can require someone likely to disturb the peace to sign a bond to keep the peace for up to a year.", "o": "CrPC 107"},
+      {"n": "S 528", "t": "High Court's inherent powers", "p": "High Courts can make any order needed to prevent abuse of the court's process or to secure justice — commonly used to quash FIRs or criminal proceedings.", "o": "CrPC 482"}
+    ]}
+  ]
+}

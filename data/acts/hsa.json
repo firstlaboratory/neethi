@@ -1,0 +1,18 @@
+{
+  "id": "hsa",
+  "intro": "Decides who inherits property among Hindus, Buddhists, Jains and Sikhs when someone dies without a will — and confirms the right to make a will.",
+  "chapters": [
+    {"title": "Ancestral property", "sections": [
+      {"n": "S 6", "t": "Daughters are coparceners", "p": "Since the 2005 amendment, a daughter is a coparcener by birth in a joint Hindu family, with the same rights and liabilities in ancestral property as a son. The Supreme Court held (Vineeta Sharma, 2020) this applies whether or not the father was alive on 9 September 2005."}
+    ]},
+    {"title": "Succession without a will", "sections": [
+      {"n": "S 8–10", "t": "When a man dies without a will", "p": "His property goes first to Class I heirs, who share equally: mother, widow, sons, daughters, and children of a predeceased son or daughter (and some grandchildren). Only if there are no Class I heirs does it go to Class II heirs (father, siblings and others in order), then to agnates and cognates.", "k": ["Each widow (if more than one) together takes one share", "Mother gets a share equal to each child"]},
+      {"n": "S 14", "t": "Woman's property is absolute", "p": "Any property a Hindu woman holds — whether inherited, gifted, bought or received at marriage — is her absolute property, which she can sell, gift or will as she wishes."},
+      {"n": "S 15–16", "t": "When a woman dies without a will", "p": "Her property goes first to her sons, daughters (and children of predeceased children) and husband; then to the husband's heirs; then to her mother and father. Property inherited from her parents goes back to her father's heirs if she has no children; property from her husband or in-laws goes to the husband's heirs."}
+    ]},
+    {"title": "Wills and disqualifications", "sections": [
+      {"n": "S 30", "t": "Right to make a will", "p": "A Hindu can dispose of any property they own, including their share in coparcenary property, by will. Wills in Tamil Nadu needn't be registered or stamped, but registration helps avoid disputes."},
+      {"n": "S 25", "t": "Murderer can't inherit", "p": "A person who commits or abets the murder of someone is disqualified from inheriting that person's property."}
+    ]}
+  ]
+}

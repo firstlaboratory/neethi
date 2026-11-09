@@ -1,0 +1,24 @@
+{
+  "id": "hma",
+  "intro": "Governs marriage, separation and divorce among Hindus, Buddhists, Jains and Sikhs.",
+  "chapters": [
+    {"title": "Marriage", "sections": [
+      {"n": "S 5", "t": "Conditions for a valid marriage", "p": "Neither party has a living spouse; both can give valid consent (sound mind); the groom is at least 21 and the bride at least 18; and they're not within prohibited degrees of relationship or 'sapindas' of each other, unless custom allows it."},
+      {"n": "S 7", "t": "Ceremonies", "p": "A Hindu marriage can be solemnised by the customary rites of either party. Where it includes saptapadi (seven steps around the sacred fire), the marriage is complete when the seventh step is taken."},
+      {"n": "S 8", "t": "Registration", "p": "States can make rules for registering Hindu marriages. In Tamil Nadu, registration is compulsory under the TN Registration of Marriages Act, 2009. Failure to register doesn't by itself make a marriage invalid."},
+      {"n": "S 11–12", "t": "Void and voidable marriages", "p": "Void (never valid): bigamy, prohibited relationships, sapindas. Voidable (can be annulled): non-consummation due to impotence, unsound mind, consent obtained by force or fraud, or the bride pregnant by someone else at the time of marriage. Children of void or voidable marriages are legitimate (S 16)."}
+    ]},
+    {"title": "Separation and divorce", "sections": [
+      {"n": "S 9", "t": "Restitution of conjugal rights", "p": "If a spouse withdraws from the other's company without reasonable excuse, the other can ask the court to order them to return."},
+      {"n": "S 10", "t": "Judicial separation", "p": "A court can permit spouses to live apart without ending the marriage, on the same grounds as divorce."},
+      {"n": "S 13", "t": "Grounds for divorce", "p": "Either spouse can seek divorce for: adultery; cruelty; desertion for at least 2 years; conversion to another religion; incurable unsound mind; communicable venereal disease; renouncing the world; not being heard of as alive for 7 years. Also if there's been no resumption of cohabitation for 1 year after a decree of judicial separation or restitution.", "k": ["S 13(2) gives a wife additional grounds — e.g. husband's bigamy before the Act, or non-resumption after a maintenance order"]},
+      {"n": "S 13B", "t": "Divorce by mutual consent", "p": "If both spouses have lived separately for at least a year and agree they can't live together, they can file jointly. The second motion is filed after 6 months (cooling-off), which courts can waive in suitable cases. The Supreme Court can also dissolve a marriage directly under Article 142 for irretrievable breakdown (2023)."},
+      {"n": "S 14", "t": "No divorce in first year", "p": "A divorce petition generally can't be filed within 1 year of marriage, except in cases of exceptional hardship or depravity."}
+    ]},
+    {"title": "Maintenance and children", "sections": [
+      {"n": "S 24", "t": "Maintenance during the case", "p": "Either spouse without enough independent income can get monthly maintenance and litigation expenses while the case is pending."},
+      {"n": "S 25", "t": "Permanent alimony", "p": "At the time of or after the decree, the court can order a lump sum or periodic payment, considering both parties' income, property and conduct."},
+      {"n": "S 26", "t": "Custody of children", "p": "The court can make orders on custody, maintenance and education of minor children, guided by the child's welfare."}
+    ]}
+  ]
+}

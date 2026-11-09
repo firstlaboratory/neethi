@@ -1,0 +1,12 @@
+{
+  "id": "tn-depositors",
+  "intro": "Protects people who put money into private deposit schemes, chit-like schemes or 'financial establishments' that fail to repay. Commonly called the TNPID Act. Complaints go to the Economic Offences Wing (EOW) of TN Police. Overview of key points.",
+  "chapters": [
+    {"title": "Key points", "sections": [
+      {"n": "Coverage", "t": "Who it covers", "p": "Any person or company accepting deposits under any scheme in Tamil Nadu — except banks, government bodies and certain regulated entities. Covers schemes promising high returns, gold schemes and similar."},
+      {"n": "Offence", "t": "Fraudulent default", "p": "A financial establishment that fails to return deposits or pay promised interest or benefits, with fraudulent intent, commits an offence. Promoters, partners, directors, managers and employees responsible can be prosecuted.", "pen": "Up to 10 years + fine"},
+      {"n": "Attachment", "t": "Attaching property", "p": "The government can attach the money and property of the establishment — and of its promoters, directors and their relatives where bought with deposit money — to repay depositors."},
+      {"n": "Court", "t": "Special Court", "p": "A Special Court (TNPID Court) tries these cases, confirms attachments and orders sale of attached property to repay depositors proportionately."}
+    ]}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "tn-ragging",
+  "intro": "Bans ragging in and outside educational institutions across Tamil Nadu. Overview of key points. National anti-ragging helpline: 1800-180-5522.",
+  "chapters": [
+    {"title": "Key points", "sections": [
+      {"n": "Ragging", "t": "What is ragging", "p": "Any disorderly conduct by words or acts — teasing, abusing, playing practical jokes or causing hurt — that causes physical or mental harm, fear, shame or embarrassment to a student, or makes them do something they wouldn't do willingly."},
+      {"n": "Penalty", "t": "Punishment", "p": "Ragging within or outside an educational institution is punishable.", "pen": "Up to 2 years + fine up to ₹10,000"},
+      {"n": "Dismissal", "t": "Expulsion", "p": "A student convicted of ragging is dismissed from the institution and can't be admitted to any other educational institution in the state. Suspended students under investigation can also be kept out."},
+      {"n": "Head", "t": "Duty of the institution", "p": "The head of the institution must act on complaints immediately — including suspending the accused and informing police. Failing to do so can lead to action against the head."}
+    ]}
+  ]
+}

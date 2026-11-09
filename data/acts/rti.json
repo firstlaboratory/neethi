@@ -1,0 +1,21 @@
+{
+  "id": "rti",
+  "intro": "Lets any citizen ask a public authority for information it holds, and requires a reply within 30 days. One of the most powerful tools for holding government accountable.",
+  "chapters": [
+    {"title": "Asking for information", "sections": [
+      {"n": "S 2(f)", "t": "What 'information' means", "p": "Any material in any form — records, documents, emails, opinions, advice, press releases, circulars, orders, logbooks, contracts, reports, samples, models and electronic data — held by a public authority."},
+      {"n": "S 2(h)", "t": "Public authorities", "p": "Bodies set up by the Constitution or by law, government departments, and bodies owned, controlled or substantially financed by government — including NGOs that get substantial government funds."},
+      {"n": "S 4", "t": "Proactive disclosure", "p": "Every public authority must publish key information on its own — its functions, officers and their powers, budgets, subsidy beneficiaries, and how decisions are made."},
+      {"n": "S 6", "t": "How to file", "p": "Apply in writing or electronically, in English, Hindi or the official language of the area, to the Public Information Officer (PIO). You don't need to give any reason. Fee is ₹10 for central government bodies (states set their own); no fee for people below the poverty line.", "k": ["Central government RTIs can be filed online at rtionline.gov.in", "If sent to the wrong authority, the PIO must transfer it within 5 days"]},
+      {"n": "S 7", "t": "Time limits", "p": "Reply within 30 days. If the information concerns someone's life or liberty, within 48 hours. If the PIO doesn't reply in time, it counts as a refusal, and information must then be given free of charge."}
+    ]},
+    {"title": "Exemptions", "sections": [
+      {"n": "S 8", "t": "What can be withheld", "p": "Information affecting sovereignty and security, forbidden by courts, breaching Parliament's privilege, commercial secrets, information held in a fiduciary relationship, from foreign governments, endangering someone's safety, impeding investigation, cabinet papers (until decisions are made), and personal information unrelated to public interest. Even exempt information can be disclosed if public interest outweighs the harm.", "k": ["Information that can't be denied to Parliament or a state legislature can't be denied to a citizen", "Most exemptions lapse after 20 years"]},
+      {"n": "S 24", "t": "Intelligence and security agencies", "p": "Listed agencies are exempt, except for information about corruption and human rights violations."}
+    ]},
+    {"title": "Appeals and penalties", "sections": [
+      {"n": "S 19", "t": "Appeals", "p": "First appeal to a senior officer in the same authority within 30 days of the reply (or of the deadline passing). Second appeal to the Central or State Information Commission within 90 days of the first appeal decision."},
+      {"n": "S 20", "t": "Penalty on officers", "p": "The Information Commission can fine a PIO who refuses without reason, delays, gives false information or destroys records.", "pen": "₹250 per day, up to ₹25,000"}
+    ]}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pocso",
+  "intro": "A special law protecting all children under 18 — of any gender — from sexual assault, harassment and exploitation, with child-friendly procedures and special courts. Report to police or call 112 / 1098.",
+  "chapters": [
+    {"title": "Offences", "sections": [
+      {"n": "S 2(d)", "t": "Who is a child", "p": "Anyone under 18. The law is gender-neutral — it protects boys and girls, and applies to offenders of any gender."},
+      {"n": "S 3–4", "t": "Penetrative sexual assault", "p": "Defines and punishes penetrative sexual acts on a child.", "pen": "Min 10 years to life + fine; min 20 years to life if the child is under 16"},
+      {"n": "S 5–6", "t": "Aggravated penetrative sexual assault", "p": "When committed by police, armed forces, public servants, staff of hospitals, schools or shelters, relatives, or involving gang assault, a child under 12, or causing grievous injury, among others.", "pen": "Min 20 years to life (remainder of natural life) + fine, or death"},
+      {"n": "S 7–8", "t": "Sexual assault", "p": "Touching a child's private parts, or making a child touch someone, with sexual intent, or any other act with sexual intent involving physical contact without penetration.", "pen": "3 to 5 years + fine"},
+      {"n": "S 11–12", "t": "Sexual harassment", "p": "Sexual remarks, gestures or showing objects to a child; making a child exhibit their body; showing pornography; stalking or repeatedly contacting a child (including online); threatening to share images.", "pen": "Up to 3 years + fine"},
+      {"n": "S 13–15", "t": "Child pornography", "p": "Using a child for pornography, and storing or possessing child sexual abuse material in any form (with intent to share, or failing to delete/report it).", "pen": "Min 5 years for using a child; storing for transmission up to 3–5 years"}
+    ]},
+    {"title": "Reporting and procedure", "sections": [
+      {"n": "S 19", "t": "Mandatory reporting", "p": "Anyone who knows or suspects an offence under POCSO must report it to the Special Juvenile Police Unit or local police."},
+      {"n": "S 21", "t": "Failure to report", "p": "Not reporting or recording an offence. Heads of institutions who fail to report offences by subordinates face harsher penalties. Children themselves are never punished for not reporting.", "pen": "Up to 6 months and/or fine; up to 1 year for institution heads"},
+      {"n": "S 23", "t": "Child's identity protected", "p": "Media can't reveal the child's name, address, school, photo or any detail that could identify them.", "pen": "6 months to 1 year and/or fine"},
+      {"n": "S 24–26", "t": "Child-friendly statements", "p": "The child's statement is recorded at their home or a place of their choice, preferably by a woman police officer not in uniform, in the presence of a parent or trusted person. A child isn't to be detained at a police station at night."},
+      {"n": "S 29", "t": "Presumption of guilt", "p": "Once the case is established, the court presumes the accused committed the offence unless they prove otherwise."},
+      {"n": "S 33–35", "t": "Special Courts and timelines", "p": "Trials happen in Special Courts in a child-friendly atmosphere, possibly in-camera, without the child seeing the accused. The child's evidence should be recorded within 30 days of cognizance, and the trial completed within 1 year."}
+    ]}
+  ]
+}

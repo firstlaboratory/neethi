@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Neethi — Indian law, simply</title>
+<meta name="description" content="Read Indian laws in plain English, offline. Constitution, BNS, BNSS, BSA, consumer, motor vehicle, family and Tamil Nadu laws.">
+<meta name="theme-color" content="#7a2e1f" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1613" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{
+  --bg:#f6f1e7; --surface:#fffdf8; --surface2:#efe8da; --ink:#231c16; --muted:#6e6357;
+  --line:#e2d8c6; --accent:#7a2e1f; --accent-ink:#fff; --accent-soft:#f3e2da;
+  --gold:#a8741a; --ok:#2f6b3f; --warn-bg:#fbf0d9;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans",sans-serif;
+  --r:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#15120f; --surface:#1f1a16; --surface2:#29231d; --ink:#efe7da; --muted:#a3978a;
+    --line:#352d26; --accent:#e08a6f; --accent-ink:#1a120e; --accent-soft:#3a241c; --gold:#d9a648; --ok:#7fbf8e; --warn-bg:#2d2416;}
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans);-webkit-text-size-adjust:100%}
+a{color:var(--accent)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px calc(88px + env(safe-area-inset-bottom))}
+header.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);padding:calc(10px + env(safe-area-inset-top)) 16px 10px}
+.top-inner{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:10px}
+.back{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:20px;flex:none}
+.back:active{background:var(--surface2)}
+.title{font-family:var(--serif);font-size:20px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1}
+.brand{display:flex;align-items:baseline;gap:8px}
+.brand b{font-family:var(--serif);font-size:24px;color:var(--accent);letter-spacing:.5px}
+.brand span{font-size:13px;color:var(--muted)}
+.search{position:relative;margin:16px 0 8px}
+.search input{width:100%;padding:13px 14px 13px 42px;border-radius:var(--r);border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;font-size:16px}
+.search input:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.search svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);opacity:.55}
+.hint{font-size:13px;color:var(--muted);margin:0 2px 12px}
+.hint button{color:var(--accent);text-decoration:underline;text-underline-offset:2px}
+h2.sec{font-family:var(--serif);font-size:18px;margin:26px 2px 10px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;text-align:left;display:flex;flex-direction:column;gap:4px;min-height:92px}
+.tile:active,.row:active{transform:scale(.985)}
+.tile .ic{font-size:22px}
+.tile .nm{font-weight:600;line-height:1.25}
+.tile .ct{font-size:12px;color:var(--muted)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px}
+.today{border-left:4px solid var(--gold)}
+.today .lbl{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.today .h{font-family:var(--serif);font-size:19px;margin:4px 0 6px;font-weight:600}
+.today p{margin:0;color:var(--muted);font-size:15px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.list{display:flex;flex-direction:column;gap:8px}
+.row{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:13px 14px;text-align:left;display:flex;gap:12px;align-items:flex-start;width:100%}
+.row .no{flex:none;min-width:58px;font-size:12px;font-weight:700;color:var(--accent);background:var(--accent-soft);border-radius:8px;padding:4px 6px;text-align:center;margin-top:1px}
+.row .body{flex:1;min-width:0}
+.row .rt{font-weight:600;line-height:1.3}
+.row .rs{font-size:14px;color:var(--muted);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.row .meta{font-size:12px;color:var(--muted);margin-top:4px}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:99px;margin-left:6px;vertical-align:2px}
+.b-ok{background:color-mix(in srgb,var(--ok) 18%,transparent);color:var(--ok)}
+.b-soon{background:var(--surface2);color:var(--muted)}
+.intro{font-size:15px;color:var(--ink);margin:14px 0 4px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 2px}
+.chip{font-size:13px;padding:6px 11px;border-radius:99px;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none}
+details.ch{margin-top:12px}
+details.ch summary{list-style:none;font-family:var(--serif);font-weight:600;font-size:17px;padding:10px 2px;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+details.ch summary::-webkit-details-marker{display:none}
+details.ch summary::after{content:"＋";color:var(--muted);font-family:var(--sans)}
+details.ch[open] summary::after{content:"－"}
+details.ch summary small{font-family:var(--sans);font-weight:400;color:var(--muted);font-size:13px;margin-left:8px}
+.sec-no{display:inline-block;font-size:13px;font-weight:700;color:var(--accent);background:var(--accent-soft);padding:4px 10px;border-radius:8px;margin-top:18px}
+h1.sh{font-family:var(--serif);font-size:26px;line-height:1.2;margin:10px 0 4px;font-weight:600}
+.act-of{font-size:14px;color:var(--muted)}
+.plain{font-size:18px;line-height:1.65;margin:18px 0}
+.pen{background:var(--accent-soft);border-radius:var(--r);padding:12px 14px;margin:14px 0}
+.pen .lbl,.old .lbl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.old{border:1px dashed var(--line);border-radius:var(--r);padding:12px 14px;margin:14px 0}
+.old .lbl{color:var(--muted)}
+ul.kp{padding-left:20px;margin:8px 0}
+ul.kp li{margin:6px 0}
+.actions{display:flex;gap:10px;margin:22px 0 8px;flex-wrap:wrap}
+.btn{flex:1;min-width:120px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px;font-weight:600;text-align:center;text-decoration:none;color:var(--ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.pager{display:flex;justify-content:space-between;gap:10px;margin-top:18px}
+.pager button{flex:1;text-align:left;padding:12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:14px}
+.pager button:last-child{text-align:right}
+.pager small{display:block;color:var(--muted);font-size:12px}
+.disclaimer{font-size:12.5px;color:var(--muted);background:var(--warn-bg);border-radius:12px;padding:10px 12px;margin:22px 0 0}
+.empty{color:var(--muted);text-align:center;padding:40px 10px}
+mark{background:color-mix(in srgb,var(--gold) 35%,transparent);color:inherit;border-radius:3px;padding:0 1px}
+nav.tabs{position:fixed;bottom:0;left:0;right:0;z-index:6;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;padding-bottom:env(safe-area-inset-bottom)}
+nav.tabs .in{display:flex;max-width:720px;width:100%}
+nav.tabs a{flex:1;text-align:center;padding:9px 0 8px;font-size:12px;color:var(--muted);text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:2px}
+nav.tabs a.on{color:var(--accent);font-weight:600}
+nav.tabs svg{width:22px;height:22px}
+.toast{position:fixed;left:50%;bottom:calc(80px + env(safe-area-inset-bottom));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:99px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none;z-index:9}
+.toast.show{opacity:1}
+.mapbox .row .no{min-width:74px}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-inner" id="bar"></div></header>
+<main class="wrap" id="app"><p class="empty">Loading…</p></main>
+<nav class="tabs"><div class="in">
+  <a href="#/" data-t="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 10.5 12 3l9 7.5V21h-6v-6H9v6H3z"/></svg>Home</a>
+  <a href="#/search" data-t="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>Search</a>
+  <a href="#/oldnew" data-t="oldnew"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h13l-3-3M20 17H7l3 3"/></svg>IPC → BNS</a>
+  <a href="#/saved" data-t="saved"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Saved</a>
+</div></nav>
+<div class="toast" id="toast"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const app = $('#app'), bar = $('#bar');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const store = {
+  get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+};
+let CAT = null; const ACTS = {}; let INDEX = [];
+
+function toast(msg){ const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 1600); }
+
+async function load(){
+  CAT = await (await fetch('data/catalog.json')).json();
+  const ids = CAT.acts.filter(a => a.status === 'summary').map(a => a.id);
+  await Promise.all(ids.map(async id => {
+    try{ ACTS[id] = await (await fetch('data/acts/' + id + '.json')).json(); }catch(e){ console.warn('missing', id); }
+  }));
+  INDEX = [];
+  for (const id in ACTS){
+    const meta = CAT.acts.find(a => a.id === id);
+    let i = 0;
+    ACTS[id].chapters.forEach(ch => ch.sections.forEach(s => {
+      s._i = i++; s._act = id; s._ch = ch.title;
+      s._hay = [s.n, s.t, s.p, s.pen, s.o, (s.k||[]).join(' '), meta.name, meta.short, ch.title].join(' ').toLowerCase();
+      INDEX.push(s);
+    }));
+  }
+}
+const actMeta = id => CAT.acts.find(a => a.id === id);
+const actLabel = m => m.short ? m.short : m.name;
+const sectionUrl = s => `#/act/${s._act}/${s._i}`;
+const bareUrl = m => m.src || ('https://www.google.com/search?q=' + encodeURIComponent('site:indiacode.nic.in ' + m.name + ' ' + m.year));
+
+function setBar({title, back, brand, noSearch}){
+  bar.innerHTML = (back ? `<button class="back" aria-label="Back" onclick="history.length>1?history.back():location.hash='#/'">‹</button>` : '')
+    + (brand ? `<div class="brand" style="flex:1"><b>Neethi</b><span>Indian law, simply</span></div>` : `<div class="title">${esc(title)}</div>`)
+    + (noSearch ? '' : `<a class="back" href="#/search" aria-label="Search" style="color:inherit"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></a>`);
+}
+function setTab(t){ document.querySelectorAll('nav.tabs a').forEach(a => a.classList.toggle('on', a.dataset.t === t)); }
+
+function sectionRow(s, q){
+  const m = actMeta(s._act);
+  const hl = txt => q ? highlight(txt, q) : esc(txt);
+  return `<a class="row" href="${sectionUrl(s)}" style="text-decoration:none;color:inherit">
+    <span class="no">${esc(s.n)}</span>
+    <span class="body"><div class="rt">${hl(s.t)}</div><div class="rs">${hl(s.p)}</div>
+    <div class="meta">${esc(actLabel(m))}${s.o && s.o !== 'New' ? ' · was ' + esc(s.o) : ''}</div></span></a>`;
+}
+function highlight(txt, q){
+  let out = esc(txt);
+  q.toLowerCase().split(/\s+/).filter(w => w.length > 2).forEach(w => {
+    out = out.replace(new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig'), '<mark>$1</mark>');
+  });
+  return out;
+}
+
+/* ---------- views ---------- */
+function home(){
+  setBar({brand:true}); setTab('home');
+  const day = Math.floor(Date.now() / 864e5);
+  const pick = INDEX[(day * 7919) % INDEX.length];
+  const pm = actMeta(pick._act);
+  const recent = store.get('recent', []).map(r => ACTS[r.a]?.chapters && INDEX.find(s => s._act === r.a && s._i === r.i)).filter(Boolean).slice(0, 3);
+  app.innerHTML = `
+    <form class="search" onsubmit="event.preventDefault();location.hash='#/search?q='+encodeURIComponent(this.q.value)">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input name="q" type="search" placeholder="Search: bail, helmet fine, 420, RTI…" autocomplete="off" enterkeyhint="search">
+    </form>
+    <p class="hint">Know the old IPC number? Try <button onclick="location.hash='#/search?q=IPC%20302'">IPC 302</button> or <button onclick="location.hash='#/search?q=CrPC%20438'">CrPC 438</button>.</p>
+    <a class="card today" href="${sectionUrl(pick)}" style="display:block;text-decoration:none;color:inherit">
+      <div class="lbl">Section of the day · ${esc(actLabel(pm))} ${esc(pick.n)}</div>
+      <div class="h">${esc(pick.t)}</div><p>${esc(pick.p)}</p></a>
+    ${recent.length ? `<h2 class="sec">Continue reading</h2><div class="list">${recent.map(s => sectionRow(s)).join('')}</div>` : ''}
+    <h2 class="sec">Browse by area</h2>
+    <div class="grid">${CAT.categories.map(c => {
+      const acts = CAT.acts.filter(a => a.cat === c.id), done = acts.filter(a => a.status === 'summary').length;
+      return `<a class="tile" href="#/cat/${c.id}" style="text-decoration:none;color:inherit"><span class="ic">${c.icon}</span><span class="nm">${esc(c.name)}</span><span class="ct">${done} of ${acts.length} act${acts.length>1?"s":""} explained</span></a>`;
+    }).join('')}</div>
+    <p class="disclaimer">Plain-English summaries for understanding only — not legal advice. Section numbers and penalties can change; check the official text and talk to a lawyer before acting. Free legal aid: call 15100 (NALSA).</p>`;
+}
+
+function category(id){
+  const c = CAT.categories.find(x => x.id === id); if (!c) return notFound();
+  setBar({title: c.name, back: true}); setTab('home');
+  const acts = CAT.acts.filter(a => a.cat === id).sort((a, b) => (a.status === 'summary' ? 0 : 1) - (b.status === 'summary' ? 0 : 1));
+  app.innerHTML = `<div class="list" style="margin-top:16px">${acts.map(a => {
+    const n = ACTS[a.id] ? INDEX.filter(s => s._act === a.id).length : 0;
+    return `<a class="row" href="#/act/${a.id}" style="text-decoration:none;color:inherit">
+      <span class="body"><div class="rt">${esc(a.name)}${a.status === 'summary' ? `<span class="badge b-ok">Explained</span>` : `<span class="badge b-soon">Coming</span>`}</div>
+      <div class="meta">${a.year}${a.short ? ' · ' + esc(a.short) : ''}${a.replaces ? ' · replaces ' + esc(a.replaces) : ''}${n ? ' · ' + n + ' topics' : ''}</div></span></a>`;
+  }).join('')}</div>`;
+}
+
+function act(id){
+  const m = actMeta(id); if (!m) return notFound();
+  setBar({title: actLabel(m), back: true}); setTab('home');
+  const a = ACTS[id];
+  if (!a){
+    app.innerHTML = `<h1 class="sh">${esc(m.name)}, ${m.year}</h1>
+      <p class="intro">Plain-English summaries for this act are coming in a future update.${m.note ? ' ' + esc(m.note) + '.' : ''}</p>
+      <div class="actions"><a class="btn primary" href="${bareUrl(m)}" target="_blank" rel="noopener">Read the official text</a></div>
+      <p class="disclaimer">Official texts of central acts are on India Code (indiacode.nic.in).</p>`;
+    return;
+  }
+  app.innerHTML = `<h1 class="sh">${esc(m.name)}, ${m.year}</h1>
+    ${m.replaces ? `<div class="act-of">Replaces the ${esc(m.replaces)}</div>` : ''}
+    <p class="intro">${esc(a.intro)}</p>
+    <div class="chips"><a class="chip" href="${bareUrl(m)}" target="_blank" rel="noopener">Official text ↗</a></div>
+    <form class="search" onsubmit="event.preventDefault();this.f.blur()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input name="f" id="actf" type="search" placeholder="Search in ${esc(actLabel(m))}…" autocomplete="off" enterkeyhint="search"></form>
+    <div id="actres"></div>
+    <div id="actch">${a.chapters.map((ch, ci) => `<details class="ch" ${ci === 0 || a.chapters.length <= 2 ? 'open' : ''}>
+      <summary><span>${esc(ch.title)}<small>${ch.sections.length}</small></span></summary>
+      <div class="list">${ch.sections.map(s => sectionRow(s)).join('')}</div></details>`).join('')}</div>
+    <p class="disclaimer">Summaries for understanding only — not legal advice.</p>`;
+  const f = $('#actf'), res = $('#actres'), chs = $('#actch');
+  f.oninput = () => {
+    const v = f.value.trim();
+    if (!v){ res.innerHTML = ''; chs.style.display = ''; return; }
+    const words = v.toLowerCase().split(/\s+/);
+    const hits = INDEX.filter(s => s._act === id && words.every(w => s._hay.includes(w)));
+    chs.style.display = 'none';
+    res.innerHTML = hits.length
+      ? `<p class="hint">${hits.length} match${hits.length > 1 ? 'es' : ''} in ${esc(actLabel(m))}</p><div class="list">${hits.map(s => sectionRow(s, v)).join('')}</div>`
+      : `<p class="empty">No match in this act. <a href="#/search?q=${encodeURIComponent(v)}">Search all laws</a></p>`;
+  };
+}
+
+function section(id, i){
+  const a = ACTS[id], m = actMeta(id); if (!a) return notFound();
+  const all = INDEX.filter(s => s._act === id), s = all[i]; if (!s) return notFound();
+  setBar({title: actLabel(m) + ' ' + s.n, back: true}); setTab('home');
+  const saved = store.get('saved', []);
+  const isSaved = saved.some(x => x.a === id && x.i === s._i);
+  const rec = store.get('recent', []).filter(x => !(x.a === id && x.i === s._i)); rec.unshift({a: id, i: s._i}); store.set('recent', rec.slice(0, 10));
+  const prev = all[i - 1], next = all[i + 1];
+  app.innerHTML = `<span class="sec-no">${esc(s.n)}</span>
+    <h1 class="sh">${esc(s.t)}</h1>
+    <div class="act-of">${esc(m.name)}, ${m.year} · ${esc(s._ch)}</div>
+    <p class="plain">${esc(s.p)}</p>
+    ${s.pen ? `<div class="pen"><div class="lbl">Punishment / amount</div>${esc(s.pen)}</div>` : ''}
+    ${s.k && s.k.length ? `<ul class="kp">${s.k.map(k => `<li>${esc(k)}</li>`).join('')}</ul>` : ''}
+    ${s.o ? `<div class="old"><div class="lbl">Old law</div>${s.o === 'New' ? 'New provision — no equivalent in the old law' : esc(s.o)}</div>` : ''}
+    <div class="actions">
+      <button class="btn ${isSaved ? '' : 'primary'}" id="saveBtn">${isSaved ? '★ Saved' : '☆ Save'}</button>
+      <button class="btn" id="shareBtn">Share</button>
+      <a class="btn" href="${bareUrl(m)}" target="_blank" rel="noopener">Official text ↗</a>
+    </div>
+    <div class="pager">
+      ${prev ? `<button onclick="location.replace('${sectionUrl(prev)}')"><small>‹ Previous</small>${esc(prev.n)} · ${esc(prev.t)}</button>` : '<span></span>'}
+      ${next ? `<button onclick="location.replace('${sectionUrl(next)}')"><small>Next ›</small>${esc(next.n)} · ${esc(next.t)}</button>` : '<span></span>'}
+    </div>
+    <p class="disclaimer">Plain-English summary — not the legal text and not legal advice.</p>`;
+  $('#saveBtn').onclick = () => {
+    let sv = store.get('saved', []);
+    if (sv.some(x => x.a === id && x.i === s._i)){ sv = sv.filter(x => !(x.a === id && x.i === s._i)); toast('Removed'); }
+    else { sv.unshift({a: id, i: s._i}); toast('Saved'); }
+    store.set('saved', sv); section(id, i);
+  };
+  $('#shareBtn').onclick = async () => {
+    const text = `${actLabel(m)} ${s.n} — ${s.t}\n\n${s.p}${s.pen ? '\n\nPunishment: ' + s.pen : ''}`;
+    const url = location.href;
+    try{ if (navigator.share){ await navigator.share({title: s.t, text, url}); return; } }catch(e){ return; }
+    try{ await navigator.clipboard.writeText(text + '\n' + url); toast('Copied'); }catch(e){ toast('Could not share'); }
+  };
+  window.scrollTo(0, 0);
+}
+
+/* old-law number matching, e.g. "IPC 420" matches "IPC 415–420" */
+function parseOldQuery(q){
+  const m = q.trim().match(/^(ipc|crpc|cr\.?p\.?c\.?|iea|evidence act)\s*(?:s(?:ec(?:tion)?)?\.?\s*)?(\d+[a-z]*)$/i);
+  if (!m) return null;
+  const law = m[1].toLowerCase().startsWith('ipc') ? 'IPC' : m[1].toLowerCase().startsWith('cr') ? 'CrPC' : 'IEA';
+  return {law, num: m[2].toUpperCase()};
+}
+function oldMatches(o, law, num){
+  if (!o) return false;
+  const re = new RegExp(law + '\\s+([0-9A-Z,\\s–-]+)', 'i'); const mm = o.match(re); if (!mm) return false;
+  return mm[1].split(',').some(part => {
+    part = part.trim(); if (!part) return false;
+    const r = part.split(/[–-]/).map(x => x.trim());
+    if (r.length === 2){
+      const a = parseInt(r[0]), b = parseInt(r[1]), n = parseInt(num);
+      if (/[A-Z]/.test(num)) return r[0] === num || r[1] === num;
+      return n >= a && n <= b;
+    }
+    return r[0] === num;
+  });
+}
+function doSearch(q){
+  const old = parseOldQuery(q);
+  if (old) return INDEX.filter(s => oldMatches(s.o, old.law, old.num));
+  const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+  const numQ = q.trim().match(/^(?:s(?:ection)?\.?\s*|art(?:icle)?\.?\s*)?(\d+[a-z]*)$/i);
+  const scored = [];
+  for (const s of INDEX){
+    let score = 0;
+    if (numQ){
+      const n = numQ[1].toLowerCase();
+      if (new RegExp('(^|[^0-9])' + n + '([^0-9a-z]|$)', 'i').test(s.n)) score += 50;
+      if (s.o && new RegExp('(^|[^0-9])' + n + '([^0-9a-z]|$)', 'i').test(s.o)) score += 20;
+    }
+    let all = true;
+    for (const w of words){
+      if (!s._hay.includes(w)) { all = false; continue; }
+      score += 2;
+      if (s.t.toLowerCase().includes(w)) score += 6;
+    }
+    if (all && words.length) score += 10;
+    if (score > (numQ ? 0 : 9)) scored.push([score, s]);
+  }
+  return scored.sort((a, b) => b[0] - a[0]).map(x => x[1]).slice(0, 60);
+}
+function search(q){
+  setBar({title: 'Search', back: false, noSearch: true}); setTab('search');
+  app.innerHTML = `<form class="search" id="sf"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    <input id="sq" type="search" placeholder="Topic, section no., or IPC 302…" value="${esc(q)}" autocomplete="off" enterkeyhint="search"></form>
+    <div id="res"></div>`;
+  const inp = $('#sq'), res = $('#res');
+  const run = () => {
+    const v = inp.value.trim();
+    history.replaceState(null, '', '#/search' + (v ? '?q=' + encodeURIComponent(v) : ''));
+    if (!v){ res.innerHTML = `<p class="hint" style="margin-top:6px">Try: <button data-q="arrest rights">arrest rights</button> · <button data-q="cheque bounce">cheque bounce</button> · <button data-q="drunk driving">drunk driving</button> · <button data-q="divorce">divorce</button> · <button data-q="tenant deposit">tenant deposit</button> · <button data-q="IPC 498A">IPC 498A</button></p>`;
+      res.querySelectorAll('[data-q]').forEach(b => b.onclick = () => { inp.value = b.dataset.q; run(); }); return; }
+    const r = doSearch(v), old = parseOldQuery(v);
+    res.innerHTML = r.length
+      ? `<p class="hint">${r.length} result${r.length > 1 ? 's' : ''}${old ? ` for old ${old.law} ${old.num}` : ''}</p><div class="list">${r.map(s => sectionRow(s, old ? '' : v)).join('')}</div>`
+      : `<p class="empty">Nothing found for “${esc(v)}”.<br>Try simpler words, or the act may not be explained yet.</p>`;
+  };
+  $('#sf').onsubmit = e => { e.preventDefault(); inp.blur(); run(); };
+  let t; inp.oninput = () => { clearTimeout(t); t = setTimeout(run, 180); };
+  run(); if (!q) inp.focus();
+}
+
+function oldnew(){
+  setBar({title: 'Old law → new law', back: false}); setTab('oldnew');
+  const groups = [['IPC', 'bns', 'Indian Penal Code → BNS'], ['CrPC', 'bnss', 'CrPC → BNSS'], ['IEA', 'bsa', 'Evidence Act → BSA']];
+  app.innerHTML = `<p class="intro">Since 1 July 2024, three new codes replaced the IPC, CrPC and Evidence Act. Offences committed before that date are still tried under the old laws. Search an old number, e.g. <b>IPC 420</b>, or browse below.</p>
+    <form class="search" onsubmit="event.preventDefault();location.hash='#/search?q='+encodeURIComponent(this.q.value)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    <input name="q" type="search" placeholder="IPC 302, CrPC 41, IEA 65B…" autocomplete="off" enterkeyhint="search"></form>
+    ${groups.map(([law, id, label]) => {
+      const rows = INDEX.filter(s => s._act === id && s.o && s.o.startsWith(law)).map(s => ({s, key: parseInt((s.o.match(/\d+/) || [0])[0])})).sort((a, b) => a.key - b.key);
+      return `<details class="ch mapbox"><summary><span>${label}<small>${rows.length}</small></span></summary><div class="list">${rows.map(({s}) =>
+        `<a class="row" href="${sectionUrl(s)}" style="text-decoration:none;color:inherit"><span class="no">${esc(s.o)}</span><span class="body"><div class="rt">→ ${esc(s.n)} · ${esc(s.t)}</div></span></a>`).join('')}</div></details>`;
+    }).join('')}`;
+}
+
+function saved(){
+  setBar({title: 'Saved', back: false}); setTab('saved');
+  const sv = store.get('saved', []).map(x => INDEX.find(s => s._act === x.a && s._i === x.i)).filter(Boolean);
+  app.innerHTML = sv.length ? `<div class="list" style="margin-top:16px">${sv.map(s => sectionRow(s)).join('')}</div>`
+    : `<p class="empty">Nothing saved yet.<br>Tap ☆ Save on any section to keep it here.</p>`;
+}
+function notFound(){ setBar({title: 'Not found', back: true}); app.innerHTML = `<p class="empty">That page doesn't exist. <a href="#/">Go home</a></p>`; }
+
+function route(){
+  const h = location.hash.replace(/^#/, '') || '/';
+  const [path, qs] = h.split('?'); const p = path.split('/').filter(Boolean);
+  const q = new URLSearchParams(qs || '').get('q') || '';
+  if (!p.length) home();
+  else if (p[0] === 'cat') category(p[1]);
+  else if (p[0] === 'act' && p[2] !== undefined) section(p[1], +p[2]);
+  else if (p[0] === 'act') act(p[1]);
+  else if (p[0] === 'search') search(q);
+  else if (p[0] === 'oldnew') oldnew();
+  else if (p[0] === 'saved') saved();
+  else notFound();
+  if (p[0] !== 'act' || p[2] === undefined) window.scrollTo(0, 0);
+}
+window.addEventListener('hashchange', route);
+load().then(route).catch(e => { app.innerHTML = `<p class="empty">Couldn't load the law library. Check your connection and reload.</p>`; console.error(e); });
+if ('serviceWorker' in navigator) window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+</script>
+</body>
+</html>

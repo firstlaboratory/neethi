@@ -1,0 +1,31 @@
+{
+  "id": "bsa",
+  "intro": "The law on what counts as evidence in court and how facts are proved. In force since 1 July 2024, replacing the Indian Evidence Act, 1872. It gives electronic and digital records the same standing as paper documents.",
+  "chapters": [
+    {"title": "Basics", "sections": [
+      {"n": "S 2", "t": "Definitions — evidence includes digital", "p": "'Document' includes electronic and digital records — emails, server logs, files on computers and phones, messages, websites, location data and voice mail. Oral evidence includes statements given electronically.", "o": "IEA 3"},
+      {"n": "S 104", "t": "Burden of proof", "p": "Whoever wants the court to rule in their favour based on a fact must prove that fact. In criminal cases, the prosecution must prove guilt beyond reasonable doubt.", "o": "IEA 101"}
+    ]},
+    {"title": "Confessions and statements", "sections": [
+      {"n": "S 22", "t": "Confession under threat or promise", "p": "A confession obtained by inducement, threat, coercion or promise from a person in authority is not admissible in a criminal case.", "o": "IEA 24"},
+      {"n": "S 23", "t": "Confession to police", "p": "A confession made to a police officer cannot be used against the accused. A confession made in police custody is also inadmissible unless made in the immediate presence of a magistrate. Exception: if information from the accused leads to the discovery of a fact (e.g. a weapon), that part can be proved.", "o": "IEA 25–27"},
+      {"n": "S 26", "t": "Dying declaration", "p": "A statement by a person about the cause of their death or the circumstances leading to it is admissible, even though they can't be cross-examined. Courts may convict on it alone if it's found truthful and voluntary.", "o": "IEA 32"}
+    ]},
+    {"title": "Documents and electronic records", "sections": [
+      {"n": "S 39", "t": "Expert opinion", "p": "Opinions of experts in science, art, handwriting, fingerprints, and now explicitly 'any other field', are relevant — including examiners of electronic evidence.", "o": "IEA 45, 45A"},
+      {"n": "S 57", "t": "Primary evidence includes electronic records", "p": "The document itself is primary evidence. For electronic records, each copy stored in multiple places, or created and stored simultaneously, counts as primary evidence, as do records produced from proper custody.", "o": "IEA 62"},
+      {"n": "S 61", "t": "Electronic records admissible", "p": "Nothing in the Adhiniyam can deny the admissibility of an electronic or digital record merely because it's electronic — it has the same legal effect as a paper document.", "o": "New"},
+      {"n": "S 63", "t": "Certificate for electronic evidence", "p": "To use an electronic record as evidence, a certificate in the prescribed format (in the Schedule) must be submitted, signed by the person in charge of the device and by an expert. It covers how the record was produced and that the device was working properly.", "o": "IEA 65B"}
+    ]},
+    {"title": "Presumptions", "sections": [
+      {"n": "S 117", "t": "Abetment of suicide of a married woman", "p": "If a woman dies by suicide within 7 years of marriage and was subjected to cruelty by her husband or his relatives, the court may presume they abetted it.", "o": "IEA 113A"},
+      {"n": "S 118", "t": "Dowry death", "p": "If it's shown a woman was subjected to cruelty or harassment for dowry soon before her death, the court shall presume the person responsible caused the dowry death.", "o": "IEA 113B"},
+      {"n": "S 120", "t": "Absence of consent in rape cases", "p": "In certain rape prosecutions, where intercourse is proved and the woman states in court that she did not consent, the court shall presume she did not consent.", "o": "IEA 114A"}
+    ]},
+    {"title": "Witnesses and privilege", "sections": [
+      {"n": "S 124", "t": "Who can testify", "p": "Everyone is competent to testify unless the court finds they can't understand questions or give rational answers due to young age, old age, illness or similar reasons.", "o": "IEA 118"},
+      {"n": "S 128", "t": "Communications between spouses", "p": "A spouse can't be compelled to disclose communications made by the other during marriage, except in cases between the spouses or where one is prosecuted for a crime against the other.", "o": "IEA 122"},
+      {"n": "S 132", "t": "Lawyer–client privilege", "p": "A lawyer can't disclose communications with a client made in the course of professional engagement, unless the client consents or the communication was to further an illegal purpose.", "o": "IEA 126"}
+    ]}
+  ]
+}

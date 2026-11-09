@@ -1,0 +1,14 @@
+{
+  "id": "dowry",
+  "intro": "Makes giving, taking and demanding dowry crimes. Related offences — dowry death and cruelty — are in the BNS (S 80, 85–86).",
+  "chapters": [
+    {"title": "Key provisions", "sections": [
+      {"n": "S 2", "t": "What is dowry", "p": "Any property or valuable security given or agreed to be given — directly or indirectly — by one party to a marriage (or their family) to the other, in connection with the marriage, before, at or any time after it. Voluntary presents given without demand are not dowry if listed in writing and customary in value."},
+      {"n": "S 3", "t": "Giving or taking dowry", "p": "Both giving and taking (or helping to give or take) dowry are offences.", "pen": "Min 5 years + fine of at least ₹15,000 or the dowry's value, whichever is more"},
+      {"n": "S 4", "t": "Demanding dowry", "p": "Directly or indirectly demanding dowry from the bride's or groom's parents, relatives or guardian.", "pen": "6 months to 2 years + fine up to ₹10,000"},
+      {"n": "S 4A", "t": "Dowry advertisements", "p": "Advertising offers of property, money or business share in return for marriage.", "pen": "6 months to 5 years or fine up to ₹15,000"},
+      {"n": "S 6", "t": "Dowry belongs to the wife", "p": "Any dowry received by someone other than the woman must be transferred to her within 3 months. If she dies, it goes to her heirs (children, or parents if no children)."},
+      {"n": "S 8", "t": "Serious offence", "p": "Offences under this Act are cognizable and non-bailable. The accused must prove they didn't commit the offence (S 8A)."}
+    ]}
+  ]
+}

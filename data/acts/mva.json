@@ -1,0 +1,33 @@
+{
+  "id": "mva",
+  "intro": "Governs licences, vehicle registration, insurance, traffic rules and penalties. The 2019 amendment sharply raised fines. Note: states can set their own compounding amounts for many offences, so the on-the-spot fine in Tamil Nadu may differ from the maximum shown here.",
+  "chapters": [
+    {"title": "Licence, registration and insurance", "sections": [
+      {"n": "S 3", "t": "Licence required", "p": "You can't drive a motor vehicle in a public place without a valid driving licence for that class of vehicle.", "pen": "S 181: up to 3 months and/or ₹5,000"},
+      {"n": "S 4", "t": "Minimum age", "p": "18 years for most vehicles. At 16 you can get a licence only for a gearless motorcycle with engine capacity up to 50cc."},
+      {"n": "S 39", "t": "Registration required", "p": "No one can drive or let someone drive a vehicle in a public place unless it's registered and displays its registration mark.", "pen": "S 192: up to ₹5,000 first offence; ₹10,000 or up to 1 year repeat"},
+      {"n": "S 130", "t": "Showing documents", "p": "On demand by police or transport officers, you must produce your licence, registration certificate, insurance and PUC. Digital versions in DigiLocker or mParivahan are valid under the Central Motor Vehicle Rules."},
+      {"n": "S 146", "t": "Compulsory third-party insurance", "p": "Every vehicle used in a public place must have at least third-party insurance covering death, injury or property damage to others.", "pen": "S 196: up to 3 months and/or ₹2,000 first offence; ₹4,000 repeat"}
+    ]},
+    {"title": "Traffic offences and penalties", "sections": [
+      {"n": "S 177", "t": "General penalty", "p": "For any rule violation that doesn't have a specific penalty.", "pen": "Up to ₹500 first; ₹1,500 repeat"},
+      {"n": "S 179", "t": "Disobeying orders / giving false info", "p": "Not obeying lawful directions of authorities or refusing to give information.", "pen": "Up to ₹2,000"},
+      {"n": "S 183", "t": "Over-speeding", "p": "Driving above the speed limit.", "pen": "LMV: ₹1,000–2,000; medium/heavy: ₹2,000–4,000; licence may be impounded on repeat"},
+      {"n": "S 184", "t": "Dangerous driving (incl. phone use)", "p": "Driving in a manner dangerous to the public — includes jumping red lights, violating stop signs, using a handheld phone while driving, overtaking dangerously, and driving against traffic.", "pen": "6 months–1 year and/or ₹1,000–5,000; repeat within 3 years up to 2 years and/or ₹10,000"},
+      {"n": "S 185", "t": "Drunk driving", "p": "Driving with more than 30 mg of alcohol per 100 ml of blood (breath test), or under the influence of drugs.", "pen": "Up to 6 months and/or ₹10,000; repeat within 3 years up to 2 years and/or ₹15,000"},
+      {"n": "S 194B", "t": "Seat belt and child safety", "p": "Driver and passengers must wear seat belts. Children under 14 must be secured with a seat belt or child restraint.", "pen": "₹1,000"},
+      {"n": "S 194C", "t": "Overloading a two-wheeler", "p": "More than one pillion rider on a two-wheeler.", "pen": "₹1,000 + licence disqualification for 3 months"},
+      {"n": "S 129 / 194D", "t": "Helmets", "p": "Everyone above 4 years riding a two-wheeler must wear a protective helmet meeting BIS standards, fastened properly. Sikhs wearing turbans are exempt.", "pen": "₹1,000 + licence disqualification for 3 months"},
+      {"n": "S 194E", "t": "Blocking emergency vehicles", "p": "Not giving way to ambulances, fire engines and other emergency vehicles.", "pen": "Up to 6 months and/or ₹10,000"},
+      {"n": "S 199A", "t": "Offences by juveniles", "p": "If a person under 18 commits a driving offence, the guardian or vehicle owner is deemed guilty unless they prove it happened without their knowledge. The vehicle's registration is cancelled for 12 months, and the juvenile can't get a licence until 25.", "pen": "Guardian/owner: up to 3 years + ₹25,000"},
+      {"n": "S 210B", "t": "Officials pay double", "p": "Any authority empowered to enforce the Act who breaks it pays twice the normal penalty."}
+    ]},
+    {"title": "Accidents and compensation", "sections": [
+      {"n": "S 134", "t": "Duty after an accident", "p": "The driver must take reasonable steps to get medical help for the injured (unless mob fury makes it impossible) and report to the nearest police station within 24 hours."},
+      {"n": "S 134A", "t": "Good Samaritan protection", "p": "Anyone who helps an accident victim in good faith — taking them to hospital or giving emergency care — is not liable for any injury or death that results, and can't be forced to reveal their identity or be a witness."},
+      {"n": "S 161", "t": "Hit-and-run compensation", "p": "When the vehicle can't be traced, victims get compensation from a government fund.", "pen": "₹2 lakh for death; ₹50,000 for grievous hurt"},
+      {"n": "S 164", "t": "No-fault compensation", "p": "Insurers must pay fixed compensation in death or grievous hurt cases without the claimant having to prove negligence.", "pen": "₹5 lakh for death; ₹2.5 lakh for grievous hurt"},
+      {"n": "S 166", "t": "Claims tribunal", "p": "Victims or their legal heirs can claim compensation before the Motor Accident Claims Tribunal (MACT). Claims should be filed within 6 months of the accident."}
+    ]}
+  ]
+}

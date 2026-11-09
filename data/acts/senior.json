@@ -1,0 +1,16 @@
+{
+  "id": "senior",
+  "intro": "Gives parents and senior citizens (60+) a quick, low-cost way to get maintenance from children or relatives, and to undo property gifts if the promised care isn't given. Elder helpline: 14567.",
+  "chapters": [
+    {"title": "Maintenance", "sections": [
+      {"n": "S 4", "t": "Who must maintain", "p": "Children (sons, daughters and grandchildren, if adult) must maintain parents who can't support themselves, so they can live a normal life. A childless senior citizen can claim from relatives who'd inherit their property."},
+      {"n": "S 5, 7", "t": "Maintenance Tribunal", "p": "The parent or senior citizen (or an organisation on their behalf) applies to the Maintenance Tribunal, usually headed by the Revenue Divisional Officer. The Tribunal should decide within 90 days. Parties can't be represented by lawyers (S 17), keeping it simple and cheap."},
+      {"n": "S 9", "t": "Maximum amount", "p": "The Tribunal can order monthly maintenance up to ₹10,000, based on the needs of the senior citizen and the means of the children or relatives."},
+      {"n": "S 16", "t": "Appeal", "p": "A senior citizen can appeal the Tribunal's order to the Appellate Tribunal within 60 days."}
+    ]},
+    {"title": "Protection", "sections": [
+      {"n": "S 23", "t": "Cancelling property transfers", "p": "If a senior citizen gifted or transferred property on the condition that the receiver would provide basic amenities and care, and the receiver fails to do so, the Tribunal can declare the transfer void."},
+      {"n": "S 24", "t": "Abandonment is a crime", "p": "Anyone caring for a senior citizen who leaves them somewhere intending to abandon them.", "pen": "Up to 3 months and/or ₹5,000"}
+    ]}
+  ]
+}

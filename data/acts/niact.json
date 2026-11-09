@@ -1,0 +1,14 @@
+{
+  "id": "niact",
+  "intro": "Covers cheques, promissory notes and bills of exchange. Most people meet it through Section 138 — cheque bounce cases. Strict timelines apply, so act quickly if your cheque bounces.",
+  "chapters": [
+    {"title": "Cheque bounce", "sections": [
+      {"n": "S 138", "t": "Dishonour of cheque", "p": "If a cheque given to pay a legally enforceable debt bounces for insufficient funds (or exceeding arrangement), the drawer commits an offence — provided the steps below are followed.", "pen": "Up to 2 years and/or fine up to twice the cheque amount", "k": ["1. Present the cheque within its validity (3 months from its date)", "2. Send a written demand notice to the drawer within 30 days of learning it bounced", "3. Drawer gets 15 days from receiving the notice to pay", "4. If unpaid, file the complaint within 1 month after those 15 days end"]},
+      {"n": "S 139", "t": "Presumption of debt", "p": "The court presumes the cheque was given for a legally enforceable debt. The drawer must prove otherwise."},
+      {"n": "S 142", "t": "Where to file", "p": "The complaint is filed before a Judicial Magistrate in whose area the payee's bank branch (where the cheque was deposited for collection) is located."},
+      {"n": "S 143A", "t": "Interim compensation", "p": "The court can order the drawer to pay interim compensation of up to 20% of the cheque amount within 60 days, during the trial."},
+      {"n": "S 147", "t": "Settlement", "p": "The offence is compoundable — the parties can settle at any stage, and the case ends."},
+      {"n": "S 148", "t": "Deposit on appeal", "p": "If the convicted drawer appeals, the appeal court can order them to deposit at least 20% of the fine or compensation awarded."}
+    ]}
+  ]
+}

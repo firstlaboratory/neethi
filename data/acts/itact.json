@@ -1,0 +1,24 @@
+{
+  "id": "itact",
+  "intro": "India's main law on electronic records, digital signatures and cyber crime. Report cyber fraud quickly on the 1930 helpline or cybercrime.gov.in — the faster you report, the better the chance of freezing the money.",
+  "chapters": [
+    {"title": "Civil liability", "sections": [
+      {"n": "S 43", "t": "Damage to computers", "p": "Accessing a computer without permission, downloading or copying data, introducing viruses, damaging systems, disrupting access, or stealing source code. The victim can claim compensation, decided by an adjudicating officer (or civil court for large claims)."}
+    ]},
+    {"title": "Cyber offences", "sections": [
+      {"n": "S 66", "t": "Computer-related offences", "p": "Doing any act under S 43 dishonestly or fraudulently, such as hacking.", "pen": "Up to 3 years and/or ₹5 lakh"},
+      {"n": "S 66C", "t": "Identity theft", "p": "Fraudulently using someone's electronic signature, password or other unique identification feature.", "pen": "Up to 3 years + up to ₹1 lakh"},
+      {"n": "S 66D", "t": "Cheating by impersonation online", "p": "Cheating by pretending to be someone else using a computer or phone — e.g. fake customer care, fake profiles, 'digital arrest' scams.", "pen": "Up to 3 years + up to ₹1 lakh"},
+      {"n": "S 66E", "t": "Privacy violation", "p": "Capturing, publishing or transmitting images of a person's private area without consent.", "pen": "Up to 3 years and/or ₹2 lakh"},
+      {"n": "S 66F", "t": "Cyber terrorism", "p": "Cyber attacks intended to threaten India's unity, integrity, security or sovereignty, or strike terror.", "pen": "Up to life imprisonment"},
+      {"n": "S 67", "t": "Obscene material online", "p": "Publishing or transmitting obscene material electronically.", "pen": "Up to 3 years + ₹5 lakh (first); up to 5 years + ₹10 lakh (repeat)"},
+      {"n": "S 67A–67B", "t": "Sexually explicit material; child sexual abuse material", "p": "Publishing or transmitting sexually explicit material, and anything depicting children in sexually explicit acts — including browsing, downloading or collecting such material involving children.", "pen": "Up to 5 years + ₹10 lakh (first); up to 7 years repeat"},
+      {"n": "S 72", "t": "Breach of confidentiality", "p": "A person who accessed records under powers given by this Act and discloses them without consent.", "pen": "Up to 2 years and/or ₹1 lakh"},
+      {"n": "S 66A", "t": "Struck down", "p": "Used to punish 'offensive' online messages. The Supreme Court struck it down as unconstitutional in Shreya Singhal v. Union of India (2015). No one can be prosecuted under it."}
+    ]},
+    {"title": "Platforms and blocking", "sections": [
+      {"n": "S 69A", "t": "Blocking content", "p": "The central government can order blocking of online content in the interest of sovereignty, security, public order or friendly relations with foreign states, following a procedure with written reasons."},
+      {"n": "S 79", "t": "Safe harbour for platforms", "p": "Intermediaries (social media, ISPs, marketplaces) aren't liable for third-party content if they only host it and follow due diligence rules — including taking content down when ordered by a court or the government. The IT Rules, 2021 add grievance officer requirements."}
+    ]}
+  ]
+}

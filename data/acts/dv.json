@@ -1,0 +1,19 @@
+{
+  "id": "dv",
+  "intro": "A civil law giving quick protection, residence and money relief to women facing violence at home — from a husband, live-in partner or relatives. It doesn't put anyone in jail by itself, but breaking a court's protection order is a crime. Women's helpline: 181.",
+  "chapters": [
+    {"title": "Who and what", "sections": [
+      {"n": "S 2(a), 2(f)", "t": "Who can use it", "p": "Any woman who is or has been in a 'domestic relationship' — living together in a shared household as wife, live-in partner (relationship in the nature of marriage), mother, sister, daughter, widow or other family member — and alleges domestic violence."},
+      {"n": "S 3", "t": "What is domestic violence", "p": "Physical abuse; sexual abuse; verbal and emotional abuse (insults, ridicule, name-calling especially about not having a child or a son, threats); and economic abuse (denying money, stridhan or access to resources, or selling her assets). Harassment for dowry is included."}
+    ]},
+    {"title": "Getting help", "sections": [
+      {"n": "S 9–12", "t": "How to apply", "p": "She, a Protection Officer or anyone on her behalf can apply to a Magistrate. Protection Officers and service providers help file the Domestic Incident Report and arrange shelter, medical help and free legal aid. The magistrate should try to dispose of the case within 60 days of first hearing."},
+      {"n": "S 17", "t": "Right to live in the shared household", "p": "Every woman in a domestic relationship has the right to reside in the shared household, whether or not she owns it or has any rights in it. She can't be evicted except by procedure established by law."},
+      {"n": "S 18", "t": "Protection orders", "p": "The magistrate can bar the abuser from committing violence, contacting her (including by phone or online), entering her workplace or children's school, or operating joint bank accounts or selling assets."},
+      {"n": "S 19", "t": "Residence orders", "p": "Can stop the abuser from evicting her, direct him to leave the household, or require him to arrange alternative accommodation or pay rent."},
+      {"n": "S 20–22", "t": "Money, custody and compensation", "p": "Monetary relief (loss of earnings, medical expenses, maintenance for her and children), temporary custody of children, and compensation for injuries including mental torture and emotional distress."},
+      {"n": "S 23", "t": "Interim and urgent orders", "p": "The magistrate can pass interim orders, and even ex-parte (without hearing the other side) orders on her affidavit, if needed urgently."},
+      {"n": "S 31", "t": "Breaking a protection order", "p": "Breaching a protection or interim protection order is a cognizable, non-bailable offence.", "pen": "Up to 1 year and/or ₹20,000"}
+    ]}
+  ]
+}
